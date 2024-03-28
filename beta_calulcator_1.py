@@ -7,11 +7,13 @@ indexdf=yf.download("^NSEI", period ='4y')
 
 def calc_beta(stockname) :
     stockdf = yf.download(stockname, period='4y')
+    stock_ret = stockdf.loc[:,"Close"].resample("M").last().copy()
+    index_ret = indexdf.loc[:,"Close"].resample("M").last().copy()
     #print dataframe
-    print(stockdf)
+    print(stock_ret)
     #turn dataframes into a numpy array to calculate variance and covariance values of index and stock returns
-    index = indexdf['Adj Close'].to_numpy()
-    stock = stockdf['Adj Close'].to_numpy()
+    index = index_ret.to_numpy()
+    stock = stock_ret.to_numpy()
 
     #check if size of each array is equal else trim one of them to calculate covariance
     if len(index)<=len(stock):
