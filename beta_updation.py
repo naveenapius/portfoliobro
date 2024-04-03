@@ -1,6 +1,6 @@
 import yfinance as yf
 import json
-import beta_calc as beta
+import beta_calculator_1 as beta
 
 f = open('stocks.json')
 
