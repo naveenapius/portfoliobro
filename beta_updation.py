@@ -1,8 +1,9 @@
 import yfinance as yf
 import json
 import beta_calculator_1 as beta
+import database_updation as update
 
-f = open('stocks.json')
+f = open('database.json')
 
 Listing = json.load(f)
 
@@ -19,9 +20,13 @@ for Company in Listing:
     stock_name = f"{stock_name}.NS" if ".NS" not in stock_name else stock_name
     print("Fetching data for stock : ",stock_name)
     Company['Beta'] = beta.calcBeta(stock_name,index_df) 
+    Company['Volatility'] = beta.checkVolatility(Company['Beta'])
 
+#print updated values for debugging purposes : can remove
 for Company in Listing:
-	print(Company['Company Name'], " - ", Company["Symbol"], " - ", Company["Beta"])
+	print(Company['Company Name'], " - ", Company["Symbol"], " - ", Company["Beta"]," - " ,Company["Volatility"])
 
 #push to database
+update.updateDatabase(Listing)
+
 f.close()
