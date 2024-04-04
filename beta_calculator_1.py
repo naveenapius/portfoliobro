@@ -17,9 +17,9 @@ def calcBeta(stock_name, index_df) :
     except:
         exit("Error occured in fetching stock data, please check stop name and try again.")
 
-    monthly_stock_close = stock_df.loc[:,"Close"].resample("ME").last().copy()
+    monthly_stock_close = stock_df.loc[:,"Close"].resample("M").last().copy()
     monthly_stock_ret = monthly_stock_close.pct_change().dropna()
-    monthly_index_close = index_df.loc[:,"Close"].resample("ME").last().copy()
+    monthly_index_close = index_df.loc[:,"Close"].resample("M").last().copy()
     monthly_index_ret = monthly_index_close.pct_change().dropna()
 
     # turn dataframes into a numpy array to calculate variance and covariance values of index and stock returns
@@ -35,19 +35,21 @@ def calcBeta(stock_name, index_df) :
     cov=np.cov(stock[:min],index[:min])
 
     beta = cov/var
-    print(beta)
+    #print(beta)
 
-    return beta[0,1]
+    return round(beta[0,1],2)
 
-def checkVolatility(beta):
+def checkVolatility(raw_beta):
     """
     Checks volatility of the stock based on the beta
     Higher volatility implies higher risk
     Stock recommendations are made based on risk appetite
 
     Params:
-        beta: calculated beta of the stock
+        raw_beta: calculated beta of the stock
     """
+    #converting calculated beta of the stock which includes negative values into absolute values for comparison
+    beta=abs(raw_beta)
 
     if (beta>0 and beta<=0.5):
         return("very low")
