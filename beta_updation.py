@@ -1,7 +1,7 @@
 import yfinance as yf
 import json
-import beta_calculator_1 as beta
-import database_updation as update
+import beta_calculator as beta
+import nifty_database_updation as update
 
 f = open('database.json')
 
