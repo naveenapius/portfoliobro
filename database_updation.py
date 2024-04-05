@@ -23,8 +23,9 @@ def updateDatabase(listing) :
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="password",
-        database="portfoliobroTest"
+        password="",
+        database="portfoliobro_test",
+        port="3307"
         )
     
     #Connecting to database
@@ -36,9 +37,10 @@ def updateDatabase(listing) :
 
     try :
         #Update server with updated beta values
-        sql = "UPDATE nifty_500 SET Beta = %s, Volatility = %s WHERE symbol = %s"
-        val = ((float(Company["Beta"]),Company["Volatility"],Company["Symbol"],) for Company in listing )
-        cursor.executemany(sql, val)
+        print("Attempting updation of database...")
+        for Company in listing :
+            row_update = "UPDATE nifty_500 SET Beta = '{}', Volatility = '{}' WHERE symbol = '{}'".format(float(Company["Beta"]),Company["Volatility"],Company["Symbol"])
+            cursor.execute(row_update)
         print("Table updated succesfully")
     except :
         print("Error. Table could not be updated.")
