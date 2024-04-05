@@ -48,6 +48,8 @@ def checkVolatility(beta):
     Params:
         beta: calculated beta of the stock
     """
+    
+    beta = abs(beta)
 
     if (beta>0 and beta<=0.5):
         return("very low")
