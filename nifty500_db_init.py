@@ -18,9 +18,9 @@ def initialiseTable(listing) :
   db = mysql.connector.connect(
       host="localhost",
       user="root",
-      password="",
+      password="password",
       database="portfoliobro_test",
-      port="3307",
+      #port="3307",
       buffered=True
       )
   
@@ -47,7 +47,7 @@ def initialiseTable(listing) :
     try :
       print("Attempting to populate table nifty_500")
       for Company in listing:
-        insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Beta"], Company["Volatility"])
+        insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"])
         cursor.execute(insert_row)
     except mysql.connector.errors.IntegrityError :
       print("Table population skipped. Table already populated with values")
@@ -56,13 +56,13 @@ def initialiseTable(listing) :
   else :
       print("Attempting to create table")
       try :
-        table_create_query="CREATE TABLE nifty_500 (companyName varchar(250), industry varchar(50), symbol varchar(15), series varchar(5),  ISINCode varchar(20), Beta decimal(4,2), Volatility varchar(15), CONSTRAINT pk_nifty PRIMARY KEY(symbol))"
+        table_create_query="CREATE TABLE nifty_500 (companyName varchar(250), industry varchar(50), symbol varchar(15), series varchar(5),  ISINCode varchar(20), Price decimal(10,2), Beta decimal(4,2), Volatility varchar(15), CONSTRAINT pk_nifty PRIMARY KEY(symbol))"
         cursor.execute(table_create_query)
         print("Table created successfully")
       except : 
          print("Table could not be created")
       for Company in listing:
-        insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Beta"], Company["Volatility"])
+        insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"])
         cursor.execute(insert_row)
       
   db.commit()
