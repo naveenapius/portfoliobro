@@ -38,13 +38,15 @@ def userCreate(uname, legal_name, passwd, phone):
     '''
     hashed_passwd = sha256(passwd.encode()).hexdigest()
     user_create = 'INSERT INTO users VALUES("{}", "{}", "{}", "{}")'.format(uname, legal_name, hashed_passwd, phone)
+    user_portfolio_create = "CREATE TABLE {}(symbol varchar(255), shares int, CONSTRAINT primary key(symbol));".format(uname)
     try:
         cur.execute(user_create)
-        print("user added")
+        cur.execute(user_portfolio_create)
         conn.commit()
+        print("User added.")
         return 1
     except:
-        print("Unable to add user. Please try again.")
+        print("Unable to add user. Please try a different username.")
         return 0
 
 
@@ -52,7 +54,34 @@ def userLogin(uname, passwd):
     '''
     params: username, password
     returns:
-        1 - Login successful
-        0 - Unable to login
+        1 - if login successful
+        status - error message if login unsuccessful    
     '''
+    try:
+        login_check = 'SELECT uname, passwd FROM users WHERE uname="{}"'.format(uname)
+        cur.execute(login_check)
+        data = cur.fetchall()
+    except:
+        print("Unable to execute fetch query. Check database connection")
+    
+    #confirms that user exists
+    if len(data) == 0:
+        return "User does not exist. Please signup or check username for typos."
+    
+    #password matching
+    hashed_passwd = data[0][1]
+    entered_passwd_hashed = sha256(passwd.encode()).hexdigest()
+
+    if hashed_passwd == entered_passwd_hashed:
+        return 1
+    else:
+        return "Incorrect password entered. Please try again."
+    
+
+# user portfolio operations
+
+def addStock():
+    pass
+
+def removeStock():
     pass
