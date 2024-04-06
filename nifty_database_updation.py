@@ -1,5 +1,6 @@
 import json
 import mysql.connector
+import nifty500_db_init as init
 
 #purpose of program is to extract instances of updated values from the json file to maintain in the database
 
@@ -23,9 +24,10 @@ def updateDatabase(listing) :
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",
+        password="password",
         database="portfoliobro_test",
-        port="3307"
+        #port="3307",
+        buffered=True
         )
     
     #Connecting to database
@@ -35,17 +37,29 @@ def updateDatabase(listing) :
     except :
         print("An error occured while connecting to the database. \nPlease ensure username, password and database name fields are entered correctly")
 
+    #check if table exists, if not, create table and initialise table
+    table_exists=0
+    
+    sql="SELECT * FROM nifty_500"
+    try :
+        cursor.execute(sql)
+        table_exists=1
+    except :
+        print("Table does not exist")
+    
+    if table_exists==0 :
+        init.initialiseTable(listing)
+    
     try :
         #Update server with updated beta values
         print("Attempting updation of database...")
         for Company in listing :
-            row_update = "UPDATE nifty_500 SET Beta = '{}', Volatility = '{}' WHERE symbol = '{}'".format(float(Company["Beta"]),Company["Volatility"],Company["Symbol"])
+            row_update = "UPDATE nifty_500 SET Price = '{}', Beta = '{}', Volatility = '{}' WHERE symbol = '{}'".format(float(Company["Price"]),float(Company["Beta"]),Company["Volatility"],Company["Symbol"])
             cursor.execute(row_update)
         print("Table updated succesfully")
     except :
         print("Error. Table could not be updated.")
         
-    
     #committing changes to the database and closing cursor
     db.commit()
     cursor.close()
