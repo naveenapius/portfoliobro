@@ -2,6 +2,8 @@ import yfinance as yf
 import pandas as pd
 import numpy as np 
 
+
+
 def calcBeta(stock_name, index_df) :
     """
     Calculates the beta of the stock

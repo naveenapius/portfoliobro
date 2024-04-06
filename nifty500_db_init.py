@@ -18,9 +18,9 @@ def initialiseTable(listing) :
   db = mysql.connector.connect(
       host="localhost",
       user="root",
-      password="password",
+      password="",
       database="portfoliobro_test",
-      #port="3307",
+      port="3307",
       buffered=True
       )
   

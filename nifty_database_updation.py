@@ -22,13 +22,13 @@ def updateDatabase(listing) :
     
     #Database connection parameters
     db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="password",
-        database="portfoliobro_test",
-        #port="3307",
-        buffered=True
-        )
+    host="localhost",
+    user="root",
+    password="",
+    database="portfoliobro_test",
+    port="3307",
+    buffered=True
+    )
     
     #Connecting to database
     try :

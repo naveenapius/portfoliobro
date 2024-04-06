@@ -1,7 +1,20 @@
 import database_handler as dbh
 from matplotlib import pyplot as plt
+from portfolio_beta_calculator import portfolio_beta as pb
 LOGIN_STATUS = 0
 
+def portfolioSimulator(uname):
+    current_portfolio = dbh.getPortfolio(uname)
+    current_beta = pb(current_portfolio)
+
+    new_stock = input("\nEnter stock to be added to simulation: ")
+    shares = int(input("Enter number of shares: "))
+
+    new_portfolio = current_portfolio.append((new_stock, shares))
+    new_beta = pb(new_portfolio)
+
+    print("New portfolio beta: ", new_beta)
+    
 
 def getVisualisation(uname):
     portfolio = dbh.getPortfolio(uname)
@@ -16,11 +29,11 @@ def getVisualisation(uname):
 
 def uLogin():
     global user_name
-    user_name = input("Enter username: ")
+    user_name = input("\nEnter username: ")
     passwd = input("Enter password: ")
     status = dbh.userLogin(user_name, passwd)
     if status == 1:
-        print(("User {} logged in successfully!").format(user_name))
+        print(("User {} logged in successfully!\n").format(user_name))
         return 1
     else:
         print(status)
@@ -28,12 +41,12 @@ def uLogin():
 
 
 def uSignUp():
-    print("Hello! Let's set up your account.")
+    print("\nHello! Let's set up your account.\n")
     legal_name = input("Enter your legal name: ")
     uname = input("Enter new username: ")
     passwd = input("Enter password: ")
     phone = input("Enter phone number: ")
-    risk_app = input("Enter your risk appetite: ")
+    risk_app = input("Enter your risk appetite: \n")
     dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
     return
 
@@ -43,40 +56,39 @@ def showPortfolio(uname):
         print("{} : {}")
 
 def updatePortfolio(uname):
-    print("Current user: {}".format(uname))
-    print("Available actions: ")
-    print("Add stock (a)")
-    print("Remove stock (d)")
+    print("\n Available actions: ")
+    print("a - Add stock")
+    print("d - Remove stocks")
     opt = input("Action>>")
     if opt=='a':
-        stock = input("Enter listing code: ")
+        stock = input("\nEnter listing code: ")
         shares = input("Enter number of shares purchased: ")
         dbh.addStock(uname, stock, shares)
     elif opt=='d':
-        stock = input("Enter listing code: ")
+        stock = input("\nEnter listing code: ")
         shares = input("Enter number of shares sold: ")
         dbh.removeStock(uname, stock, shares)
     else:
-        print("Invalid option. Please try again.")
+        print("\nInvalid option. Please try again.")
     return
 
 
 def showLoginMenu():
     print("\n\nAvailable actions: ")
-    print("Login (l)")
-    print("Signup (su)")
-    print("Quit (q)\n")
+    print("l - Login")
+    print("s - Signup")
+    print("q - Quit\n")
     
     
 
 def showLoggedInMenu():
     print("\n\nAvailable actions:")
-    print("Update portfolio (u)")
-    print("Visualise portfolio (v)")
-    print("Simulate additions/removals (s)")
-    print("Get recommendation (r)")
-    print("Logout (l)")
-    print("Quit (q)\n")
+    print("u - Update portfolio")
+    print("v - Visualise portfolio")
+    print("s - Simulate additions/removals")
+    print("r - Get recommendation")
+    print("l - Logout")
+    print("q - Quit\n")
 
 
 
@@ -88,7 +100,7 @@ while True:
         if opt=='l':
             r = uLogin()
             LOGIN_STATUS = 1 if r==1 else 0
-        elif opt=='su':
+        elif opt=='s':
             uSignUp()
         elif opt=='q':
             print("Bye!")
@@ -103,7 +115,7 @@ while True:
         elif opt=='v':
             getVisualisation(user_name)
         elif opt=='s':
-            pass
+            portfolioSimulator(user_name)
         elif opt=='l':
             LOGIN_STATUS = 0
             print("User logged out successfully!")
