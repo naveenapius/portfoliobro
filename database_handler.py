@@ -25,7 +25,7 @@ def cursorDestroy(cur):
 
 # user db operations
 
-def userCreate(uname, legal_name, passwd, phone):
+def userCreate(uname, legal_name, passwd, phone, risk_app):
     '''
     params: 
         uname: username that will uniquely identify the user and their portfolio
@@ -37,7 +37,7 @@ def userCreate(uname, legal_name, passwd, phone):
         0 - unable to create user - username already exists
     '''
     hashed_passwd = sha256(passwd.encode()).hexdigest()
-    user_create = 'INSERT INTO users VALUES("{}", "{}", "{}", "{}")'.format(uname, legal_name, hashed_passwd, phone)
+    user_create = 'INSERT INTO users VALUES("{}", "{}", "{}", "{}", "{}")'.format(uname, legal_name, hashed_passwd, phone, risk_app)
     user_portfolio_create = "CREATE TABLE {}(symbol varchar(255), shares int, CONSTRAINT primary key(symbol));".format(uname)
     try:
         cur.execute(user_create)
@@ -80,8 +80,45 @@ def userLogin(uname, passwd):
 
 # user portfolio operations
 
-def addStock():
-    pass
+def getPortfolio(uname):
+    query = 'SELECT * FROM {}'.format(uname)
+    try:
+        cur.execute(query)
+        portfolio = cur.fetchall()
+        return portfolio
+    except:
+        return 0
 
-def removeStock():
-    pass
+def addStock(uname, stock, shares):
+    check_exists = 'SELECT * FROM {} WHERE symbol="{}"'.format(uname, stock)
+    cur.execute(check_exists)
+    flag = len(cur.fetchall())
+    try: 
+        if flag==0:
+            query = 'INSERT INTO {} values("{}", {})'.format(uname, stock, shares)
+            cur.execute(query)
+            print("New stock added to portfolio")
+        else:
+            query = 'UPDATE {} SET shares = shares + {} WHERE symbol = "{}"' .format(uname, shares, stock)
+            cur.execute(query)
+            print("Share volume updated")
+        conn.commit()
+        return 1
+    except:
+        print("Unable to update portfolio. Check configuration.")
+
+def removeStock(uname, stock, shares):
+    check_exists = 'SELECT * FROM {} WHERE symbol="{}"'.format(uname, stock)
+    cur.execute(check_exists)
+    flag = len(cur.fetchall())
+    try: 
+        if flag==0:
+            print("This stock does not exist in your portfolio")
+        else:
+            query = 'UPDATE {} SET shares = shares - {} WHERE symbol = "{}"' .format(uname, shares, stock)
+            cur.execute(query)
+            print("Share volume updated")
+        conn.commit()
+        return 1
+    except:
+        print("Unable to update portfolio. Check configuration.")

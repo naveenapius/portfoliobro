@@ -1,13 +1,15 @@
 import database_handler as dbh
 LOGIN_STATUS = 0
+UNAME = ""
 
 
 def uLogin():
-    uname = input("Enter username: ")
+    global user_name
+    user_name = input("Enter username: ")
     passwd = input("Enter password: ")
-    status = dbh.userLogin(uname, passwd)
+    status = dbh.userLogin(user_name, passwd)
     if status == 1:
-        print(("User {} logged in successfully!").format(uname))
+        print(("User {} logged in successfully!").format(user_name))
         return 1
     else:
         print(status)
@@ -20,9 +22,32 @@ def uSignUp():
     uname = input("Enter new username: ")
     passwd = input("Enter password: ")
     phone = input("Enter phone number: ")
-    dbh.userCreate(uname, legal_name, passwd, phone)
+    risk_app = input("Enter your risk appetite: ")
+    dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
     return
 
+def showPortfolio(uname):
+    portfolio = dbh.getPortfolio(uname)
+    for i in portfolio:
+        print("{} : {}")
+
+def updatePortfolio(uname):
+    print("Current user: {}".format(uname))
+    print("Available actions: ")
+    print("Add stock (a)")
+    print("Remove stock (d)")
+    opt = input("Action>>")
+    if opt=='a':
+        stock = input("Enter listing code: ")
+        shares = input("Enter number of shares purchased: ")
+        dbh.addStock(uname, stock, shares)
+    elif opt=='d':
+        stock = input("Enter listing code: ")
+        shares = input("Enter number of shares sold: ")
+        dbh.removeStock(uname, stock, shares)
+    else:
+        print("Invalid option. Please try again.")
+    return
 
 
 def showLoginMenu():
@@ -38,8 +63,10 @@ def showLoggedInMenu():
     print("Update portfolio (u)")
     print("Visualise portfolio (v)")
     print("Simulate additions/removals (s)")
+    print("Get recommendation (r)")
     print("Logout (l)")
     print("Quit (q)\n")
+
 
 
 #main
@@ -61,7 +88,7 @@ while True:
         showLoggedInMenu()
         opt = input("Action>> ")
         if opt=='u':
-            pass
+            updatePortfolio(user_name)
         elif opt=='v':
             pass
         elif opt=='s':
@@ -69,6 +96,8 @@ while True:
         elif opt=='l':
             LOGIN_STATUS = 0
             print("User logged out successfully!")
+        elif opt=='r':
+            pass
         elif opt=='q':
             print("Automatic user logout")
             print("Bye!")
