@@ -1,6 +1,17 @@
 import database_handler as dbh
+from matplotlib import pyplot as plt
 LOGIN_STATUS = 0
-UNAME = ""
+
+
+def getVisualisation(uname):
+    portfolio = dbh.getPortfolio(uname)
+    stocks = []
+    shares = []
+    for i in portfolio:
+        stocks.append(i[0])
+        shares.append(i[1])
+    plt.pie(shares, labels=stocks)
+    plt.show()
 
 
 def uLogin():
@@ -90,7 +101,7 @@ while True:
         if opt=='u':
             updatePortfolio(user_name)
         elif opt=='v':
-            pass
+            getVisualisation(user_name)
         elif opt=='s':
             pass
         elif opt=='l':
