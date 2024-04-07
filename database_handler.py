@@ -122,3 +122,11 @@ def removeStock(uname, stock, shares):
         return 1
     except:
         print("Unable to update portfolio. Check configuration.")
+
+def getRiskAppetite(uname):
+    query = 'SELECT risk_app FROM users WHERE uname="{}"'.format(uname)
+    try:
+        cur.execute(query)
+        return cur.fetchall()[0][0]
+    except:
+        return "Unable to retrieve risk appetite for this user"

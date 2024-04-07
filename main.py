@@ -1,20 +1,13 @@
 import database_handler as dbh
 from matplotlib import pyplot as plt
-from portfolio_beta_calculator import portfolio_beta as pb
+import suggestion_system as ss
+import json
 LOGIN_STATUS = 0
 
-def portfolioSimulator(uname):
-    current_portfolio = dbh.getPortfolio(uname)
-    current_beta = pb(current_portfolio)
 
-    new_stock = input("\nEnter stock to be added to simulation: ")
-    shares = int(input("Enter number of shares: "))
+def simulator(uname):
+    pass
 
-    new_portfolio = current_portfolio.append((new_stock, shares))
-    new_beta = pb(new_portfolio)
-
-    print("New portfolio beta: ", new_beta)
-    
 
 def getVisualisation(uname):
     portfolio = dbh.getPortfolio(uname)
@@ -24,6 +17,7 @@ def getVisualisation(uname):
         stocks.append(i[0])
         shares.append(i[1])
     plt.pie(shares, labels=stocks)
+    plt.title("Portfolio for user {}".format(uname))
     plt.show()
 
 
@@ -46,7 +40,7 @@ def uSignUp():
     uname = input("Enter new username: ")
     passwd = input("Enter password: ")
     phone = input("Enter phone number: ")
-    risk_app = input("Enter your risk appetite: \n")
+    risk_app = input("Enter your risk appetite: ")
     dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
     return
 
@@ -115,12 +109,23 @@ while True:
         elif opt=='v':
             getVisualisation(user_name)
         elif opt=='s':
-            portfolioSimulator(user_name)
+            simulator(user_name)
         elif opt=='l':
             LOGIN_STATUS = 0
             print("User logged out successfully!")
         elif opt=='r':
-            pass
+            risk_app = dbh.getRiskAppetite(user_name)
+            portfolio = dbh.getPortfolio(user_name)
+            suggested = (ss.suggestions(portfolio, risk_app))
+            print("Suggestions")
+            for i, stocks in suggested.items():
+                print("---------------------------")
+                print(i)
+                print("---------------------------")
+                for j in stocks:
+                    for k in j:
+                        print(k[0])
+
         elif opt=='q':
             print("Automatic user logout")
             print("Bye!")
