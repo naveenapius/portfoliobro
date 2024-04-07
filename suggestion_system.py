@@ -20,8 +20,8 @@ def getVolatilityClass(volatility, risk_apt):
     index_diff = risk_index - volat_index
     tgt_index = risk_index + index_diff
     if tgt_index < 0: tgt_index = 0
-    elif tgt_index > 4: tgt_index = 5
-    
+    elif tgt_index > 4: tgt_index = 4
+    print(tgt_index)
     return classes[tgt_index]
 
 
@@ -132,4 +132,4 @@ def suggestions(portfolio, risk_apt):
     
     return suggested_stocks
 
-
+# suggestions([('AAVAS', 6), ('CELLO', 2), ('ENGINERSIN', 4), ('GLAXO', 10), ('IRCTC', 9), ('JBMA', 6), ('LXCHEM', 8)], "very high")

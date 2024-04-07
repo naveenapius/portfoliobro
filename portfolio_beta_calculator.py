@@ -32,14 +32,14 @@ def getStockPrices(portfolio):
 
     #iterating through portfolio_data as stock_data to append price to end of stock_data
     for stock_data in portfolio:
-        fetch_price='SELECT Price FROM nifty_500 WHERE symbol = "{}"'.format(stock_data[0])
+        fetch_price='SELECT Price, Beta FROM nifty_500 WHERE symbol = "{}"'.format(stock_data[0])
         try:
             cursor.execute(fetch_price)
             price=cursor.fetchall()
         except:
             print("Error occured in fetching price data from nifty_500")
             return
-        stock_data=stock_data +(float(price[0][0]),)
+        stock_data=stock_data +(float(price[0][0]), price[0][1],)
         new_portfolio_data.append(stock_data)
 
     return new_portfolio_data
@@ -61,12 +61,13 @@ def calcPortfolioBeta(portfolio):
     weighted_sum = 0
     total_weight = 0
     for stock_data in priced_portfolio:
-        weighted_sum += stock_data[2]*stock_data[1] 
+        weighted_sum += stock_data[3]*stock_data[1] 
         total_weight += stock_data[1]
 
     beta = weighted_sum/total_weight
     beta = round(beta, 2)
 
     return beta
+
 
 
