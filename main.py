@@ -1,16 +1,28 @@
 import database_handler as dbh
 from matplotlib import pyplot as plt
 import suggestion_system as ss
-import json
+import simulator as sim
 LOGIN_STATUS = 0
 
 
-def simulator(uname):
-    pass
-
-
-def getVisualisation(uname):
+def simulatorHelper(uname):
     portfolio = dbh.getPortfolio(uname)
+    print("\nAvailable actions: ")
+    print("a - Simulate addition")
+    print("r - Simulate removal")
+
+    o = input("Action>> ")
+    flag = 0 if o=='a' else '1'
+    stock = input("Enter stock to simulate: ")
+    vol = int(input("Enter volume: "))
+
+    print("New portfolio beta: ",sim.simulate(portfolio, stock, vol, flag))
+    return
+
+
+
+
+def getVisualisation(portfolio, uname):
     stocks = []
     shares = []
     for i in portfolio:
@@ -107,9 +119,10 @@ while True:
         if opt=='u':
             updatePortfolio(user_name)
         elif opt=='v':
-            getVisualisation(user_name)
+            portfolio = dbh.getPortfolio(user_name)
+            getVisualisation(portfolio, user_name)
         elif opt=='s':
-            simulator(user_name)
+            simulatorHelper(user_name)
         elif opt=='l':
             LOGIN_STATUS = 0
             print("User logged out successfully!")
