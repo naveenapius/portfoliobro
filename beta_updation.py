@@ -2,6 +2,7 @@ import yfinance as yf
 import json
 import beta_calculator as beta
 import nifty_database_updation as update
+from datetime import date
 
 f = open('database.json')
 
@@ -15,15 +16,24 @@ try:
 except:
     exit("Error occured in fetching index data, please try again.")
 
+today=date.today()
+
 for Company in Listing:
     stock_name=Company["Symbol"]
     stock_name = f"{stock_name}.NS" if ".NS" not in stock_name else stock_name
     print("Fetching data for stock : ",stock_name)
-    stock = yf.Ticker(stock_name)
-    current_price = stock.info['currentPrice']
-    Company['Price'] = current_price
-    Company['Beta'] = beta.calcBeta(stock_name,index_df) 
-    Company['Volatility'] = beta.checkVolatility(Company['Beta'])
+
+    # If today is saturday or sunday -> update beta and volatility (week ends on friday so no need to update price)
+    if today.weekday() == 5 or today.weekday() == 6 :
+        Company['Beta'] = beta.calcBeta(stock_name,index_df) 
+        Company['Volatility'] = beta.checkVolatility(Company['Beta'])
+    
+    # else run price updation
+    else :
+        stock = yf.Ticker(stock_name)
+        current_price = stock.info['currentPrice']
+        Company['Price'] = current_price
+    
 
 #print updated values for debugging purposes : can remove
 for Company in Listing:
