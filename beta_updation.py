@@ -1,9 +1,59 @@
 import yfinance as yf
 import json
 import beta_calculator as beta
-import nifty_database_updation as update
 from datetime import date
+from configparser import ConfigParser as cp
+import mysql.connector
+CONFIGS = cp()
+CONFIGS.read('portfoliobro.conf')
 
+
+def updateDatabase(listing) :
+
+    """
+    Note :
+        server is hosted on the users local machine. 
+        username considered has default value of 'root' and is accessed by used of password 'password'
+        User must have an existing database named portfoliobroTest. 
+
+        values can be altered as per user needs.
+        variable 'listing' refers to the dataframe that holds values of all equity shares listed in the nifty_500
+
+        code assumes that the database portfoliobroTest and the table nifty_500 already exist in the users sysstem 
+            where nifty_500 has already been populated with necessary values. purpose of this function is to simply 
+            update the database with relevant data changes
+    """
+    
+    #Database connection parameters
+    db = mysql.connector.connect(
+        host=CONFIGS.get('mysql', 'host'),
+        user=CONFIGS.get('mysql', 'user'),
+        password=CONFIGS.get('mysql', 'password'),
+        database=CONFIGS.get('mysql', 'database'),
+        port=CONFIGS.get('mysql', 'port'),
+        buffered=True
+        )
+    
+    cursor = db.cursor()
+    
+    try :
+        #Update server with updated beta values
+        print("Attempting updation of database...")
+        for Company in listing :
+            row_update = "UPDATE nifty_500 SET Price = '{}', Beta = '{}', Volatility = '{}' WHERE symbol = '{}'".format(float(Company["Price"]),float(Company["Beta"]),Company["Volatility"],Company["Symbol"])
+            cursor.execute(row_update)
+        print("Table updated succesfully")
+    except :
+        print("Error. Table could not be updated.")
+        
+    #committing changes to the database and closing cursor
+    db.commit()
+    cursor.close()
+
+
+
+
+#main
 f = open('database.json')
 
 Listing = json.load(f)
@@ -45,6 +95,6 @@ with open('database.json', 'w') as json_file:
   json.dump(Listing, json_file, indent=4)
 
 #push to database
-update.updateDatabase(Listing)
+updateDatabase(Listing)
 
 f.close()

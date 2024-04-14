@@ -67,21 +67,22 @@ def checkVolatility(raw_beta):
         pass
 
     
+# ##########TESTING CODE###########################################################
+# if __name__ == "__main__":
 
-if __name__ == "__main__":
+#     #define the index to compare all stock to (NSE)
+#     print("Fetching index data from API, please wait...")
 
-    #define the index to compare all stock to (NSE)
-    print("Fetching index data from API, please wait...")
+#     try:
+#         index_df=yf.download("^NSEI", period ='4y')
+#     except:
+#         exit("Error occured in fetching index data, please try again.")
 
-    try:
-        index_df=yf.download("^NSEI", period ='4y')
-    except:
-        exit("Error occured in fetching index data, please try again.")
+#     stock=input("Enter the name of any stock ticker in the Indian NSE : ")
+#     stock_name = stock.strip()
+#     stock_name = f"{stock_name}.NS" if ".NS" not in stock_name else stock_name
 
-    stock=input("Enter the name of any stock ticker in the Indian NSE : ")
-    stock_name = stock.strip()
-    stock_name = f"{stock_name}.NS" if ".NS" not in stock_name else stock_name
-
-    beta=calcBeta(stock, index_df)
-    volatility = checkVolatility(beta)
-    print(f"stock has {volatility} volatility")
+#     beta=calcBeta(stock, index_df)
+#     volatility = checkVolatility(beta)
+#     print(f"stock has {volatility} volatility")
+# ###############END OF TESTING CODE################################################

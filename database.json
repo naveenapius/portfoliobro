@@ -35,7 +35,7 @@
         "Symbol": "ACC",
         "Series": "EQ",
         "ISIN Code": "INE012A01025",
-        "Beta": 0.61,
+        "Beta": 0.62,
         "Volatility": "low",
         "Price": 2575.1
     },
@@ -75,7 +75,7 @@
         "Symbol": "AARTIIND",
         "Series": "EQ",
         "ISIN Code": "INE769A01020",
-        "Beta": 1.2,
+        "Beta": 1.19,
         "Volatility": "medium",
         "Price": 696.45
     },
@@ -105,7 +105,7 @@
         "Symbol": "ACE",
         "Series": "EQ",
         "ISIN Code": "INE731H01025",
-        "Beta": 1.42,
+        "Beta": 1.43,
         "Volatility": "medium",
         "Price": 1573.85
     },
@@ -115,7 +115,7 @@
         "Symbol": "ADANIENSOL",
         "Series": "EQ",
         "ISIN Code": "INE931S01010",
-        "Beta": -0.2,
+        "Beta": -0.28,
         "Volatility": "very low",
         "Price": 1096.3
     },
@@ -155,7 +155,7 @@
         "Symbol": "ADANIPOWER",
         "Series": "EQ",
         "ISIN Code": "INE814H01011",
-        "Beta": 0.84,
+        "Beta": 0.85,
         "Volatility": "low",
         "Price": 626.7
     },
@@ -175,7 +175,7 @@
         "Symbol": "AWL",
         "Series": "EQ",
         "ISIN Code": "INE699H01024",
-        "Beta": 0.27,
+        "Beta": 0.31,
         "Volatility": "very low",
         "Price": 352.2
     },
@@ -205,7 +205,7 @@
         "Symbol": "AEGISCHEM",
         "Series": "EQ",
         "ISIN Code": "INE208C01025",
-        "Beta": 0.84,
+        "Beta": 0.83,
         "Volatility": "low",
         "Price": 433.8
     },
@@ -215,7 +215,7 @@
         "Symbol": "AETHER",
         "Series": "EQ",
         "ISIN Code": "INE0BWX01014",
-        "Beta": -0.37,
+        "Beta": -0.36,
         "Volatility": "very low",
         "Price": 844.35
     },
@@ -265,7 +265,7 @@
         "Symbol": "ALKYLAMINE",
         "Series": "EQ",
         "ISIN Code": "INE150B01039",
-        "Beta": 0.94,
+        "Beta": 0.93,
         "Volatility": "low",
         "Price": 2103.6
     },
@@ -275,7 +275,7 @@
         "Symbol": "ALLCARGO",
         "Series": "EQ",
         "ISIN Code": "INE418H01029",
-        "Beta": 1.16,
+        "Beta": 1.17,
         "Volatility": "medium",
         "Price": 77.6
     },
@@ -295,7 +295,7 @@
         "Symbol": "ARE&M",
         "Series": "EQ",
         "ISIN Code": "INE885A01032",
-        "Beta": 0.79,
+        "Beta": 0.87,
         "Volatility": "low",
         "Price": 810.6
     },
@@ -325,7 +325,7 @@
         "Symbol": "ANANDRATHI",
         "Series": "EQ",
         "ISIN Code": "INE463V01026",
-        "Beta": -0.71,
+        "Beta": -0.68,
         "Volatility": "low",
         "Price": 3630.85
     },
@@ -335,7 +335,7 @@
         "Symbol": "ANGELONE",
         "Series": "EQ",
         "ISIN Code": "INE732I01013",
-        "Beta": 1.43,
+        "Beta": 1.45,
         "Volatility": "medium",
         "Price": 2977.9
     },
@@ -385,7 +385,7 @@
         "Symbol": "APTUS",
         "Series": "EQ",
         "ISIN Code": "INE852O01025",
-        "Beta": -0.45,
+        "Beta": -0.44,
         "Volatility": "very low",
         "Price": 328.35
     },
@@ -395,7 +395,7 @@
         "Symbol": "ACI",
         "Series": "EQ",
         "ISIN Code": "INE128X01021",
-        "Beta": -0.7,
+        "Beta": -0.73,
         "Volatility": "low",
         "Price": 626.55
     },
@@ -435,7 +435,7 @@
         "Symbol": "ASTERDM",
         "Series": "EQ",
         "ISIN Code": "INE914M01019",
-        "Beta": 1.35,
+        "Beta": 1.34,
         "Volatility": "medium",
         "Price": 456.75
     },
@@ -465,7 +465,7 @@
         "Symbol": "ATUL",
         "Series": "EQ",
         "ISIN Code": "INE100A01010",
-        "Beta": 0.77,
+        "Beta": 0.76,
         "Volatility": "low",
         "Price": 5971.15
     },
@@ -495,7 +495,7 @@
         "Symbol": "DMART",
         "Series": "EQ",
         "ISIN Code": "INE192R01011",
-        "Beta": 0.96,
+        "Beta": 0.95,
         "Volatility": "low",
         "Price": 4619.25
     },
@@ -515,8 +515,8 @@
         "Symbol": "BEML",
         "Series": "EQ",
         "ISIN Code": "INE258A01016",
-        "Beta": 1.51,
-        "Volatility": "high",
+        "Beta": 1.5,
+        "Volatility": "medium",
         "Price": 3356.55
     },
     {
@@ -525,7 +525,7 @@
         "Symbol": "BLS",
         "Series": "EQ",
         "ISIN Code": "INE153T01027",
-        "Beta": 1.58,
+        "Beta": 1.59,
         "Volatility": "high",
         "Price": 352.85
     },
@@ -615,7 +615,7 @@
         "Symbol": "BANDHANBNK",
         "Series": "EQ",
         "ISIN Code": "INE545U01014",
-        "Beta": 1.57,
+        "Beta": 1.58,
         "Volatility": "high",
         "Price": 197.35
     },
@@ -635,7 +635,7 @@
         "Symbol": "BANKINDIA",
         "Series": "EQ",
         "ISIN Code": "INE084A01016",
-        "Beta": 2.02,
+        "Beta": 2.03,
         "Volatility": "very high",
         "Price": 148.5
     },
@@ -645,7 +645,7 @@
         "Symbol": "MAHABANK",
         "Series": "EQ",
         "ISIN Code": "INE457A01014",
-        "Beta": 1.27,
+        "Beta": 1.28,
         "Volatility": "medium",
         "Price": 65.7
     },
@@ -695,7 +695,7 @@
         "Symbol": "BEL",
         "Series": "EQ",
         "ISIN Code": "INE263A01024",
-        "Beta": 1.32,
+        "Beta": 1.31,
         "Volatility": "medium",
         "Price": 224.5
     },
@@ -745,7 +745,7 @@
         "Symbol": "BIKAJI",
         "Series": "EQ",
         "ISIN Code": "INE00E101023",
-        "Beta": -0.39,
+        "Beta": -0.38,
         "Volatility": "very low",
         "Price": 539.55
     },
@@ -825,7 +825,7 @@
         "Symbol": "BOSCHLTD",
         "Series": "EQ",
         "ISIN Code": "INE323A01026",
-        "Beta": 0.48,
+        "Beta": 0.49,
         "Volatility": "very low",
         "Price": 30792.85
     },
@@ -835,7 +835,7 @@
         "Symbol": "BRIGADE",
         "Series": "EQ",
         "ISIN Code": "INE791I01019",
-        "Beta": 1.38,
+        "Beta": 1.37,
         "Volatility": "medium",
         "Price": 964.7
     },
@@ -855,7 +855,7 @@
         "Symbol": "MAPMYINDIA",
         "Series": "EQ",
         "ISIN Code": "INE0BV301023",
-        "Beta": 0.46,
+        "Beta": 0.45,
         "Volatility": "very low",
         "Price": 1901.2
     },
@@ -875,7 +875,7 @@
         "Symbol": "CESC",
         "Series": "EQ",
         "ISIN Code": "INE486A01021",
-        "Beta": 0.85,
+        "Beta": 0.84,
         "Volatility": "low",
         "Price": 135.5
     },
@@ -895,7 +895,7 @@
         "Symbol": "CIEINDIA",
         "Series": "EQ",
         "ISIN Code": "INE536H01010",
-        "Beta": 0.38,
+        "Beta": 0.37,
         "Volatility": "very low",
         "Price": 487.2
     },
@@ -925,7 +925,7 @@
         "Symbol": "CAMPUS",
         "Series": "EQ",
         "ISIN Code": "INE278Y01022",
-        "Beta": 0.57,
+        "Beta": 0.58,
         "Volatility": "low",
         "Price": 236.75
     },
@@ -985,7 +985,7 @@
         "Symbol": "CASTROLIND",
         "Series": "EQ",
         "ISIN Code": "INE172A01027",
-        "Beta": 0.89,
+        "Beta": 0.88,
         "Volatility": "low",
         "Price": 209.15
     },
@@ -1005,7 +1005,7 @@
         "Symbol": "CELLO",
         "Series": "EQ",
         "ISIN Code": "INE0LMW01024",
-        "Beta": 0.42,
+        "Beta": 0.32,
         "Volatility": "very low",
         "Price": 821.95
     },
@@ -1025,7 +1025,7 @@
         "Symbol": "CDSL",
         "Series": "EQ",
         "ISIN Code": "INE736A01011",
-        "Beta": 1.0,
+        "Beta": 0.99,
         "Volatility": "low",
         "Price": 1884.45
     },
@@ -1045,7 +1045,7 @@
         "Symbol": "CENTURYTEX",
         "Series": "EQ",
         "ISIN Code": "INE055A01016",
-        "Beta": 1.03,
+        "Beta": 1.02,
         "Volatility": "medium",
         "Price": 1669.8
     },
@@ -1065,7 +1065,7 @@
         "Symbol": "CHALET",
         "Series": "EQ",
         "ISIN Code": "INE427F01016",
-        "Beta": 1.06,
+        "Beta": 1.05,
         "Volatility": "medium",
         "Price": 850.9
     },
@@ -1085,7 +1085,7 @@
         "Symbol": "CHEMPLASTS",
         "Series": "EQ",
         "ISIN Code": "INE488A01050",
-        "Beta": 1.08,
+        "Beta": 1.06,
         "Volatility": "medium",
         "Price": 485.65
     },
@@ -1095,7 +1095,7 @@
         "Symbol": "CHENNPETRO",
         "Series": "EQ",
         "ISIN Code": "INE178A01016",
-        "Beta": 0.61,
+        "Beta": 0.62,
         "Volatility": "low",
         "Price": 941.4
     },
@@ -1105,7 +1105,7 @@
         "Symbol": "CHOLAHLDNG",
         "Series": "EQ",
         "ISIN Code": "INE149A01033",
-        "Beta": 1.43,
+        "Beta": 1.44,
         "Volatility": "medium",
         "Price": 1139.85
     },
@@ -1125,7 +1125,7 @@
         "Symbol": "CIPLA",
         "Series": "EQ",
         "ISIN Code": "INE059A01026",
-        "Beta": 0.28,
+        "Beta": 0.29,
         "Volatility": "very low",
         "Price": 1449.4
     },
@@ -1175,7 +1175,7 @@
         "Symbol": "COFORGE",
         "Series": "EQ",
         "ISIN Code": "INE591G01017",
-        "Beta": 0.91,
+        "Beta": 0.92,
         "Volatility": "low",
         "Price": 5782.9
     },
@@ -1195,7 +1195,7 @@
         "Symbol": "CAMS",
         "Series": "EQ",
         "ISIN Code": "INE596I01012",
-        "Beta": 0.55,
+        "Beta": 0.56,
         "Volatility": "low",
         "Price": 3146.75
     },
@@ -1205,7 +1205,7 @@
         "Symbol": "CONCORDBIO",
         "Series": "EQ",
         "ISIN Code": "INE338H01029",
-        "Beta": 0.04,
+        "Beta": 0.09,
         "Volatility": "very low",
         "Price": 1536.35
     },
@@ -1235,7 +1235,7 @@
         "Symbol": "CRAFTSMAN",
         "Series": "EQ",
         "ISIN Code": "INE00LO01017",
-        "Beta": 0.61,
+        "Beta": 0.62,
         "Volatility": "low",
         "Price": 4378.45
     },
@@ -1255,7 +1255,7 @@
         "Symbol": "CROMPTON",
         "Series": "EQ",
         "ISIN Code": "INE299U01018",
-        "Beta": 0.49,
+        "Beta": 0.48,
         "Volatility": "very low",
         "Price": 281.05
     },
@@ -1275,7 +1275,7 @@
         "Symbol": "CYIENT",
         "Series": "EQ",
         "ISIN Code": "INE136B01020",
-        "Beta": 1.58,
+        "Beta": 1.59,
         "Volatility": "high",
         "Price": 2164.3
     },
@@ -1305,7 +1305,7 @@
         "Symbol": "DOMS",
         "Series": "EQ",
         "ISIN Code": "INE321T01012",
-        "Beta": -0.99,
+        "Beta": -0.97,
         "Volatility": "low",
         "Price": 1711.35
     },
@@ -1335,7 +1335,7 @@
         "Symbol": "DATAPATTNS",
         "Series": "EQ",
         "ISIN Code": "INE0IX101010",
-        "Beta": 1.4,
+        "Beta": 1.43,
         "Volatility": "medium",
         "Price": 2694.9
     },
@@ -1355,7 +1355,7 @@
         "Symbol": "DEEPAKNTR",
         "Series": "EQ",
         "ISIN Code": "INE288B01029",
-        "Beta": 1.46,
+        "Beta": 1.45,
         "Volatility": "medium",
         "Price": 2219.9
     },
@@ -1375,7 +1375,7 @@
         "Symbol": "DEVYANI",
         "Series": "EQ",
         "ISIN Code": "INE872J01023",
-        "Beta": 0.48,
+        "Beta": 0.43,
         "Volatility": "very low",
         "Price": 156.5
     },
@@ -1395,7 +1395,7 @@
         "Symbol": "DIXON",
         "Series": "EQ",
         "ISIN Code": "INE935N01020",
-        "Beta": 1.47,
+        "Beta": 1.46,
         "Volatility": "medium",
         "Price": 7660.5
     },
@@ -1495,7 +1495,7 @@
         "Symbol": "EMAMILTD",
         "Series": "EQ",
         "ISIN Code": "INE548C01032",
-        "Beta": 0.75,
+        "Beta": 0.74,
         "Volatility": "low",
         "Price": 446.6
     },
@@ -1555,7 +1555,7 @@
         "Symbol": "EXIDEIND",
         "Series": "EQ",
         "ISIN Code": "INE302A01020",
-        "Beta": 0.87,
+        "Beta": 0.84,
         "Volatility": "low",
         "Price": 321.85
     },
@@ -1575,7 +1575,7 @@
         "Symbol": "NYKAA",
         "Series": "EQ",
         "ISIN Code": "INE388Y01029",
-        "Beta": -1.42,
+        "Beta": -1.5,
         "Volatility": "medium",
         "Price": 168.45
     },
@@ -1645,7 +1645,7 @@
         "Symbol": "FIVESTAR",
         "Series": "EQ",
         "ISIN Code": "INE128S01021",
-        "Beta": -0.07,
+        "Beta": -0.06,
         "Volatility": "very low",
         "Price": 758.7
     },
@@ -1655,7 +1655,7 @@
         "Symbol": "FORTIS",
         "Series": "EQ",
         "ISIN Code": "INE061F01013",
-        "Beta": 1.27,
+        "Beta": 1.28,
         "Volatility": "medium",
         "Price": 436.85
     },
@@ -1685,7 +1685,7 @@
         "Symbol": "GMRINFRA",
         "Series": "EQ",
         "ISIN Code": "INE776C01039",
-        "Beta": 1.26,
+        "Beta": 1.27,
         "Volatility": "medium",
         "Price": 85.65
     },
@@ -1705,7 +1705,7 @@
         "Symbol": "GICRE",
         "Series": "EQ",
         "ISIN Code": "INE481Y01014",
-        "Beta": 0.77,
+        "Beta": 0.78,
         "Volatility": "low",
         "Price": 341.75
     },
@@ -1735,7 +1735,7 @@
         "Symbol": "GLAXO",
         "Series": "EQ",
         "ISIN Code": "INE159A01016",
-        "Beta": 0.39,
+        "Beta": 0.4,
         "Volatility": "very low",
         "Price": 1938.05
     },
@@ -1745,7 +1745,7 @@
         "Symbol": "GLS",
         "Series": "EQ",
         "ISIN Code": "INE03Q201024",
-        "Beta": -0.52,
+        "Beta": -0.51,
         "Volatility": "low",
         "Price": 817.3
     },
@@ -1775,7 +1775,7 @@
         "Symbol": "GPIL",
         "Series": "EQ",
         "ISIN Code": "INE177H01021",
-        "Beta": 1.36,
+        "Beta": 1.35,
         "Volatility": "medium",
         "Price": 759.6
     },
@@ -1785,7 +1785,7 @@
         "Symbol": "GODFRYPHLP",
         "Series": "EQ",
         "ISIN Code": "INE260B01028",
-        "Beta": 0.31,
+        "Beta": 0.32,
         "Volatility": "very low",
         "Price": 3198.45
     },
@@ -1815,8 +1815,8 @@
         "Symbol": "GODREJPROP",
         "Series": "EQ",
         "ISIN Code": "INE484J01027",
-        "Beta": 2.01,
-        "Volatility": "very high",
+        "Beta": 2.0,
+        "Volatility": "high",
         "Price": 2500.35
     },
     {
@@ -1825,7 +1825,7 @@
         "Symbol": "GRANULES",
         "Series": "EQ",
         "ISIN Code": "INE101D01020",
-        "Beta": 0.6,
+        "Beta": 0.61,
         "Volatility": "low",
         "Price": 452.5
     },
@@ -1855,7 +1855,7 @@
         "Symbol": "GESHIP",
         "Series": "EQ",
         "ISIN Code": "INE017A01032",
-        "Beta": 1.49,
+        "Beta": 1.5,
         "Volatility": "medium",
         "Price": 1041.05
     },
@@ -1875,7 +1875,7 @@
         "Symbol": "GAEL",
         "Series": "EQ",
         "ISIN Code": "INE036B01030",
-        "Beta": 0.28,
+        "Beta": 0.29,
         "Volatility": "very low",
         "Price": 179.45
     },
@@ -1885,7 +1885,7 @@
         "Symbol": "FLUOROCHEM",
         "Series": "EQ",
         "ISIN Code": "INE09N301011",
-        "Beta": 0.7,
+        "Beta": 0.69,
         "Volatility": "low",
         "Price": 3185.6
     },
@@ -1905,7 +1905,7 @@
         "Symbol": "GMDCLTD",
         "Series": "EQ",
         "ISIN Code": "INE131A01031",
-        "Beta": 1.11,
+        "Beta": 1.1,
         "Volatility": "medium",
         "Price": 388.65
     },
@@ -1935,7 +1935,7 @@
         "Symbol": "GSFC",
         "Series": "EQ",
         "ISIN Code": "INE026A01025",
-        "Beta": 1.29,
+        "Beta": 1.3,
         "Volatility": "medium",
         "Price": 241.65
     },
@@ -1955,7 +1955,7 @@
         "Symbol": "HEG",
         "Series": "EQ",
         "ISIN Code": "INE545A01016",
-        "Beta": 1.86,
+        "Beta": 1.84,
         "Volatility": "high",
         "Price": 2089.5
     },
@@ -2035,7 +2035,7 @@
         "Symbol": "HAPPYFORGE",
         "Series": "EQ",
         "ISIN Code": "INE330T01021",
-        "Beta": -0.36,
+        "Beta": -0.37,
         "Volatility": "very low",
         "Price": 926.5
     },
@@ -2065,7 +2065,7 @@
         "Symbol": "HSCL",
         "Series": "BE",
         "ISIN Code": "INE019C01026",
-        "Beta": 0.74,
+        "Beta": 0.75,
         "Volatility": "low",
         "Price": 335.35
     },
@@ -2075,8 +2075,8 @@
         "Symbol": "HINDALCO",
         "Series": "EQ",
         "ISIN Code": "INE038A01020",
-        "Beta": 2.01,
-        "Volatility": "very high",
+        "Beta": 2.0,
+        "Volatility": "high",
         "Price": 570.05
     },
     {
@@ -2095,7 +2095,7 @@
         "Symbol": "HINDCOPPER",
         "Series": "EQ",
         "ISIN Code": "INE531E01026",
-        "Beta": 3.02,
+        "Beta": 3.01,
         "Volatility": "very high",
         "Price": 322.4
     },
@@ -2105,8 +2105,8 @@
         "Symbol": "HINDPETRO",
         "Series": "EQ",
         "ISIN Code": "INE094A01015",
-        "Beta": 1.51,
-        "Volatility": "high",
+        "Beta": 1.5,
+        "Volatility": "medium",
         "Price": 461.2
     },
     {
@@ -2125,7 +2125,7 @@
         "Symbol": "HINDZINC",
         "Series": "EQ",
         "ISIN Code": "INE267A01025",
-        "Beta": 0.81,
+        "Beta": 0.77,
         "Volatility": "low",
         "Price": 339.95
     },
@@ -2135,7 +2135,7 @@
         "Symbol": "POWERINDIA",
         "Series": "EQ",
         "ISIN Code": "INE07Y701011",
-        "Beta": 0.53,
+        "Beta": 0.52,
         "Volatility": "low",
         "Price": 7123.25
     },
@@ -2145,7 +2145,7 @@
         "Symbol": "HOMEFIRST",
         "Series": "EQ",
         "ISIN Code": "INE481N01025",
-        "Beta": 0.32,
+        "Beta": 0.31,
         "Volatility": "very low",
         "Price": 960.05
     },
@@ -2155,7 +2155,7 @@
         "Symbol": "HONASA",
         "Series": "EQ",
         "ISIN Code": "INE0J5401028",
-        "Beta": -0.93,
+        "Beta": -0.82,
         "Volatility": "low",
         "Price": 405.0
     },
@@ -2165,7 +2165,7 @@
         "Symbol": "HONAUT",
         "Series": "EQ",
         "ISIN Code": "INE671A01010",
-        "Beta": 1.0,
+        "Beta": 0.99,
         "Volatility": "low",
         "Price": 42169.05
     },
@@ -2225,7 +2225,7 @@
         "Symbol": "IDBI",
         "Series": "EQ",
         "ISIN Code": "INE008A01015",
-        "Beta": 1.9,
+        "Beta": 1.91,
         "Volatility": "high",
         "Price": 88.8
     },
@@ -2235,7 +2235,7 @@
         "Symbol": "IDFCFIRSTB",
         "Series": "EQ",
         "ISIN Code": "INE092T01019",
-        "Beta": 1.3,
+        "Beta": 1.29,
         "Volatility": "medium",
         "Price": 80.65
     },
@@ -2245,7 +2245,7 @@
         "Symbol": "IDFC",
         "Series": "EQ",
         "ISIN Code": "INE043D01016",
-        "Beta": 1.4,
+        "Beta": 1.39,
         "Volatility": "medium",
         "Price": 117.5
     },
@@ -2275,7 +2275,7 @@
         "Symbol": "IRCON",
         "Series": "EQ",
         "ISIN Code": "INE962Y01021",
-        "Beta": 0.97,
+        "Beta": 0.98,
         "Volatility": "low",
         "Price": 235.45
     },
@@ -2295,7 +2295,7 @@
         "Symbol": "ITI",
         "Series": "EQ",
         "ISIN Code": "INE248A01017",
-        "Beta": 0.96,
+        "Beta": 0.97,
         "Volatility": "low",
         "Price": 275.65
     },
@@ -2315,7 +2315,7 @@
         "Symbol": "IBULHSGFIN",
         "Series": "EQ",
         "ISIN Code": "INE148I01020",
-        "Beta": 2.48,
+        "Beta": 2.49,
         "Volatility": "very high",
         "Price": 182.05
     },
@@ -2325,7 +2325,7 @@
         "Symbol": "INDIAMART",
         "Series": "EQ",
         "ISIN Code": "INE933S01016",
-        "Beta": 0.58,
+        "Beta": 0.57,
         "Volatility": "low",
         "Price": 2543.2
     },
@@ -2365,7 +2365,7 @@
         "Symbol": "IOC",
         "Series": "EQ",
         "ISIN Code": "INE242A01010",
-        "Beta": 1.0,
+        "Beta": 0.99,
         "Volatility": "low",
         "Price": 168.0
     },
@@ -2385,7 +2385,7 @@
         "Symbol": "IRCTC",
         "Series": "EQ",
         "ISIN Code": "INE335Y01020",
-        "Beta": 1.08,
+        "Beta": 1.07,
         "Volatility": "medium",
         "Price": 1002.95
     },
@@ -2405,8 +2405,8 @@
         "Symbol": "INDIGOPNTS",
         "Series": "EQ",
         "ISIN Code": "INE09VQ01012",
-        "Beta": -0.0,
-        "Volatility": null,
+        "Beta": -0.01,
+        "Volatility": "very low",
         "Price": 1394.65
     },
     {
@@ -2475,7 +2475,7 @@
         "Symbol": "INTELLECT",
         "Series": "EQ",
         "ISIN Code": "INE306R01017",
-        "Beta": 2.03,
+        "Beta": 2.04,
         "Volatility": "very high",
         "Price": 1080.05
     },
@@ -2505,7 +2505,7 @@
         "Symbol": "JBCHEPHARM",
         "Series": "EQ",
         "ISIN Code": "INE572A01036",
-        "Beta": 0.15,
+        "Beta": 0.14,
         "Volatility": "very low",
         "Price": 1716.3
     },
@@ -2565,7 +2565,7 @@
         "Symbol": "JSWENERGY",
         "Series": "EQ",
         "ISIN Code": "INE121E01018",
-        "Beta": 0.97,
+        "Beta": 0.96,
         "Volatility": "low",
         "Price": 599.1
     },
@@ -2575,7 +2575,7 @@
         "Symbol": "JSWINFRA",
         "Series": "EQ",
         "ISIN Code": "INE880J01026",
-        "Beta": -1.37,
+        "Beta": -1.4,
         "Volatility": "medium",
         "Price": 250.75
     },
@@ -2585,7 +2585,7 @@
         "Symbol": "JSWSTEEL",
         "Series": "EQ",
         "ISIN Code": "INE019A01038",
-        "Beta": 1.04,
+        "Beta": 1.03,
         "Volatility": "medium",
         "Price": 857.1
     },
@@ -2595,7 +2595,7 @@
         "Symbol": "JAIBALAJI",
         "Series": "BE",
         "ISIN Code": "INE091G01018",
-        "Beta": 0.41,
+        "Beta": 0.4,
         "Volatility": "very low",
         "Price": 999.15
     },
@@ -2615,7 +2615,7 @@
         "Symbol": "JINDALSAW",
         "Series": "EQ",
         "ISIN Code": "INE324A01024",
-        "Beta": 0.53,
+        "Beta": 0.52,
         "Volatility": "low",
         "Price": 496.9
     },
@@ -2645,7 +2645,7 @@
         "Symbol": "JIOFIN",
         "Series": "EQ",
         "ISIN Code": "INE758E01017",
-        "Beta": 0.47,
+        "Beta": 0.46,
         "Volatility": "very low",
         "Price": 373.2
     },
@@ -2665,7 +2665,7 @@
         "Symbol": "JUBLINGREA",
         "Series": "EQ",
         "ISIN Code": "INE0BY001018",
-        "Beta": -0.72,
+        "Beta": -0.71,
         "Volatility": "low",
         "Price": 493.55
     },
@@ -2685,7 +2685,7 @@
         "Symbol": "JWL",
         "Series": "EQ",
         "ISIN Code": "INE209L01016",
-        "Beta": 0.45,
+        "Beta": 0.46,
         "Volatility": "very low",
         "Price": 388.6
     },
@@ -2725,7 +2725,7 @@
         "Symbol": "KEI",
         "Series": "EQ",
         "ISIN Code": "INE878B01027",
-        "Beta": 1.4,
+        "Beta": 1.39,
         "Volatility": "medium",
         "Price": 3574.2
     },
@@ -2755,7 +2755,7 @@
         "Symbol": "KRBL",
         "Series": "EQ",
         "ISIN Code": "INE001B01026",
-        "Beta": 0.69,
+        "Beta": 0.7,
         "Volatility": "low",
         "Price": 313.1
     },
@@ -2765,7 +2765,7 @@
         "Symbol": "KSB",
         "Series": "EQ",
         "ISIN Code": "INE999A01015",
-        "Beta": 0.77,
+        "Beta": 0.76,
         "Volatility": "low",
         "Price": 3917.95
     },
@@ -2785,7 +2785,7 @@
         "Symbol": "KPIL",
         "Series": "EQ",
         "ISIN Code": "INE220B01022",
-        "Beta": 0.23,
+        "Beta": 0.21,
         "Volatility": "very low",
         "Price": 1157.25
     },
@@ -2825,7 +2825,7 @@
         "Symbol": "KAYNES",
         "Series": "EQ",
         "ISIN Code": "INE918Z01012",
-        "Beta": 0.26,
+        "Beta": 0.27,
         "Volatility": "very low",
         "Price": 2647.3
     },
@@ -2845,8 +2845,8 @@
         "Symbol": "KFINTECH",
         "Series": "EQ",
         "ISIN Code": "INE138Y01010",
-        "Beta": 0.51,
-        "Volatility": "low",
+        "Beta": 0.43,
+        "Volatility": "very low",
         "Price": 647.95
     },
     {
@@ -2855,7 +2855,7 @@
         "Symbol": "KOTAKBANK",
         "Series": "EQ",
         "ISIN Code": "INE237A01028",
-        "Beta": 1.23,
+        "Beta": 1.22,
         "Volatility": "medium",
         "Price": 1785.15
     },
@@ -2865,7 +2865,7 @@
         "Symbol": "KIMS",
         "Series": "EQ",
         "ISIN Code": "INE967H01017",
-        "Beta": -0.77,
+        "Beta": -0.75,
         "Volatility": "low",
         "Price": 2045.25
     },
@@ -2895,7 +2895,7 @@
         "Symbol": "LICHSGFIN",
         "Series": "EQ",
         "ISIN Code": "INE115A01026",
-        "Beta": 1.18,
+        "Beta": 1.17,
         "Volatility": "medium",
         "Price": 644.3
     },
@@ -2925,7 +2925,7 @@
         "Symbol": "LATENTVIEW",
         "Series": "EQ",
         "ISIN Code": "INE0I7C01011",
-        "Beta": -0.76,
+        "Beta": -0.74,
         "Volatility": "low",
         "Price": 549.75
     },
@@ -2965,7 +2965,7 @@
         "Symbol": "LICI",
         "Series": "EQ",
         "ISIN Code": "INE0J1Y01017",
-        "Beta": 0.11,
+        "Beta": 0.1,
         "Volatility": "very low",
         "Price": 992.75
     },
@@ -2985,7 +2985,7 @@
         "Symbol": "LLOYDSME",
         "Series": "EQ",
         "ISIN Code": "INE281B01032",
-        "Beta": 0.09,
+        "Beta": -0.35,
         "Volatility": "very low",
         "Price": 643.05
     },
@@ -3025,7 +3025,7 @@
         "Symbol": "MTARTECH",
         "Series": "EQ",
         "ISIN Code": "INE864I01014",
-        "Beta": 0.6,
+        "Beta": 0.59,
         "Volatility": "low",
         "Price": 1949.3
     },
@@ -3035,7 +3035,7 @@
         "Symbol": "LODHA",
         "Series": "EQ",
         "ISIN Code": "INE670K01029",
-        "Beta": -0.04,
+        "Beta": -0.03,
         "Volatility": "very low",
         "Price": 1159.7
     },
@@ -3085,7 +3085,7 @@
         "Symbol": "MHRIL",
         "Series": "EQ",
         "ISIN Code": "INE998I01010",
-        "Beta": 0.39,
+        "Beta": 0.4,
         "Volatility": "very low",
         "Price": 414.3
     },
@@ -3105,7 +3105,7 @@
         "Symbol": "MANAPPURAM",
         "Series": "EQ",
         "ISIN Code": "INE522D01027",
-        "Beta": 1.23,
+        "Beta": 1.22,
         "Volatility": "medium",
         "Price": 191.9
     },
@@ -3115,7 +3115,7 @@
         "Symbol": "MRPL",
         "Series": "EQ",
         "ISIN Code": "INE103A01014",
-        "Beta": 0.3,
+        "Beta": 0.31,
         "Volatility": "very low",
         "Price": 238.25
     },
@@ -3125,7 +3125,7 @@
         "Symbol": "MANKIND",
         "Series": "EQ",
         "ISIN Code": "INE634S01028",
-        "Beta": -0.78,
+        "Beta": -0.76,
         "Volatility": "low",
         "Price": 2344.75
     },
@@ -3145,7 +3145,7 @@
         "Symbol": "MARUTI",
         "Series": "EQ",
         "ISIN Code": "INE585B01010",
-        "Beta": 0.28,
+        "Beta": 0.29,
         "Volatility": "very low",
         "Price": 12421.6
     },
@@ -3175,7 +3175,7 @@
         "Symbol": "MAXHEALTH",
         "Series": "EQ",
         "ISIN Code": "INE027H01010",
-        "Beta": -0.01,
+        "Beta": 0.06,
         "Volatility": "very low",
         "Price": 804.9
     },
@@ -3185,7 +3185,7 @@
         "Symbol": "MAZDOCK",
         "Series": "EQ",
         "ISIN Code": "INE249Z01012",
-        "Beta": -1.19,
+        "Beta": -1.2,
         "Volatility": "medium",
         "Price": 2200.55
     },
@@ -3215,7 +3215,7 @@
         "Symbol": "METROPOLIS",
         "Series": "EQ",
         "ISIN Code": "INE112L01020",
-        "Beta": 0.74,
+        "Beta": 0.73,
         "Volatility": "low",
         "Price": 1714.75
     },
@@ -3225,7 +3225,7 @@
         "Symbol": "MINDACORP",
         "Series": "EQ",
         "ISIN Code": "INE842C01021",
-        "Beta": 0.94,
+        "Beta": 0.95,
         "Volatility": "low",
         "Price": 424.45
     },
@@ -3235,7 +3235,7 @@
         "Symbol": "MSUMI",
         "Series": "EQ",
         "ISIN Code": "INE0FS801015",
-        "Beta": 0.01,
+        "Beta": 0.03,
         "Volatility": "very low",
         "Price": 70.35
     },
@@ -3245,7 +3245,7 @@
         "Symbol": "MOTILALOFS",
         "Series": "EQ",
         "ISIN Code": "INE338I01027",
-        "Beta": 0.24,
+        "Beta": 0.23,
         "Volatility": "very low",
         "Price": 1831.9
     },
@@ -3265,7 +3265,7 @@
         "Symbol": "MCX",
         "Series": "EQ",
         "ISIN Code": "INE745G01035",
-        "Beta": 0.56,
+        "Beta": 0.55,
         "Volatility": "low",
         "Price": 3563.7
     },
@@ -3285,7 +3285,7 @@
         "Symbol": "NATCOPHARM",
         "Series": "EQ",
         "ISIN Code": "INE987B01026",
-        "Beta": 0.4,
+        "Beta": 0.41,
         "Volatility": "very low",
         "Price": 997.3
     },
@@ -3295,7 +3295,7 @@
         "Symbol": "NBCC",
         "Series": "EQ",
         "ISIN Code": "INE095N01031",
-        "Beta": 1.63,
+        "Beta": 1.64,
         "Volatility": "high",
         "Price": 138.35
     },
@@ -3305,7 +3305,7 @@
         "Symbol": "NCC",
         "Series": "EQ",
         "ISIN Code": "INE868B01028",
-        "Beta": 1.52,
+        "Beta": 1.53,
         "Volatility": "high",
         "Price": 272.7
     },
@@ -3325,7 +3325,7 @@
         "Symbol": "NLCINDIA",
         "Series": "EQ",
         "ISIN Code": "INE589A01014",
-        "Beta": 1.47,
+        "Beta": 1.46,
         "Volatility": "medium",
         "Price": 231.3
     },
@@ -3335,7 +3335,7 @@
         "Symbol": "NMDC",
         "Series": "EQ",
         "ISIN Code": "INE584A01023",
-        "Beta": 1.11,
+        "Beta": 1.1,
         "Volatility": "medium",
         "Price": 217.9
     },
@@ -3345,7 +3345,7 @@
         "Symbol": "NSLNISP",
         "Series": "EQ",
         "ISIN Code": "INE0NNS01018",
-        "Beta": -0.65,
+        "Beta": -0.7,
         "Volatility": "low",
         "Price": 61.85
     },
@@ -3385,7 +3385,7 @@
         "Symbol": "NAVINFLUOR",
         "Series": "EQ",
         "ISIN Code": "INE048G01026",
-        "Beta": 0.73,
+        "Beta": 0.72,
         "Volatility": "low",
         "Price": 3147.6
     },
@@ -3415,7 +3415,7 @@
         "Symbol": "NAM-INDIA",
         "Series": "EQ",
         "ISIN Code": "INE298J01013",
-        "Beta": 0.87,
+        "Beta": 0.86,
         "Volatility": "low",
         "Price": 531.95
     },
@@ -3425,8 +3425,8 @@
         "Symbol": "NUVAMA",
         "Series": "EQ",
         "ISIN Code": "INE531F01015",
-        "Beta": -1.25,
-        "Volatility": "medium",
+        "Beta": -0.5,
+        "Volatility": "very low",
         "Price": 4959.0
     },
     {
@@ -3485,7 +3485,7 @@
         "Symbol": "PAYTM",
         "Series": "EQ",
         "ISIN Code": "INE982J01020",
-        "Beta": -1.17,
+        "Beta": -1.09,
         "Volatility": "medium",
         "Price": 417.55
     },
@@ -3505,7 +3505,7 @@
         "Symbol": "POLICYBZR",
         "Series": "EQ",
         "ISIN Code": "INE417T01026",
-        "Beta": -1.48,
+        "Beta": -1.46,
         "Volatility": "medium",
         "Price": 1278.3
     },
@@ -3555,7 +3555,7 @@
         "Symbol": "PVRINOX",
         "Series": "EQ",
         "ISIN Code": "INE191H01014",
-        "Beta": -0.24,
+        "Beta": -0.25,
         "Volatility": "very low",
         "Price": 1375.95
     },
@@ -3565,7 +3565,7 @@
         "Symbol": "PAGEIND",
         "Series": "EQ",
         "ISIN Code": "INE761H01022",
-        "Beta": 0.7,
+        "Beta": 0.69,
         "Volatility": "low",
         "Price": 34168.2
     },
@@ -3575,7 +3575,7 @@
         "Symbol": "PATANJALI",
         "Series": "EQ",
         "ISIN Code": "INE619A01035",
-        "Beta": 1.77,
+        "Beta": 1.78,
         "Volatility": "high",
         "Price": 1387.85
     },
@@ -3595,7 +3595,7 @@
         "Symbol": "PETRONET",
         "Series": "EQ",
         "ISIN Code": "INE347G01014",
-        "Beta": 0.44,
+        "Beta": 0.43,
         "Volatility": "very low",
         "Price": 277.65
     },
@@ -3615,7 +3615,7 @@
         "Symbol": "PIDILITIND",
         "Series": "EQ",
         "ISIN Code": "INE318A01026",
-        "Beta": 0.78,
+        "Beta": 0.79,
         "Volatility": "low",
         "Price": 3000.8
     },
@@ -3635,7 +3635,7 @@
         "Symbol": "PPLPHARMA",
         "Series": "EQ",
         "ISIN Code": "INE0DK501011",
-        "Beta": 0.55,
+        "Beta": 0.57,
         "Volatility": "low",
         "Price": 140.35
     },
@@ -3675,7 +3675,7 @@
         "Symbol": "PFC",
         "Series": "EQ",
         "ISIN Code": "INE134E01011",
-        "Beta": 1.68,
+        "Beta": 1.69,
         "Volatility": "high",
         "Price": 416.8
     },
@@ -3695,7 +3695,7 @@
         "Symbol": "PRAJIND",
         "Series": "EQ",
         "ISIN Code": "INE074A01025",
-        "Beta": 1.23,
+        "Beta": 1.24,
         "Volatility": "medium",
         "Price": 537.15
     },
@@ -3705,7 +3705,7 @@
         "Symbol": "PRESTIGE",
         "Series": "EQ",
         "ISIN Code": "INE811K01011",
-        "Beta": 1.16,
+        "Beta": 1.17,
         "Volatility": "medium",
         "Price": 1291.8
     },
@@ -3725,7 +3725,7 @@
         "Symbol": "PRSMJOHNSN",
         "Series": "EQ",
         "ISIN Code": "INE010A01011",
-        "Beta": 1.14,
+        "Beta": 1.15,
         "Volatility": "medium",
         "Price": 185.4
     },
@@ -3745,7 +3745,7 @@
         "Symbol": "PNB",
         "Series": "EQ",
         "ISIN Code": "INE160A01022",
-        "Beta": 1.72,
+        "Beta": 1.73,
         "Volatility": "high",
         "Price": 136.55
     },
@@ -3755,7 +3755,7 @@
         "Symbol": "QUESS",
         "Series": "EQ",
         "ISIN Code": "INE615P01015",
-        "Beta": 1.14,
+        "Beta": 1.13,
         "Volatility": "medium",
         "Price": 586.15
     },
@@ -3765,8 +3765,8 @@
         "Symbol": "RRKABEL",
         "Series": "EQ",
         "ISIN Code": "INE777K01022",
-        "Beta": 0.89,
-        "Volatility": "low",
+        "Beta": 1.15,
+        "Volatility": "medium",
         "Price": 1546.15
     },
     {
@@ -3785,7 +3785,7 @@
         "Symbol": "RECLTD",
         "Series": "EQ",
         "ISIN Code": "INE020B01018",
-        "Beta": 1.22,
+        "Beta": 1.23,
         "Volatility": "medium",
         "Price": 471.6
     },
@@ -3815,7 +3815,7 @@
         "Symbol": "RADICO",
         "Series": "EQ",
         "ISIN Code": "INE944F01028",
-        "Beta": 0.53,
+        "Beta": 0.52,
         "Volatility": "low",
         "Price": 1700.9
     },
@@ -3835,7 +3835,7 @@
         "Symbol": "RAILTEL",
         "Series": "EQ",
         "ISIN Code": "INE0DD101019",
-        "Beta": -0.45,
+        "Beta": -0.46,
         "Volatility": "very low",
         "Price": 395.55
     },
@@ -3855,7 +3855,7 @@
         "Symbol": "RAJESHEXPO",
         "Series": "EQ",
         "ISIN Code": "INE343B01030",
-        "Beta": 0.09,
+        "Beta": 0.1,
         "Volatility": "very low",
         "Price": 307.45
     },
@@ -3895,7 +3895,7 @@
         "Symbol": "RTNINDIA",
         "Series": "EQ",
         "ISIN Code": "INE834M01019",
-        "Beta": 1.35,
+        "Beta": 1.36,
         "Volatility": "medium",
         "Price": 76.55
     },
@@ -3915,7 +3915,7 @@
         "Symbol": "REDINGTON",
         "Series": "EQ",
         "ISIN Code": "INE891D01026",
-        "Beta": 0.9,
+        "Beta": 0.91,
         "Volatility": "low",
         "Price": 222.8
     },
@@ -3935,7 +3935,7 @@
         "Symbol": "RBA",
         "Series": "EQ",
         "ISIN Code": "INE07T201019",
-        "Beta": 0.23,
+        "Beta": 0.27,
         "Volatility": "very low",
         "Price": 105.45
     },
@@ -3955,8 +3955,8 @@
         "Symbol": "SBFC",
         "Series": "EQ",
         "ISIN Code": "INE423Y01016",
-        "Beta": 0.47,
-        "Volatility": "very low",
+        "Beta": 0.61,
+        "Volatility": "low",
         "Price": 83.45
     },
     {
@@ -4015,7 +4015,7 @@
         "Symbol": "SAFARI",
         "Series": "EQ",
         "ISIN Code": "INE429E01023",
-        "Beta": 0.78,
+        "Beta": 0.79,
         "Volatility": "low",
         "Price": 2042.0
     },
@@ -4045,7 +4045,7 @@
         "Symbol": "SAPPHIRE",
         "Series": "EQ",
         "ISIN Code": "INE806T01012",
-        "Beta": -0.14,
+        "Beta": -0.17,
         "Volatility": "very low",
         "Price": 1525.5
     },
@@ -4135,7 +4135,7 @@
         "Symbol": "SIGNATURE",
         "Series": "EQ",
         "ISIN Code": "INE903U01023",
-        "Beta": -1.46,
+        "Beta": -1.41,
         "Volatility": "medium",
         "Price": 1306.3
     },
@@ -4165,7 +4165,7 @@
         "Symbol": "SONACOMS",
         "Series": "EQ",
         "ISIN Code": "INE073K01018",
-        "Beta": -0.64,
+        "Beta": -0.66,
         "Volatility": "low",
         "Price": 662.6
     },
@@ -4185,7 +4185,7 @@
         "Symbol": "STARHEALTH",
         "Series": "EQ",
         "ISIN Code": "INE575P01011",
-        "Beta": 1.1,
+        "Beta": 1.09,
         "Volatility": "medium",
         "Price": 563.75
     },
@@ -4205,7 +4205,7 @@
         "Symbol": "SAIL",
         "Series": "EQ",
         "ISIN Code": "INE114A01011",
-        "Beta": 2.22,
+        "Beta": 2.21,
         "Volatility": "very high",
         "Price": 146.2
     },
@@ -4215,7 +4215,7 @@
         "Symbol": "SWSOLAR",
         "Series": "EQ",
         "ISIN Code": "INE00M201021",
-        "Beta": 1.34,
+        "Beta": 1.35,
         "Volatility": "medium",
         "Price": 523.0
     },
@@ -4225,7 +4225,7 @@
         "Symbol": "STLTECH",
         "Series": "EQ",
         "ISIN Code": "INE089C01029",
-        "Beta": 1.05,
+        "Beta": 1.04,
         "Volatility": "medium",
         "Price": 128.6
     },
@@ -4235,7 +4235,7 @@
         "Symbol": "SUMICHEM",
         "Series": "EQ",
         "ISIN Code": "INE258G01013",
-        "Beta": 0.23,
+        "Beta": 0.22,
         "Volatility": "very low",
         "Price": 380.15
     },
@@ -4245,7 +4245,7 @@
         "Symbol": "SPARC",
         "Series": "BE",
         "ISIN Code": "INE232I01014",
-        "Beta": 1.36,
+        "Beta": 1.37,
         "Volatility": "medium",
         "Price": 433.65
     },
@@ -4275,7 +4275,7 @@
         "Symbol": "SUNDARMFIN",
         "Series": "EQ",
         "ISIN Code": "INE660A01013",
-        "Beta": 1.16,
+        "Beta": 1.15,
         "Volatility": "medium",
         "Price": 4296.15
     },
@@ -4285,7 +4285,7 @@
         "Symbol": "SUNDRMFAST",
         "Series": "EQ",
         "ISIN Code": "INE387A01021",
-        "Beta": 1.22,
+        "Beta": 1.21,
         "Volatility": "medium",
         "Price": 1083.95
     },
@@ -4305,7 +4305,7 @@
         "Symbol": "SUPREMEIND",
         "Series": "EQ",
         "ISIN Code": "INE195A01028",
-        "Beta": 0.66,
+        "Beta": 0.67,
         "Volatility": "low",
         "Price": 4356.35
     },
@@ -4315,7 +4315,7 @@
         "Symbol": "SUVENPHAR",
         "Series": "EQ",
         "ISIN Code": "INE03QK01018",
-        "Beta": 1.45,
+        "Beta": 1.46,
         "Volatility": "medium",
         "Price": 648.2
     },
@@ -4325,7 +4325,7 @@
         "Symbol": "SUZLON",
         "Series": "BE",
         "ISIN Code": "INE040H01021",
-        "Beta": 1.57,
+        "Beta": 1.58,
         "Volatility": "high",
         "Price": 42.65
     },
@@ -4335,7 +4335,7 @@
         "Symbol": "SWANENERGY",
         "Series": "EQ",
         "ISIN Code": "INE665A01038",
-        "Beta": 0.15,
+        "Beta": 0.16,
         "Volatility": "very low",
         "Price": 674.9
     },
@@ -4345,7 +4345,7 @@
         "Symbol": "SYNGENE",
         "Series": "EQ",
         "ISIN Code": "INE398R01022",
-        "Beta": 0.77,
+        "Beta": 0.76,
         "Volatility": "low",
         "Price": 729.5
     },
@@ -4365,7 +4365,7 @@
         "Symbol": "TV18BRDCST",
         "Series": "BE",
         "ISIN Code": "INE886H01027",
-        "Beta": 1.12,
+        "Beta": 1.13,
         "Volatility": "medium",
         "Price": 48.55
     },
@@ -4375,7 +4375,7 @@
         "Symbol": "TVSMOTOR",
         "Series": "EQ",
         "ISIN Code": "INE494B01023",
-        "Beta": -0.07,
+        "Beta": -0.06,
         "Volatility": "very low",
         "Price": 2069.4
     },
@@ -4385,7 +4385,7 @@
         "Symbol": "TVSSCS",
         "Series": "EQ",
         "ISIN Code": "INE395N01027",
-        "Beta": -0.82,
+        "Beta": -0.84,
         "Volatility": "low",
         "Price": 175.95
     },
@@ -4395,7 +4395,7 @@
         "Symbol": "TMB",
         "Series": "EQ",
         "ISIN Code": "INE668A01016",
-        "Beta": -0.33,
+        "Beta": -0.31,
         "Volatility": "very low",
         "Price": 495.45
     },
@@ -4425,7 +4425,7 @@
         "Symbol": "TATACOMM",
         "Series": "EQ",
         "ISIN Code": "INE151A01013",
-        "Beta": 1.39,
+        "Beta": 1.4,
         "Volatility": "medium",
         "Price": 2061.8
     },
@@ -4445,7 +4445,7 @@
         "Symbol": "TATACONSUM",
         "Series": "EQ",
         "ISIN Code": "INE192A01025",
-        "Beta": 1.07,
+        "Beta": 1.06,
         "Volatility": "medium",
         "Price": 1115.55
     },
@@ -4455,7 +4455,7 @@
         "Symbol": "TATAELXSI",
         "Series": "EQ",
         "ISIN Code": "INE670A01012",
-        "Beta": 0.53,
+        "Beta": 0.54,
         "Volatility": "low",
         "Price": 8041.55
     },
@@ -4465,7 +4465,7 @@
         "Symbol": "TATAINVEST",
         "Series": "BE",
         "ISIN Code": "INE672A01018",
-        "Beta": 0.62,
+        "Beta": 0.63,
         "Volatility": "low",
         "Price": 7287.8
     },
@@ -4515,7 +4515,7 @@
         "Symbol": "TATATECH",
         "Series": "EQ",
         "ISIN Code": "INE142M01025",
-        "Beta": -0.36,
+        "Beta": -0.17,
         "Volatility": "very low",
         "Price": 1121.65
     },
@@ -4575,7 +4575,7 @@
         "Symbol": "THERMAX",
         "Series": "EQ",
         "ISIN Code": "INE152A01029",
-        "Beta": 0.42,
+        "Beta": 0.41,
         "Volatility": "very low",
         "Price": 4518.45
     },
@@ -4585,7 +4585,7 @@
         "Symbol": "TIMKEN",
         "Series": "EQ",
         "ISIN Code": "INE325A01013",
-        "Beta": 0.79,
+        "Beta": 0.8,
         "Volatility": "low",
         "Price": 2960.95
     },
@@ -4605,7 +4605,7 @@
         "Symbol": "TITAN",
         "Series": "EQ",
         "ISIN Code": "INE280A01028",
-        "Beta": 1.21,
+        "Beta": 1.22,
         "Volatility": "medium",
         "Price": 3754.45
     },
@@ -4635,7 +4635,7 @@
         "Symbol": "TRENT",
         "Series": "EQ",
         "ISIN Code": "INE849A01020",
-        "Beta": 1.18,
+        "Beta": 1.17,
         "Volatility": "medium",
         "Price": 3932.6
     },
@@ -4645,7 +4645,7 @@
         "Symbol": "TRIDENT",
         "Series": "EQ",
         "ISIN Code": "INE064C01022",
-        "Beta": 0.53,
+        "Beta": 0.54,
         "Volatility": "low",
         "Price": 41.1
     },
@@ -4675,7 +4675,7 @@
         "Symbol": "TIINDIA",
         "Series": "EQ",
         "ISIN Code": "INE974X01010",
-        "Beta": 1.05,
+        "Beta": 1.06,
         "Volatility": "medium",
         "Price": 3613.5
     },
@@ -4715,7 +4715,7 @@
         "Symbol": "UTIAMC",
         "Series": "EQ",
         "ISIN Code": "INE094J01016",
-        "Beta": -0.05,
+        "Beta": -0.04,
         "Volatility": "very low",
         "Price": 927.1
     },
@@ -4725,7 +4725,7 @@
         "Symbol": "UJJIVANSFB",
         "Series": "EQ",
         "ISIN Code": "INE551W01018",
-        "Beta": 1.1,
+        "Beta": 1.11,
         "Volatility": "medium",
         "Price": 55.9
     },
@@ -4755,7 +4755,7 @@
         "Symbol": "UBL",
         "Series": "EQ",
         "ISIN Code": "INE686F01025",
-        "Beta": 0.58,
+        "Beta": 0.57,
         "Volatility": "low",
         "Price": 1806.85
     },
@@ -4765,7 +4765,7 @@
         "Symbol": "MCDOWELL-N",
         "Series": "EQ",
         "ISIN Code": "INE854D01024",
-        "Beta": 0.7,
+        "Beta": 0.69,
         "Volatility": "low",
         "Price": 1128.3
     },
@@ -4775,7 +4775,7 @@
         "Symbol": "USHAMART",
         "Series": "EQ",
         "ISIN Code": "INE228A01035",
-        "Beta": 1.34,
+        "Beta": 1.33,
         "Volatility": "medium",
         "Price": 335.7
     },
@@ -4785,7 +4785,7 @@
         "Symbol": "VGUARD",
         "Series": "EQ",
         "ISIN Code": "INE951I01027",
-        "Beta": 0.13,
+        "Beta": 0.12,
         "Volatility": "very low",
         "Price": 341.0
     },
@@ -4805,7 +4805,7 @@
         "Symbol": "VAIBHAVGBL",
         "Series": "EQ",
         "ISIN Code": "INE884A01027",
-        "Beta": 0.64,
+        "Beta": 0.65,
         "Volatility": "low",
         "Price": 391.5
     },
@@ -4815,7 +4815,7 @@
         "Symbol": "VTL",
         "Series": "EQ",
         "ISIN Code": "INE825A01020",
-        "Beta": 0.87,
+        "Beta": 0.86,
         "Volatility": "low",
         "Price": 442.5
     },
@@ -4825,7 +4825,7 @@
         "Symbol": "VARROC",
         "Series": "EQ",
         "ISIN Code": "INE665L01035",
-        "Beta": 1.39,
+        "Beta": 1.4,
         "Volatility": "medium",
         "Price": 537.85
     },
@@ -4835,7 +4835,7 @@
         "Symbol": "VBL",
         "Series": "EQ",
         "ISIN Code": "INE200M01021",
-        "Beta": 0.93,
+        "Beta": 0.94,
         "Volatility": "low",
         "Price": 1493.75
     },
@@ -4845,7 +4845,7 @@
         "Symbol": "MANYAVAR",
         "Series": "EQ",
         "ISIN Code": "INE825V01034",
-        "Beta": 0.11,
+        "Beta": 0.1,
         "Volatility": "very low",
         "Price": 909.65
     },
@@ -4855,7 +4855,7 @@
         "Symbol": "VEDL",
         "Series": "EQ",
         "ISIN Code": "INE205A01025",
-        "Beta": 1.47,
+        "Beta": 1.44,
         "Volatility": "medium",
         "Price": 318.95
     },
@@ -4865,7 +4865,7 @@
         "Symbol": "VIJAYA",
         "Series": "EQ",
         "ISIN Code": "INE043W01024",
-        "Beta": -0.31,
+        "Beta": -0.3,
         "Volatility": "very low",
         "Price": 665.0
     },
@@ -4885,7 +4885,7 @@
         "Symbol": "VOLTAS",
         "Series": "EQ",
         "ISIN Code": "INE226A01021",
-        "Beta": 0.62,
+        "Beta": 0.61,
         "Volatility": "low",
         "Price": 1232.3
     },
@@ -4905,7 +4905,7 @@
         "Symbol": "WELSPUNLIV",
         "Series": "EQ",
         "ISIN Code": "INE192B01031",
-        "Beta": 0.4,
+        "Beta": 0.41,
         "Volatility": "very low",
         "Price": 155.0
     },
@@ -4935,7 +4935,7 @@
         "Symbol": "WIPRO",
         "Series": "EQ",
         "ISIN Code": "INE075A01022",
-        "Beta": 0.86,
+        "Beta": 0.87,
         "Volatility": "low",
         "Price": 485.05
     },
@@ -4955,7 +4955,7 @@
         "Symbol": "ZFCVINDIA",
         "Series": "EQ",
         "ISIN Code": "INE342J01019",
-        "Beta": 0.22,
+        "Beta": 0.23,
         "Volatility": "very low",
         "Price": 14736.5
     },
@@ -4975,7 +4975,7 @@
         "Symbol": "ZENSARTECH",
         "Series": "EQ",
         "ISIN Code": "INE520A01027",
-        "Beta": 1.62,
+        "Beta": 1.63,
         "Volatility": "high",
         "Price": 633.0
     },
@@ -4985,7 +4985,7 @@
         "Symbol": "ZOMATO",
         "Series": "EQ",
         "ISIN Code": "INE758T01015",
-        "Beta": -0.16,
+        "Beta": -0.17,
         "Volatility": "very low",
         "Price": 190.5
     },
@@ -4995,7 +4995,7 @@
         "Symbol": "ZYDUSLIFE",
         "Series": "EQ",
         "ISIN Code": "INE010B01027",
-        "Beta": 0.41,
+        "Beta": 0.42,
         "Volatility": "very low",
         "Price": 1006.5
     },

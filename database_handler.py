@@ -42,7 +42,7 @@ def userCreate(uname, legal_name, passwd, phone, risk_app):
     '''
     hashed_passwd = sha256(passwd.encode()).hexdigest()
     user_create = 'INSERT INTO users VALUES("{}", "{}", "{}", "{}", "{}")'.format(uname, legal_name, hashed_passwd, phone, risk_app)
-    user_portfolio_create = "CREATE TABLE {}(symbol varchar(255), shares int, CONSTRAINT primary key(symbol));".format(uname)
+    user_portfolio_create = "CREATE TABLE {}(symbol varchar(255), shares int, CONSTRAINT primary key(symbol), CHECK (shares>=0));".format(uname)
     try:
         cur.execute(user_create)
         cur.execute(user_portfolio_create)
@@ -125,7 +125,7 @@ def removeStock(uname, stock, shares):
         conn.commit()
         return 1
     except:
-        print("Unable to update portfolio. Check configuration.")
+        print("Number of shares to remove exceeds total number of shares bought.")
 
 def getRiskAppetite(uname):
     query = 'SELECT risk_app FROM users WHERE uname="{}"'.format(uname)

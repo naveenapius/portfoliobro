@@ -28,4 +28,3 @@ def simulate(portfolio, stock_code, volume, flag):
         
     new_beta = pbc.calcPortfolioBeta(new_portfolio)
     return new_beta
-
