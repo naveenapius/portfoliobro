@@ -1,5 +1,8 @@
 import json
 import mysql.connector
+from configparser import ConfigParser as cp
+CONFIGS = cp()
+CONFIGS.read('portfoliobro.conf')
 
 def initialiseTable(listing) : 
   
@@ -16,13 +19,13 @@ def initialiseTable(listing) :
   
   #Database connection parameters
   db = mysql.connector.connect(
-      host="localhost",
-      user="root",
-      password="",
-      database="portfoliobro_test",
-      port="3307",
-      buffered=True
-      )
+        host=CONFIGS.get('mysql', 'host'),
+        user=CONFIGS.get('mysql', 'user'),
+        password=CONFIGS.get('mysql', 'password'),
+        database=CONFIGS.get('mysql', 'database'),
+        port=CONFIGS.get('mysql', 'port'),
+        buffered=True
+        )
   
   #Connecting to database
   try :

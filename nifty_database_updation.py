@@ -1,6 +1,9 @@
 import json
 import mysql.connector
 import nifty500_db_init as init
+from configparser import ConfigParser as cp
+CONFIGS = cp()
+CONFIGS.read('portfoliobro.conf')
 
 #purpose of program is to extract instances of updated values from the json file to maintain in the database
 
@@ -22,13 +25,13 @@ def updateDatabase(listing) :
     
     #Database connection parameters
     db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="portfoliobro_test",
-    port="3307",
-    buffered=True
-    )
+        host=CONFIGS.get('mysql', 'host'),
+        user=CONFIGS.get('mysql', 'user'),
+        password=CONFIGS.get('mysql', 'password'),
+        database=CONFIGS.get('mysql', 'database'),
+        port=CONFIGS.get('mysql', 'port'),
+        buffered=True
+        )
     
     #Connecting to database
     try :

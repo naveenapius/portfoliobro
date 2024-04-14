@@ -2,6 +2,9 @@ import mysql.connector
 
 import portfolio_beta_calculator as pbc
 import beta_calculator as bc
+from configparser import ConfigParser as cp
+CONFIGS = cp()
+CONFIGS.read('portfoliobro.conf')
 
 
 def getVolatilityClass(volatility, risk_apt):
@@ -28,13 +31,14 @@ def getVolatilityClass(volatility, risk_apt):
 def getStocks(volatility_class):
     #Database connection parameters
     db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="portfoliobro_test",
-        port="3307",
+        host=CONFIGS.get('mysql', 'host'),
+        user=CONFIGS.get('mysql', 'user'),
+        password=CONFIGS.get('mysql', 'password'),
+        database=CONFIGS.get('mysql', 'database'),
+        port=CONFIGS.get('mysql', 'port'),
         buffered=True
         )
+
 
     #Connecting to database
     try :

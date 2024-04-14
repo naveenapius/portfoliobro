@@ -1,13 +1,17 @@
 import mysql.connector 
 from hashlib import sha256
 import pandas as pd
+from configparser import ConfigParser as cp
+CONFIGS = cp()
+CONFIGS.read('portfoliobro.conf')
+
 
 conn = mysql.connector.connect(
-host="localhost",
-user="root",
-password="",
-database="portfoliobro_test",
-port="3307",
+host=CONFIGS.get('mysql', 'host'),
+user=CONFIGS.get('mysql', 'user'),
+password=CONFIGS.get('mysql', 'password'),
+database=CONFIGS.get('mysql', 'database'),
+port=CONFIGS.get('mysql', 'port'),
 buffered=True
 )
 cur = conn.cursor()
@@ -130,3 +134,9 @@ def getRiskAppetite(uname):
         return cur.fetchall()[0][0]
     except:
         return "Unable to retrieve risk appetite for this user"
+    
+
+
+############TESTING CODE##################
+# print(getPortfolio('olivertwist'))
+########END OF TESTING CODE##############
