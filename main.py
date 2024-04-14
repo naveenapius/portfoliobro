@@ -2,7 +2,7 @@ import database_handler as dbh
 from matplotlib import pyplot as plt
 import suggestion_system as ss
 import simulator as sim
-LOGIN_STATUS = 0
+LOGIN_STATUS = 0 # latch for login management
 
 
 def simulatorHelper(uname):
