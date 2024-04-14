@@ -2,7 +2,8 @@ import portfolio_beta_calculator as pbc
 
 def simulate(portfolio, stock_code, volume, flag):
 
-    new_portfolio = portfolio.copy()
+    # convert portfolio as list of tuples into list of lists
+    new_portfolio = [list(item) for item in portfolio]
 
     # if stock already exists
     if any(stock_code == stock[0] for stock in new_portfolio):
@@ -11,7 +12,7 @@ def simulate(portfolio, stock_code, volume, flag):
                 if flag == 0: # addition
                     stock[1] += volume
                 else: # subtraction
-                    if volume >= stock[1]:
+                    if volume <= stock[1]:
                         stock[1] -= volume
                     else:
                         print("Error: not enough volume of stock to be deleted")
@@ -21,10 +22,14 @@ def simulate(portfolio, stock_code, volume, flag):
     # if stock does not exist
     else:
         if flag == 0:
-            new_portfolio.append((stock_code,volume),)
+            new_portfolio.append([stock_code,volume])
         else:
             print("Error: stock does not exist in portfolio")
             return
         
-    new_beta = pbc.calcPortfolioBeta(new_portfolio)
+    # convert new_portfolio as list of lists into list of tuples
+    portfolio_ret = [tuple(item) for item in new_portfolio]
+    new_beta = pbc.calcPortfolioBeta(portfolio_ret)
+
     return new_beta
+    # return portfolio_ret, new_beta

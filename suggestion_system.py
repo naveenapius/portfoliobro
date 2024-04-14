@@ -97,7 +97,7 @@ def suggestStocks(stocks, beta, risk_apt):
     else:
 
         # sort stocks by price
-        sorted_stocks = sorted(sorted_stocks, key= lambda x: x[5])
+        sorted_stocks = sorted(stocks, key= lambda x: x[5])
 
         # divide the stocks into 3 approximately equal parts
         num = len(stocks) // 3
