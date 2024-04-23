@@ -47,14 +47,45 @@ def uLogin():
         return 0
 
 
+def getRisk(opt):
+    if opt == 'vl':
+        return "very low"
+    elif opt == 'l':
+        return "low"
+    elif opt == "m":
+        return "medium"
+    elif opt == "h":
+        return "high"
+    elif opt == "vh":
+        return "very high"
+    else:
+        return 0
+
 def uSignUp():
     print("\nHello! Let's set up your account.\n")
     legal_name = input("Enter your legal name: ")
     uname = input("Enter new username: ")
-    passwd = mp.askpass(prompt = "Enter password: ", mask="*")
+    while(True):
+        passwd = mp.askpass(prompt = "Enter password: ", mask="*")
+        passwd_rpt = mp.askpass(prompt = "Re-enter password to confirm: ", mask="*")
+        if passwd != passwd_rpt:
+            print("Passwords do not match. Please try again.")
+        else:
+            break
+    
+    
     phone = input("Enter phone number: ")
-    risk_app = input("Enter your risk appetite: ")
-    dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
+    while(True):
+        print("\nRisk appetite selection:")
+        print("Available options: ")
+        print("vl - Very low\nl - Low\nm - Medium\nh - High\nvh - Very high")
+        risk_app_opt = input("Enter your risk appetite: ")
+        risk_app = getRisk(risk_app_opt)
+        if risk_app != 0:
+            dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
+            break
+        else:
+            print("Invalid option. Please try again.")
     return
 
 def showPortfolio(uname):
