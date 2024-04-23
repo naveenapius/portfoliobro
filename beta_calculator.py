@@ -69,11 +69,11 @@ def checkVolatility(raw_beta):
 def checkMarketCap(market_cap_value) :
     
     if market_cap_value < 50000000000 :
-        return ("small cap")
+        return ("small")
     elif market_cap_value >= 50000000000 and market_cap_value < 200000000000 :
-        return ("mid cap")
+        return ("mid")
     elif market_cap_value >= 200000000000 :
-        return ("large cap")
+        return ("large")
     else:
         pass
 
