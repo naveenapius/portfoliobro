@@ -56,7 +56,7 @@ def initNifty500(listing):
         try :
             print("Attempting to populate table nifty_500...")
             for Company in listing:
-                insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"])
+                insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}","{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"], Company["Market Cap"])
                 cursor.execute(insert_row)
         except mysql.connector.errors.IntegrityError :
             print("Table population skipped. Table already populated with values.")
@@ -65,14 +65,14 @@ def initNifty500(listing):
     else :
         print("Attempting to create table nifty_500...")
         try :
-            table_create_query="CREATE TABLE nifty_500 (companyName varchar(250), industry varchar(50), symbol varchar(15), series varchar(5),  ISINCode varchar(20), Price decimal(10,2), Beta decimal(4,2), Volatility varchar(15), CONSTRAINT pk_nifty PRIMARY KEY(symbol))"
+            table_create_query="CREATE TABLE nifty_500 (companyName varchar(250), industry varchar(50), symbol varchar(15), series varchar(5),  ISINCode varchar(20), Price decimal(10,2), Beta decimal(4,2), Volatility varchar(15), MarketCap varchar(15), CONSTRAINT pk_nifty PRIMARY KEY(symbol))"
             cursor.execute(table_create_query)
             print("Table nifty_500 created successfully")
         except : 
             print("Table nifty_500 already exists. Initializatio skipped.")
         for Company in listing:
             try:
-                insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"])
+                insert_row = 'INSERT INTO nifty_500 values("{}","{}","{}","{}","{}","{}",{},"{}","{}")'.format(Company["Company Name"], Company["Industry"], Company["Symbol"], Company["Series"], Company["ISIN Code"], Company["Price"], Company["Beta"], Company["Volatility"], Company["Market Cap"])
                 cursor.execute(insert_row)
             except:
                 print("Record already exists for listing: {}".format(Company["Symbol"]))
