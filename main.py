@@ -121,6 +121,11 @@ def showLoggedInMenu():
     print("q - Quit\n")
 
 
+def showVisualiserMenu():
+    print("\nAvailable actions: ")
+    print("p - Visualise portfolio contents")
+    print("b - Visualise beta of portfolio")
+    print("r - Visualise risk/return of portfolio\n")
 
 #main
 while True:
@@ -144,7 +149,14 @@ while True:
             updatePortfolio(user_name)
         elif opt=='v':
             portfolio = dbh.getPortfolio(user_name)
-            vis.weightedPortfolioVisualisation(portfolio, user_name)
+            showVisualiserMenu()
+            opt = input("Action>> ")
+            if opt=='p':
+                vis.weightedPortfolioVisualisation(portfolio, user_name)
+            elif opt=='b':
+                vis.betaVisualisation(portfolio, user_name)
+            elif opt=='r':
+                vis.riskReturnVisualisation(portfolio,user_name)
         elif opt=='s':
             simulatorHelper(user_name)
         elif opt=='l':
