@@ -1,0 +1,5 @@
+suggested volatility = sv
+s = get stocks in sv
+maxs = max price of stocks in sv
+mins =  min price of stocks in sv
+ranges = (maxs-mins)/3

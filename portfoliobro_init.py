@@ -115,6 +115,7 @@ with open('database.json', 'r') as f:
         listing = json.load(f)
         initNifty500(listing)
 initUserTable()
+
 ############TESTING CODE##################
 # print(getCursor())
 ########END OF TESTING CODE##############

@@ -7,7 +7,7 @@
         "ISIN Code": "INE466L01038",
         "Beta": 1.21,
         "Volatility": "medium",
-        "Price": 715.9
+        "Price": 752.0
     },
     {
         "Company Name": "3M India Ltd.",
@@ -17,7 +17,7 @@
         "ISIN Code": "INE470A01017",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 30348.45
+        "Price": 29700.0
     },
     {
         "Company Name": "ABB India Ltd.",
@@ -27,7 +27,7 @@
         "ISIN Code": "INE117A01022",
         "Beta": 1.24,
         "Volatility": "medium",
-        "Price": 6669.85
+        "Price": 6742.0
     },
     {
         "Company Name": "ACC Ltd.",
@@ -37,7 +37,7 @@
         "ISIN Code": "INE012A01025",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 2575.1
+        "Price": 2471.0
     },
     {
         "Company Name": "AIA Engineering Ltd.",
@@ -47,7 +47,7 @@
         "ISIN Code": "INE212H01026",
         "Beta": 0.17,
         "Volatility": "very low",
-        "Price": 3995.65
+        "Price": 3940.0
     },
     {
         "Company Name": "APL Apollo Tubes Ltd.",
@@ -57,7 +57,7 @@
         "ISIN Code": "INE702C01027",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 1550.85
+        "Price": 1552.0
     },
     {
         "Company Name": "AU Small Finance Bank Ltd.",
@@ -67,7 +67,7 @@
         "ISIN Code": "INE949L01017",
         "Beta": 1.42,
         "Volatility": "medium",
-        "Price": 634.75
+        "Price": 637.9
     },
     {
         "Company Name": "Aarti Industries Ltd.",
@@ -77,7 +77,7 @@
         "ISIN Code": "INE769A01020",
         "Beta": 1.19,
         "Volatility": "medium",
-        "Price": 696.45
+        "Price": 752.0
     },
     {
         "Company Name": "Aavas Financiers Ltd.",
@@ -87,7 +87,7 @@
         "ISIN Code": "INE216P01012",
         "Beta": 1.01,
         "Volatility": "medium",
-        "Price": 1598.55
+        "Price": 1572.9
     },
     {
         "Company Name": "Abbott India Ltd.",
@@ -97,7 +97,7 @@
         "ISIN Code": "INE358A01014",
         "Beta": 0.1,
         "Volatility": "very low",
-        "Price": 26636.9
+        "Price": 26499.95
     },
     {
         "Company Name": "Action Construction Equipment Ltd.",
@@ -107,7 +107,7 @@
         "ISIN Code": "INE731H01025",
         "Beta": 1.43,
         "Volatility": "medium",
-        "Price": 1573.85
+        "Price": 1490.0
     },
     {
         "Company Name": "Adani Energy Solutions Ltd.",
@@ -117,7 +117,7 @@
         "ISIN Code": "INE931S01010",
         "Beta": -0.28,
         "Volatility": "very low",
-        "Price": 1096.3
+        "Price": 1065.25
     },
     {
         "Company Name": "Adani Enterprises Ltd.",
@@ -127,7 +127,7 @@
         "ISIN Code": "INE423A01024",
         "Beta": 1.8,
         "Volatility": "high",
-        "Price": 3224.8
+        "Price": 3215.0
     },
     {
         "Company Name": "Adani Green Energy Ltd.",
@@ -137,7 +137,7 @@
         "ISIN Code": "INE364U01010",
         "Beta": 1.95,
         "Volatility": "high",
-        "Price": 1901.95
+        "Price": 1887.0
     },
     {
         "Company Name": "Adani Ports and Special Economic Zone Ltd.",
@@ -147,7 +147,7 @@
         "ISIN Code": "INE742F01042",
         "Beta": 1.39,
         "Volatility": "medium",
-        "Price": 1375.55
+        "Price": 1347.0
     },
     {
         "Company Name": "Adani Power Ltd.",
@@ -157,7 +157,7 @@
         "ISIN Code": "INE814H01011",
         "Beta": 0.85,
         "Volatility": "low",
-        "Price": 626.7
+        "Price": 600.0
     },
     {
         "Company Name": "Adani Total Gas Ltd.",
@@ -167,7 +167,7 @@
         "ISIN Code": "INE399L01023",
         "Beta": 3.28,
         "Volatility": "very high",
-        "Price": 979.0
+        "Price": 950.0
     },
     {
         "Company Name": "Adani Wilmar Ltd.",
@@ -177,7 +177,7 @@
         "ISIN Code": "INE699H01024",
         "Beta": 0.31,
         "Volatility": "very low",
-        "Price": 352.2
+        "Price": 346.0
     },
     {
         "Company Name": "Aditya Birla Capital Ltd.",
@@ -187,7 +187,7 @@
         "ISIN Code": "INE674K01013",
         "Beta": 1.59,
         "Volatility": "high",
-        "Price": 204.8
+        "Price": 203.0
     },
     {
         "Company Name": "Aditya Birla Fashion and Retail Ltd.",
@@ -197,7 +197,7 @@
         "ISIN Code": "INE647O01011",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 237.35
+        "Price": 234.25
     },
     {
         "Company Name": "Aegis Logistics Ltd.",
@@ -207,7 +207,7 @@
         "ISIN Code": "INE208C01025",
         "Beta": 0.83,
         "Volatility": "low",
-        "Price": 433.8
+        "Price": 480.0
     },
     {
         "Company Name": "Aether Industries Ltd.",
@@ -217,7 +217,7 @@
         "ISIN Code": "INE0BWX01014",
         "Beta": -0.36,
         "Volatility": "very low",
-        "Price": 844.35
+        "Price": 842.15
     },
     {
         "Company Name": "Affle (India) Ltd.",
@@ -227,7 +227,7 @@
         "ISIN Code": "INE00WC01027",
         "Beta": 1.38,
         "Volatility": "medium",
-        "Price": 1096.0
+        "Price": 1075.0
     },
     {
         "Company Name": "Ajanta Pharmaceuticals Ltd.",
@@ -237,7 +237,7 @@
         "ISIN Code": "INE031B01049",
         "Beta": 0.36,
         "Volatility": "very low",
-        "Price": 2181.6
+        "Price": 2128.5
     },
     {
         "Company Name": "Alembic Pharmaceuticals Ltd.",
@@ -247,7 +247,7 @@
         "ISIN Code": "INE901L01018",
         "Beta": 0.3,
         "Volatility": "very low",
-        "Price": 1008.55
+        "Price": 994.0
     },
     {
         "Company Name": "Alkem Laboratories Ltd.",
@@ -257,7 +257,7 @@
         "ISIN Code": "INE540L01014",
         "Beta": 0.84,
         "Volatility": "low",
-        "Price": 4912.65
+        "Price": 4737.0
     },
     {
         "Company Name": "Alkyl Amines Chemicals Ltd.",
@@ -267,7 +267,7 @@
         "ISIN Code": "INE150B01039",
         "Beta": 0.93,
         "Volatility": "low",
-        "Price": 2103.6
+        "Price": 2130.0
     },
     {
         "Company Name": "Allcargo Logistics Ltd.",
@@ -277,7 +277,7 @@
         "ISIN Code": "INE418H01029",
         "Beta": 1.17,
         "Volatility": "medium",
-        "Price": 77.6
+        "Price": 72.95
     },
     {
         "Company Name": "Alok Industries Ltd.",
@@ -287,7 +287,7 @@
         "ISIN Code": "INE270A01029",
         "Beta": 0.7,
         "Volatility": "low",
-        "Price": 28.7
+        "Price": 27.7
     },
     {
         "Company Name": "Amara Raja Energy & Mobility Ltd.",
@@ -297,7 +297,7 @@
         "ISIN Code": "INE885A01032",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 810.6
+        "Price": 887.0
     },
     {
         "Company Name": "Amber Enterprises India Ltd.",
@@ -307,7 +307,7 @@
         "ISIN Code": "INE371P01015",
         "Beta": 0.39,
         "Volatility": "very low",
-        "Price": 3750.8
+        "Price": 3705.0
     },
     {
         "Company Name": "Ambuja Cements Ltd.",
@@ -317,7 +317,7 @@
         "ISIN Code": "INE079A01024",
         "Beta": 0.54,
         "Volatility": "low",
-        "Price": 627.2
+        "Price": 612.0
     },
     {
         "Company Name": "Anand Rathi Wealth Ltd.",
@@ -327,7 +327,7 @@
         "ISIN Code": "INE463V01026",
         "Beta": -0.68,
         "Volatility": "low",
-        "Price": 3630.85
+        "Price": 4050.0
     },
     {
         "Company Name": "Angel One Ltd.",
@@ -337,7 +337,7 @@
         "ISIN Code": "INE732I01013",
         "Beta": 1.45,
         "Volatility": "medium",
-        "Price": 2977.9
+        "Price": 2882.0
     },
     {
         "Company Name": "Anupam Rasayan India Ltd.",
@@ -347,7 +347,7 @@
         "ISIN Code": "INE930P01018",
         "Beta": -0.57,
         "Volatility": "low",
-        "Price": 893.2
+        "Price": 873.2
     },
     {
         "Company Name": "Apar Industries Ltd.",
@@ -357,7 +357,7 @@
         "ISIN Code": "INE372A01015",
         "Beta": 0.27,
         "Volatility": "very low",
-        "Price": 7346.15
+        "Price": 6971.55
     },
     {
         "Company Name": "Apollo Hospitals Enterprise Ltd.",
@@ -367,7 +367,7 @@
         "ISIN Code": "INE437A01024",
         "Beta": 0.69,
         "Volatility": "low",
-        "Price": 6397.75
+        "Price": 6414.0
     },
     {
         "Company Name": "Apollo Tyres Ltd.",
@@ -377,7 +377,7 @@
         "ISIN Code": "INE438A01022",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 468.45
+        "Price": 484.0
     },
     {
         "Company Name": "Aptus Value Housing Finance India Ltd.",
@@ -387,7 +387,7 @@
         "ISIN Code": "INE852O01025",
         "Beta": -0.44,
         "Volatility": "very low",
-        "Price": 328.35
+        "Price": 324.6
     },
     {
         "Company Name": "Archean Chemical Industries Ltd.",
@@ -397,7 +397,7 @@
         "ISIN Code": "INE128X01021",
         "Beta": -0.73,
         "Volatility": "low",
-        "Price": 626.55
+        "Price": 699.0
     },
     {
         "Company Name": "Asahi India Glass Ltd.",
@@ -407,7 +407,7 @@
         "ISIN Code": "INE439A01020",
         "Beta": 0.54,
         "Volatility": "low",
-        "Price": 595.55
+        "Price": 586.0
     },
     {
         "Company Name": "Ashok Leyland Ltd.",
@@ -417,7 +417,7 @@
         "ISIN Code": "INE208A01029",
         "Beta": 0.67,
         "Volatility": "low",
-        "Price": 176.0
+        "Price": 178.2
     },
     {
         "Company Name": "Asian Paints Ltd.",
@@ -427,7 +427,7 @@
         "ISIN Code": "INE021A01026",
         "Beta": 1.08,
         "Volatility": "medium",
-        "Price": 2883.45
+        "Price": 2853.0
     },
     {
         "Company Name": "Aster DM Healthcare Ltd.",
@@ -437,7 +437,7 @@
         "ISIN Code": "INE914M01019",
         "Beta": 1.34,
         "Volatility": "medium",
-        "Price": 456.75
+        "Price": 487.0
     },
     {
         "Company Name": "AstraZenca Pharma India Ltd.",
@@ -447,7 +447,7 @@
         "ISIN Code": "INE203A01020",
         "Beta": 0.26,
         "Volatility": "very low",
-        "Price": 5146.75
+        "Price": 5300.0
     },
     {
         "Company Name": "Astral Ltd.",
@@ -457,7 +457,7 @@
         "ISIN Code": "INE006I01046",
         "Beta": 1.24,
         "Volatility": "medium",
-        "Price": 2042.3
+        "Price": 1969.9
     },
     {
         "Company Name": "Atul Ltd.",
@@ -467,7 +467,7 @@
         "ISIN Code": "INE100A01010",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 5971.15
+        "Price": 6155.5
     },
     {
         "Company Name": "Aurobindo Pharma Ltd.",
@@ -477,7 +477,7 @@
         "ISIN Code": "INE406A01037",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 1123.7
+        "Price": 1093.3
     },
     {
         "Company Name": "Avanti Feeds Ltd.",
@@ -487,7 +487,7 @@
         "ISIN Code": "INE871C01038",
         "Beta": 0.3,
         "Volatility": "very low",
-        "Price": 528.45
+        "Price": 520.2
     },
     {
         "Company Name": "Avenue Supermarts Ltd.",
@@ -497,7 +497,7 @@
         "ISIN Code": "INE192R01011",
         "Beta": 0.95,
         "Volatility": "low",
-        "Price": 4619.25
+        "Price": 4765.85
     },
     {
         "Company Name": "Axis Bank Ltd.",
@@ -507,7 +507,7 @@
         "ISIN Code": "INE238A01034",
         "Beta": 1.37,
         "Volatility": "medium",
-        "Price": 1059.1
+        "Price": 1073.0
     },
     {
         "Company Name": "BEML Ltd.",
@@ -517,7 +517,7 @@
         "ISIN Code": "INE258A01016",
         "Beta": 1.5,
         "Volatility": "medium",
-        "Price": 3356.55
+        "Price": 3450.0
     },
     {
         "Company Name": "BLS International Services Ltd.",
@@ -527,7 +527,7 @@
         "ISIN Code": "INE153T01027",
         "Beta": 1.59,
         "Volatility": "high",
-        "Price": 352.85
+        "Price": 336.95
     },
     {
         "Company Name": "BSE Ltd.",
@@ -537,7 +537,7 @@
         "ISIN Code": "INE118H01025",
         "Beta": 1.07,
         "Volatility": "medium",
-        "Price": 2875.6
+        "Price": 2836.0
     },
     {
         "Company Name": "Bajaj Auto Ltd.",
@@ -547,7 +547,7 @@
         "ISIN Code": "INE917I01010",
         "Beta": 0.67,
         "Volatility": "low",
-        "Price": 9009.5
+        "Price": 9074.15
     },
     {
         "Company Name": "Bajaj Finance Ltd.",
@@ -557,7 +557,7 @@
         "ISIN Code": "INE296A01024",
         "Beta": 2.29,
         "Volatility": "very high",
-        "Price": 7175.65
+        "Price": 7210.0
     },
     {
         "Company Name": "Bajaj Finserv Ltd.",
@@ -567,7 +567,7 @@
         "ISIN Code": "INE918I01026",
         "Beta": 2.31,
         "Volatility": "very high",
-        "Price": 1677.95
+        "Price": 1696.0
     },
     {
         "Company Name": "Bajaj Holdings & Investment Ltd.",
@@ -577,7 +577,7 @@
         "ISIN Code": "INE118A01012",
         "Beta": 1.04,
         "Volatility": "medium",
-        "Price": 8195.55
+        "Price": 8190.0
     },
     {
         "Company Name": "Balaji Amines Ltd.",
@@ -587,7 +587,7 @@
         "ISIN Code": "INE050E01027",
         "Beta": 1.85,
         "Volatility": "high",
-        "Price": 2238.4
+        "Price": 2280.0
     },
     {
         "Company Name": "Balkrishna Industries Ltd.",
@@ -597,7 +597,7 @@
         "ISIN Code": "INE787D01026",
         "Beta": 0.95,
         "Volatility": "low",
-        "Price": 2404.5
+        "Price": 2396.3
     },
     {
         "Company Name": "Balrampur Chini Mills Ltd.",
@@ -607,7 +607,7 @@
         "ISIN Code": "INE119A01028",
         "Beta": 0.68,
         "Volatility": "low",
-        "Price": 388.9
+        "Price": 378.0
     },
     {
         "Company Name": "Bandhan Bank Ltd.",
@@ -617,7 +617,7 @@
         "ISIN Code": "INE545U01014",
         "Beta": 1.58,
         "Volatility": "high",
-        "Price": 197.35
+        "Price": 183.05
     },
     {
         "Company Name": "Bank of Baroda",
@@ -627,7 +627,7 @@
         "ISIN Code": "INE028A01039",
         "Beta": 1.69,
         "Volatility": "high",
-        "Price": 268.9
+        "Price": 267.7
     },
     {
         "Company Name": "Bank of India",
@@ -637,7 +637,7 @@
         "ISIN Code": "INE084A01016",
         "Beta": 2.03,
         "Volatility": "very high",
-        "Price": 148.5
+        "Price": 143.1
     },
     {
         "Company Name": "Bank of Maharashtra",
@@ -647,7 +647,7 @@
         "ISIN Code": "INE457A01014",
         "Beta": 1.28,
         "Volatility": "medium",
-        "Price": 65.7
+        "Price": 63.5
     },
     {
         "Company Name": "Bata India Ltd.",
@@ -657,7 +657,7 @@
         "ISIN Code": "INE176A01028",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 1359.4
+        "Price": 1388.0
     },
     {
         "Company Name": "Bayer Cropscience Ltd.",
@@ -667,7 +667,7 @@
         "ISIN Code": "INE462A01022",
         "Beta": 0.16,
         "Volatility": "very low",
-        "Price": 5423.0
+        "Price": 5472.0
     },
     {
         "Company Name": "Berger Paints India Ltd.",
@@ -677,7 +677,7 @@
         "ISIN Code": "INE463A01038",
         "Beta": 0.83,
         "Volatility": "low",
-        "Price": 562.15
+        "Price": 556.8
     },
     {
         "Company Name": "Bharat Dynamics Ltd.",
@@ -687,7 +687,7 @@
         "ISIN Code": "INE171Z01018",
         "Beta": 1.36,
         "Volatility": "medium",
-        "Price": 1744.8
+        "Price": 1764.5
     },
     {
         "Company Name": "Bharat Electronics Ltd.",
@@ -697,7 +697,7 @@
         "ISIN Code": "INE263A01024",
         "Beta": 1.31,
         "Volatility": "medium",
-        "Price": 224.5
+        "Price": 233.6
     },
     {
         "Company Name": "Bharat Forge Ltd.",
@@ -707,7 +707,7 @@
         "ISIN Code": "INE465A01025",
         "Beta": 0.97,
         "Volatility": "low",
-        "Price": 1145.65
+        "Price": 1174.9
     },
     {
         "Company Name": "Bharat Heavy Electricals Ltd.",
@@ -717,7 +717,7 @@
         "ISIN Code": "INE257A01026",
         "Beta": 1.92,
         "Volatility": "high",
-        "Price": 254.95
+        "Price": 261.8
     },
     {
         "Company Name": "Bharat Petroleum Corporation Ltd.",
@@ -727,7 +727,7 @@
         "ISIN Code": "INE029A01011",
         "Beta": 1.21,
         "Volatility": "medium",
-        "Price": 590.45
+        "Price": 601.0
     },
     {
         "Company Name": "Bharti Airtel Ltd.",
@@ -737,7 +737,7 @@
         "ISIN Code": "INE397D01024",
         "Beta": 0.51,
         "Volatility": "low",
-        "Price": 1191.0
+        "Price": 1222.85
     },
     {
         "Company Name": "Bikaji Foods International Ltd.",
@@ -747,7 +747,7 @@
         "ISIN Code": "INE00E101023",
         "Beta": -0.38,
         "Volatility": "very low",
-        "Price": 539.55
+        "Price": 538.35
     },
     {
         "Company Name": "Biocon Ltd.",
@@ -757,7 +757,7 @@
         "ISIN Code": "INE376G01013",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 270.95
+        "Price": 273.85
     },
     {
         "Company Name": "Birla Corporation Ltd.",
@@ -767,7 +767,7 @@
         "ISIN Code": "INE340A01012",
         "Beta": 1.01,
         "Volatility": "medium",
-        "Price": 1507.65
+        "Price": 1528.5
     },
     {
         "Company Name": "Birlasoft Ltd.",
@@ -777,7 +777,7 @@
         "ISIN Code": "INE836A01035",
         "Beta": 1.14,
         "Volatility": "medium",
-        "Price": 749.15
+        "Price": 733.0
     },
     {
         "Company Name": "Blue Dart Express Ltd.",
@@ -787,7 +787,7 @@
         "ISIN Code": "INE233B01017",
         "Beta": 0.68,
         "Volatility": "low",
-        "Price": 6075.7
+        "Price": 6015.0
     },
     {
         "Company Name": "Blue Star Ltd.",
@@ -797,7 +797,7 @@
         "ISIN Code": "INE472A01039",
         "Beta": 0.66,
         "Volatility": "low",
-        "Price": 1363.35
+        "Price": 1390.0
     },
     {
         "Company Name": "Bombay Burmah Trading Corporation Ltd.",
@@ -807,7 +807,7 @@
         "ISIN Code": "INE050A01025",
         "Beta": 0.91,
         "Volatility": "low",
-        "Price": 1623.75
+        "Price": 1598.0
     },
     {
         "Company Name": "Borosil Renewables Ltd.",
@@ -817,7 +817,7 @@
         "ISIN Code": "INE666D01022",
         "Beta": 3.54,
         "Volatility": "very high",
-        "Price": 540.05
+        "Price": 540.3
     },
     {
         "Company Name": "Bosch Ltd.",
@@ -827,7 +827,7 @@
         "ISIN Code": "INE323A01026",
         "Beta": 0.49,
         "Volatility": "very low",
-        "Price": 30792.85
+        "Price": 29891.65
     },
     {
         "Company Name": "Brigade Enterprises Ltd.",
@@ -837,7 +837,7 @@
         "ISIN Code": "INE791I01019",
         "Beta": 1.37,
         "Volatility": "medium",
-        "Price": 964.7
+        "Price": 1003.8
     },
     {
         "Company Name": "Britannia Industries Ltd.",
@@ -847,7 +847,7 @@
         "ISIN Code": "INE216A01030",
         "Beta": 0.58,
         "Volatility": "low",
-        "Price": 4813.05
+        "Price": 4749.0
     },
     {
         "Company Name": "C.E. Info Systems Ltd.",
@@ -857,7 +857,7 @@
         "ISIN Code": "INE0BV301023",
         "Beta": 0.45,
         "Volatility": "very low",
-        "Price": 1901.2
+        "Price": 1840.0
     },
     {
         "Company Name": "CCL Products (I) Ltd.",
@@ -867,7 +867,7 @@
         "ISIN Code": "INE421D01022",
         "Beta": 0.4,
         "Volatility": "very low",
-        "Price": 579.95
+        "Price": 582.0
     },
     {
         "Company Name": "CESC Ltd.",
@@ -877,7 +877,7 @@
         "ISIN Code": "INE486A01021",
         "Beta": 0.84,
         "Volatility": "low",
-        "Price": 135.5
+        "Price": 141.6
     },
     {
         "Company Name": "CG Power and Industrial Solutions Ltd.",
@@ -887,7 +887,7 @@
         "ISIN Code": "INE067A01029",
         "Beta": 2.16,
         "Volatility": "very high",
-        "Price": 514.45
+        "Price": 496.5
     },
     {
         "Company Name": "CIE Automotive India Ltd.",
@@ -897,7 +897,7 @@
         "ISIN Code": "INE536H01010",
         "Beta": 0.37,
         "Volatility": "very low",
-        "Price": 487.2
+        "Price": 487.5
     },
     {
         "Company Name": "CRISIL Ltd.",
@@ -907,7 +907,7 @@
         "ISIN Code": "INE007A01025",
         "Beta": -0.04,
         "Volatility": "very low",
-        "Price": 4894.95
+        "Price": 4820.0
     },
     {
         "Company Name": "CSB Bank Ltd.",
@@ -917,7 +917,7 @@
         "ISIN Code": "INE679A01013",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 389.2
+        "Price": 385.0
     },
     {
         "Company Name": "Campus Activewear Ltd.",
@@ -927,7 +927,7 @@
         "ISIN Code": "INE278Y01022",
         "Beta": 0.58,
         "Volatility": "low",
-        "Price": 236.75
+        "Price": 237.6
     },
     {
         "Company Name": "Can Fin Homes Ltd.",
@@ -937,7 +937,7 @@
         "ISIN Code": "INE477A01020",
         "Beta": 1.49,
         "Volatility": "medium",
-        "Price": 798.85
+        "Price": 788.0
     },
     {
         "Company Name": "Canara Bank",
@@ -947,7 +947,7 @@
         "ISIN Code": "INE476A01014",
         "Beta": 1.8,
         "Volatility": "high",
-        "Price": 615.0
+        "Price": 606.0
     },
     {
         "Company Name": "Caplin Point Laboratories Ltd.",
@@ -957,7 +957,7 @@
         "ISIN Code": "INE475E01026",
         "Beta": 0.81,
         "Volatility": "low",
-        "Price": 1280.9
+        "Price": 1295.25
     },
     {
         "Company Name": "Capri Global Capital Ltd.",
@@ -967,7 +967,7 @@
         "ISIN Code": "INE180C01042",
         "Beta": 0.59,
         "Volatility": "low",
-        "Price": 221.9
+        "Price": 217.2
     },
     {
         "Company Name": "Carborundum Universal Ltd.",
@@ -977,7 +977,7 @@
         "ISIN Code": "INE120A01034",
         "Beta": 1.13,
         "Volatility": "medium",
-        "Price": 1275.15
+        "Price": 1252.0
     },
     {
         "Company Name": "Castrol India Ltd.",
@@ -987,7 +987,7 @@
         "ISIN Code": "INE172A01027",
         "Beta": 0.88,
         "Volatility": "low",
-        "Price": 209.15
+        "Price": 223.05
     },
     {
         "Company Name": "Ceat Ltd.",
@@ -997,7 +997,7 @@
         "ISIN Code": "INE482A01020",
         "Beta": 0.74,
         "Volatility": "low",
-        "Price": 2686.0
+        "Price": 2587.0
     },
     {
         "Company Name": "Cello World Ltd.",
@@ -1007,7 +1007,7 @@
         "ISIN Code": "INE0LMW01024",
         "Beta": 0.32,
         "Volatility": "very low",
-        "Price": 821.95
+        "Price": 835.0
     },
     {
         "Company Name": "Central Bank of India",
@@ -1017,7 +1017,7 @@
         "ISIN Code": "INE483A01010",
         "Beta": 1.28,
         "Volatility": "medium",
-        "Price": 65.6
+        "Price": 63.95
     },
     {
         "Company Name": "Central Depository Services (India) Ltd.",
@@ -1027,7 +1027,7 @@
         "ISIN Code": "INE736A01011",
         "Beta": 0.99,
         "Volatility": "low",
-        "Price": 1884.45
+        "Price": 2002.9
     },
     {
         "Company Name": "Century Plyboards (India) Ltd.",
@@ -1037,7 +1037,7 @@
         "ISIN Code": "INE348B01021",
         "Beta": 1.27,
         "Volatility": "medium",
-        "Price": 657.85
+        "Price": 646.0
     },
     {
         "Company Name": "Century Textile & Industries Ltd.",
@@ -1047,7 +1047,7 @@
         "ISIN Code": "INE055A01016",
         "Beta": 1.02,
         "Volatility": "medium",
-        "Price": 1669.8
+        "Price": 1788.8
     },
     {
         "Company Name": "Cera Sanitaryware Ltd",
@@ -1057,7 +1057,7 @@
         "ISIN Code": "INE739E01017",
         "Beta": 0.41,
         "Volatility": "very low",
-        "Price": 7327.65
+        "Price": 7138.5
     },
     {
         "Company Name": "Chalet Hotels Ltd.",
@@ -1067,7 +1067,7 @@
         "ISIN Code": "INE427F01016",
         "Beta": 1.05,
         "Volatility": "medium",
-        "Price": 850.9
+        "Price": 874.35
     },
     {
         "Company Name": "Chambal Fertilizers & Chemicals Ltd.",
@@ -1077,7 +1077,7 @@
         "ISIN Code": "INE085A01013",
         "Beta": 1.73,
         "Volatility": "high",
-        "Price": 380.75
+        "Price": 373.8
     },
     {
         "Company Name": "Chemplast Sanmar Ltd.",
@@ -1087,7 +1087,7 @@
         "ISIN Code": "INE488A01050",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 485.65
+        "Price": 488.0
     },
     {
         "Company Name": "Chennai Petroleum Corporation Ltd.",
@@ -1097,7 +1097,7 @@
         "ISIN Code": "INE178A01016",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 941.4
+        "Price": 897.0
     },
     {
         "Company Name": "Cholamandalam Financial Holdings Ltd.",
@@ -1107,7 +1107,7 @@
         "ISIN Code": "INE149A01033",
         "Beta": 1.44,
         "Volatility": "medium",
-        "Price": 1139.85
+        "Price": 1075.0
     },
     {
         "Company Name": "Cholamandalam Investment and Finance Company Ltd.",
@@ -1117,7 +1117,7 @@
         "ISIN Code": "INE121A01024",
         "Beta": 1.71,
         "Volatility": "high",
-        "Price": 1217.65
+        "Price": 1181.0
     },
     {
         "Company Name": "Cipla Ltd.",
@@ -1127,7 +1127,7 @@
         "ISIN Code": "INE059A01026",
         "Beta": 0.29,
         "Volatility": "very low",
-        "Price": 1449.4
+        "Price": 1399.55
     },
     {
         "Company Name": "City Union Bank Ltd.",
@@ -1137,7 +1137,7 @@
         "ISIN Code": "INE491A01021",
         "Beta": 1.03,
         "Volatility": "medium",
-        "Price": 157.75
+        "Price": 156.2
     },
     {
         "Company Name": "Clean Science and Technology Ltd.",
@@ -1147,7 +1147,7 @@
         "ISIN Code": "INE227W01023",
         "Beta": -0.28,
         "Volatility": "very low",
-        "Price": 1348.8
+        "Price": 1367.0
     },
     {
         "Company Name": "Coal India Ltd.",
@@ -1157,7 +1157,7 @@
         "ISIN Code": "INE522F01014",
         "Beta": 0.94,
         "Volatility": "low",
-        "Price": 446.95
+        "Price": 456.3
     },
     {
         "Company Name": "Cochin Shipyard Ltd.",
@@ -1167,7 +1167,7 @@
         "ISIN Code": "INE704P01025",
         "Beta": 1.12,
         "Volatility": "medium",
-        "Price": 1081.2
+        "Price": 1094.3
     },
     {
         "Company Name": "Coforge Ltd.",
@@ -1177,7 +1177,7 @@
         "ISIN Code": "INE591G01017",
         "Beta": 0.92,
         "Volatility": "low",
-        "Price": 5782.9
+        "Price": 5610.0
     },
     {
         "Company Name": "Colgate Palmolive (India) Ltd.",
@@ -1187,7 +1187,7 @@
         "ISIN Code": "INE259A01022",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 2729.35
+        "Price": 2656.0
     },
     {
         "Company Name": "Computer Age Management Services Ltd.",
@@ -1197,7 +1197,7 @@
         "ISIN Code": "INE596I01012",
         "Beta": 0.56,
         "Volatility": "low",
-        "Price": 3146.75
+        "Price": 3114.8
     },
     {
         "Company Name": "Concord Biotech Ltd.",
@@ -1207,7 +1207,7 @@
         "ISIN Code": "INE338H01029",
         "Beta": 0.09,
         "Volatility": "very low",
-        "Price": 1536.35
+        "Price": 1556.0
     },
     {
         "Company Name": "Container Corporation of India Ltd.",
@@ -1217,7 +1217,7 @@
         "ISIN Code": "INE111A01025",
         "Beta": 1.28,
         "Volatility": "medium",
-        "Price": 933.5
+        "Price": 948.4
     },
     {
         "Company Name": "Coromandel International Ltd.",
@@ -1227,7 +1227,7 @@
         "ISIN Code": "INE169A01031",
         "Beta": 0.37,
         "Volatility": "very low",
-        "Price": 1161.4
+        "Price": 1153.25
     },
     {
         "Company Name": "Craftsman Automation Ltd.",
@@ -1237,7 +1237,7 @@
         "ISIN Code": "INE00LO01017",
         "Beta": 0.62,
         "Volatility": "low",
-        "Price": 4378.45
+        "Price": 4485.75
     },
     {
         "Company Name": "CreditAccess Grameen Ltd.",
@@ -1247,7 +1247,7 @@
         "ISIN Code": "INE741K01010",
         "Beta": 0.72,
         "Volatility": "low",
-        "Price": 1481.4
+        "Price": 1479.0
     },
     {
         "Company Name": "Crompton Greaves Consumer Electricals Ltd.",
@@ -1257,7 +1257,7 @@
         "ISIN Code": "INE299U01018",
         "Beta": 0.48,
         "Volatility": "very low",
-        "Price": 281.05
+        "Price": 299.3
     },
     {
         "Company Name": "Cummins India Ltd.",
@@ -1267,7 +1267,7 @@
         "ISIN Code": "INE298A01020",
         "Beta": 1.11,
         "Volatility": "medium",
-        "Price": 3032.0
+        "Price": 3056.0
     },
     {
         "Company Name": "Cyient Ltd.",
@@ -1277,7 +1277,7 @@
         "ISIN Code": "INE136B01020",
         "Beta": 1.59,
         "Volatility": "high",
-        "Price": 2164.3
+        "Price": 2089.05
     },
     {
         "Company Name": "DCM Shriram Ltd.",
@@ -1287,7 +1287,7 @@
         "ISIN Code": "INE499A01024",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 940.85
+        "Price": 954.6
     },
     {
         "Company Name": "DLF Ltd.",
@@ -1297,7 +1297,7 @@
         "ISIN Code": "INE271C01023",
         "Beta": 1.49,
         "Volatility": "medium",
-        "Price": 905.85
+        "Price": 908.0
     },
     {
         "Company Name": "DOMS Industries Ltd.",
@@ -1307,7 +1307,7 @@
         "ISIN Code": "INE321T01012",
         "Beta": -0.97,
         "Volatility": "low",
-        "Price": 1711.35
+        "Price": 1710.0
     },
     {
         "Company Name": "Dabur India Ltd.",
@@ -1317,7 +1317,7 @@
         "ISIN Code": "INE016A01026",
         "Beta": 0.48,
         "Volatility": "very low",
-        "Price": 507.9
+        "Price": 500.6
     },
     {
         "Company Name": "Dalmia Bharat Ltd.",
@@ -1327,7 +1327,7 @@
         "ISIN Code": "INE00R701025",
         "Beta": 1.36,
         "Volatility": "medium",
-        "Price": 1989.1
+        "Price": 1954.8
     },
     {
         "Company Name": "Data Patterns (India) Ltd.",
@@ -1337,7 +1337,7 @@
         "ISIN Code": "INE0IX101010",
         "Beta": 1.43,
         "Volatility": "medium",
-        "Price": 2694.9
+        "Price": 2942.0
     },
     {
         "Company Name": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
@@ -1347,7 +1347,7 @@
         "ISIN Code": "INE501A01019",
         "Beta": 0.91,
         "Volatility": "low",
-        "Price": 563.4
+        "Price": 551.9
     },
     {
         "Company Name": "Deepak Nitrite Ltd.",
@@ -1357,7 +1357,7 @@
         "ISIN Code": "INE288B01029",
         "Beta": 1.45,
         "Volatility": "medium",
-        "Price": 2219.9
+        "Price": 2321.0
     },
     {
         "Company Name": "Delhivery Ltd.",
@@ -1367,7 +1367,7 @@
         "ISIN Code": "INE148O01028",
         "Beta": 0.32,
         "Volatility": "very low",
-        "Price": 463.35
+        "Price": 464.1
     },
     {
         "Company Name": "Devyani International Ltd.",
@@ -1377,7 +1377,7 @@
         "ISIN Code": "INE872J01023",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 156.5
+        "Price": 164.1
     },
     {
         "Company Name": "Divi's Laboratories Ltd.",
@@ -1387,7 +1387,7 @@
         "ISIN Code": "INE361B01024",
         "Beta": 0.86,
         "Volatility": "low",
-        "Price": 3748.15
+        "Price": 3770.7
     },
     {
         "Company Name": "Dixon Technologies (India) Ltd.",
@@ -1397,7 +1397,7 @@
         "ISIN Code": "INE935N01020",
         "Beta": 1.46,
         "Volatility": "medium",
-        "Price": 7660.5
+        "Price": 7829.95
     },
     {
         "Company Name": "Dr. Lal Path Labs Ltd.",
@@ -1407,7 +1407,7 @@
         "ISIN Code": "INE600L01024",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 2284.3
+        "Price": 2366.0
     },
     {
         "Company Name": "Dr. Reddy's Laboratories Ltd.",
@@ -1417,7 +1417,7 @@
         "ISIN Code": "INE089A01023",
         "Beta": 0.19,
         "Volatility": "very low",
-        "Price": 6179.3
+        "Price": 6093.8
     },
     {
         "Company Name": "E.I.D. Parry (India) Ltd.",
@@ -1427,7 +1427,7 @@
         "ISIN Code": "INE126A01031",
         "Beta": 0.7,
         "Volatility": "low",
-        "Price": 592.35
+        "Price": 621.9
     },
     {
         "Company Name": "EIH Ltd.",
@@ -1437,7 +1437,7 @@
         "ISIN Code": "INE230A01023",
         "Beta": 0.88,
         "Volatility": "low",
-        "Price": 479.25
+        "Price": 472.0
     },
     {
         "Company Name": "EPL Ltd.",
@@ -1447,7 +1447,7 @@
         "ISIN Code": "INE255A01020",
         "Beta": 1.07,
         "Volatility": "medium",
-        "Price": 189.5
+        "Price": 185.95
     },
     {
         "Company Name": "Easy Trip Planners Ltd.",
@@ -1457,7 +1457,7 @@
         "ISIN Code": "INE07O001026",
         "Beta": 0.63,
         "Volatility": "low",
-        "Price": 46.4
+        "Price": 44.9
     },
     {
         "Company Name": "Eicher Motors Ltd.",
@@ -1467,7 +1467,7 @@
         "ISIN Code": "INE066A01021",
         "Beta": 0.71,
         "Volatility": "low",
-        "Price": 4031.25
+        "Price": 4305.0
     },
     {
         "Company Name": "Elecon Engineering Co. Ltd.",
@@ -1477,7 +1477,7 @@
         "ISIN Code": "INE205B01023",
         "Beta": 1.65,
         "Volatility": "high",
-        "Price": 1005.25
+        "Price": 970.0
     },
     {
         "Company Name": "Elgi Equipments Ltd.",
@@ -1487,7 +1487,7 @@
         "ISIN Code": "INE285A01027",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 647.65
+        "Price": 645.85
     },
     {
         "Company Name": "Emami Ltd.",
@@ -1497,7 +1497,7 @@
         "ISIN Code": "INE548C01032",
         "Beta": 0.74,
         "Volatility": "low",
-        "Price": 446.6
+        "Price": 454.9
     },
     {
         "Company Name": "Endurance Technologies Ltd.",
@@ -1507,7 +1507,7 @@
         "ISIN Code": "INE913H01037",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 1900.1
+        "Price": 1888.0
     },
     {
         "Company Name": "Engineers India Ltd.",
@@ -1517,7 +1517,7 @@
         "ISIN Code": "INE510A01028",
         "Beta": 1.48,
         "Volatility": "medium",
-        "Price": 221.7
+        "Price": 218.8
     },
     {
         "Company Name": "Equitas Small Finance Bank Ltd.",
@@ -1527,7 +1527,7 @@
         "ISIN Code": "INE063P01018",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 99.0
+        "Price": 100.6
     },
     {
         "Company Name": "Eris Lifesciences Ltd.",
@@ -1537,7 +1537,7 @@
         "ISIN Code": "INE406M01024",
         "Beta": 0.34,
         "Volatility": "very low",
-        "Price": 851.35
+        "Price": 845.0
     },
     {
         "Company Name": "Escorts Kubota Ltd.",
@@ -1547,7 +1547,7 @@
         "ISIN Code": "INE042A01014",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 2998.35
+        "Price": 3024.0
     },
     {
         "Company Name": "Exide Industries Ltd.",
@@ -1557,7 +1557,7 @@
         "ISIN Code": "INE302A01020",
         "Beta": 0.84,
         "Volatility": "low",
-        "Price": 321.85
+        "Price": 398.45
     },
     {
         "Company Name": "FDC Ltd.",
@@ -1567,7 +1567,7 @@
         "ISIN Code": "INE258B01022",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 452.15
+        "Price": 451.7
     },
     {
         "Company Name": "FSN E-Commerce Ventures Ltd.",
@@ -1577,7 +1577,7 @@
         "ISIN Code": "INE388Y01029",
         "Beta": -1.5,
         "Volatility": "medium",
-        "Price": 168.45
+        "Price": 178.5
     },
     {
         "Company Name": "Federal Bank Ltd.",
@@ -1587,7 +1587,7 @@
         "ISIN Code": "INE171A01029",
         "Beta": 1.03,
         "Volatility": "medium",
-        "Price": 154.55
+        "Price": 156.25
     },
     {
         "Company Name": "Fertilisers and Chemicals Travancore Ltd.",
@@ -1597,7 +1597,7 @@
         "ISIN Code": "INE188A01015",
         "Beta": 0.24,
         "Volatility": "very low",
-        "Price": 699.1
+        "Price": 676.7
     },
     {
         "Company Name": "Fine Organic Industries Ltd.",
@@ -1607,7 +1607,7 @@
         "ISIN Code": "INE686Y01026",
         "Beta": -0.0,
         "Volatility": null,
-        "Price": 4354.95
+        "Price": 4337.3
     },
     {
         "Company Name": "Finolex Cables Ltd.",
@@ -1617,7 +1617,7 @@
         "ISIN Code": "INE235A01022",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 991.05
+        "Price": 1001.5
     },
     {
         "Company Name": "Finolex Industries Ltd.",
@@ -1627,7 +1627,7 @@
         "ISIN Code": "INE183A01024",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 254.9
+        "Price": 249.9
     },
     {
         "Company Name": "Firstsource Solutions Ltd.",
@@ -1637,7 +1637,7 @@
         "ISIN Code": "INE684F01012",
         "Beta": 1.63,
         "Volatility": "high",
-        "Price": 202.3
+        "Price": 203.8
     },
     {
         "Company Name": "Five-Star Business Finance Ltd.",
@@ -1647,7 +1647,7 @@
         "ISIN Code": "INE128S01021",
         "Beta": -0.06,
         "Volatility": "very low",
-        "Price": 758.7
+        "Price": 720.1
     },
     {
         "Company Name": "Fortis Healthcare Ltd.",
@@ -1657,7 +1657,7 @@
         "ISIN Code": "INE061F01013",
         "Beta": 1.28,
         "Volatility": "medium",
-        "Price": 436.85
+        "Price": 432.0
     },
     {
         "Company Name": "GAIL (India) Ltd.",
@@ -1667,7 +1667,7 @@
         "ISIN Code": "INE129A01019",
         "Beta": 1.34,
         "Volatility": "medium",
-        "Price": 190.75
+        "Price": 201.25
     },
     {
         "Company Name": "GMM Pfaudler Ltd.",
@@ -1677,7 +1677,7 @@
         "ISIN Code": "INE541A01023",
         "Beta": 0.66,
         "Volatility": "low",
-        "Price": 1372.45
+        "Price": 1419.0
     },
     {
         "Company Name": "GMR Airports Infrastructure Ltd.",
@@ -1687,7 +1687,7 @@
         "ISIN Code": "INE776C01039",
         "Beta": 1.27,
         "Volatility": "medium",
-        "Price": 85.65
+        "Price": 83.95
     },
     {
         "Company Name": "Garden Reach Shipbuilders & Engineers Ltd.",
@@ -1697,7 +1697,7 @@
         "ISIN Code": "INE382Z01011",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 898.15
+        "Price": 882.85
     },
     {
         "Company Name": "General Insurance Corporation of India",
@@ -1707,7 +1707,7 @@
         "ISIN Code": "INE481Y01014",
         "Beta": 0.78,
         "Volatility": "low",
-        "Price": 341.75
+        "Price": 325.0
     },
     {
         "Company Name": "Gillette India Ltd.",
@@ -1717,7 +1717,7 @@
         "ISIN Code": "INE322A01010",
         "Beta": 0.49,
         "Volatility": "very low",
-        "Price": 6622.15
+        "Price": 6409.0
     },
     {
         "Company Name": "Gland Pharma Ltd.",
@@ -1727,7 +1727,7 @@
         "ISIN Code": "INE068V01023",
         "Beta": 0.1,
         "Volatility": "very low",
-        "Price": 1754.55
+        "Price": 1764.0
     },
     {
         "Company Name": "Glaxosmithkline Pharmaceuticals Ltd.",
@@ -1737,7 +1737,7 @@
         "ISIN Code": "INE159A01016",
         "Beta": 0.4,
         "Volatility": "very low",
-        "Price": 1938.05
+        "Price": 1876.1
     },
     {
         "Company Name": "Glenmark Life Sciences Ltd.",
@@ -1747,7 +1747,7 @@
         "ISIN Code": "INE03Q201024",
         "Beta": -0.51,
         "Volatility": "low",
-        "Price": 817.3
+        "Price": 813.0
     },
     {
         "Company Name": "Glenmark Pharmaceuticals Ltd.",
@@ -1757,7 +1757,7 @@
         "ISIN Code": "INE935A01035",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 1017.4
+        "Price": 1051.4
     },
     {
         "Company Name": "Global Health Ltd.",
@@ -1767,7 +1767,7 @@
         "ISIN Code": "INE474Q01031",
         "Beta": -0.3,
         "Volatility": "very low",
-        "Price": 1365.95
+        "Price": 1398.9
     },
     {
         "Company Name": "Godawari Power & Ispat Ltd.",
@@ -1777,7 +1777,7 @@
         "ISIN Code": "INE177H01021",
         "Beta": 1.35,
         "Volatility": "medium",
-        "Price": 759.6
+        "Price": 818.0
     },
     {
         "Company Name": "Godfrey Phillips India Ltd.",
@@ -1787,7 +1787,7 @@
         "ISIN Code": "INE260B01028",
         "Beta": 0.32,
         "Volatility": "very low",
-        "Price": 3198.45
+        "Price": 3060.0
     },
     {
         "Company Name": "Godrej Consumer Products Ltd.",
@@ -1797,7 +1797,7 @@
         "ISIN Code": "INE102D01028",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 1210.1
+        "Price": 1200.95
     },
     {
         "Company Name": "Godrej Industries Ltd.",
@@ -1807,7 +1807,7 @@
         "ISIN Code": "INE233A01035",
         "Beta": 0.58,
         "Volatility": "low",
-        "Price": 814.35
+        "Price": 840.0
     },
     {
         "Company Name": "Godrej Properties Ltd.",
@@ -1817,7 +1817,7 @@
         "ISIN Code": "INE484J01027",
         "Beta": 2.0,
         "Volatility": "high",
-        "Price": 2500.35
+        "Price": 2670.0
     },
     {
         "Company Name": "Granules India Ltd.",
@@ -1827,7 +1827,7 @@
         "ISIN Code": "INE101D01020",
         "Beta": 0.61,
         "Volatility": "low",
-        "Price": 452.5
+        "Price": 422.0
     },
     {
         "Company Name": "Graphite India Ltd.",
@@ -1837,7 +1837,7 @@
         "ISIN Code": "INE371A01025",
         "Beta": 1.79,
         "Volatility": "high",
-        "Price": 658.85
+        "Price": 655.8
     },
     {
         "Company Name": "Grasim Industries Ltd.",
@@ -1847,7 +1847,7 @@
         "ISIN Code": "INE047A01021",
         "Beta": 0.78,
         "Volatility": "low",
-        "Price": 2237.55
+        "Price": 2255.75
     },
     {
         "Company Name": "Great Eastern Shipping Co. Ltd.",
@@ -1857,7 +1857,7 @@
         "ISIN Code": "INE017A01032",
         "Beta": 1.5,
         "Volatility": "medium",
-        "Price": 1041.05
+        "Price": 955.0
     },
     {
         "Company Name": "Grindwell Norton Ltd.",
@@ -1867,7 +1867,7 @@
         "ISIN Code": "INE536A01023",
         "Beta": 1.0,
         "Volatility": "low",
-        "Price": 2067.75
+        "Price": 2082.0
     },
     {
         "Company Name": "Gujarat Ambuja Exports Ltd.",
@@ -1877,7 +1877,7 @@
         "ISIN Code": "INE036B01030",
         "Beta": 0.29,
         "Volatility": "very low",
-        "Price": 179.45
+        "Price": 168.95
     },
     {
         "Company Name": "Gujarat Fluorochemicals Ltd.",
@@ -1887,7 +1887,7 @@
         "ISIN Code": "INE09N301011",
         "Beta": 0.69,
         "Volatility": "low",
-        "Price": 3185.6
+        "Price": 3585.0
     },
     {
         "Company Name": "Gujarat Gas Ltd.",
@@ -1897,7 +1897,7 @@
         "ISIN Code": "INE844O01030",
         "Beta": 0.95,
         "Volatility": "low",
-        "Price": 548.35
+        "Price": 561.1
     },
     {
         "Company Name": "Gujarat Mineral Development Corporation Ltd.",
@@ -1907,7 +1907,7 @@
         "ISIN Code": "INE131A01031",
         "Beta": 1.1,
         "Volatility": "medium",
-        "Price": 388.65
+        "Price": 404.0
     },
     {
         "Company Name": "Gujarat Narmada Valley Fertilizers and Chemicals Ltd.",
@@ -1917,7 +1917,7 @@
         "ISIN Code": "INE113A01013",
         "Beta": 1.28,
         "Volatility": "medium",
-        "Price": 707.65
+        "Price": 696.0
     },
     {
         "Company Name": "Gujarat Pipavav Port Ltd.",
@@ -1927,7 +1927,7 @@
         "ISIN Code": "INE517F01014",
         "Beta": 0.69,
         "Volatility": "low",
-        "Price": 217.8
+        "Price": 216.05
     },
     {
         "Company Name": "Gujarat State Fertilizers & Chemicals Ltd.",
@@ -1937,7 +1937,7 @@
         "ISIN Code": "INE026A01025",
         "Beta": 1.3,
         "Volatility": "medium",
-        "Price": 241.65
+        "Price": 234.8
     },
     {
         "Company Name": "Gujarat State Petronet Ltd.",
@@ -1947,7 +1947,7 @@
         "ISIN Code": "INE246F01010",
         "Beta": 0.77,
         "Volatility": "low",
-        "Price": 374.5
+        "Price": 377.15
     },
     {
         "Company Name": "H.E.G. Ltd.",
@@ -1957,7 +1957,7 @@
         "ISIN Code": "INE545A01016",
         "Beta": 1.84,
         "Volatility": "high",
-        "Price": 2089.5
+        "Price": 2370.05
     },
     {
         "Company Name": "HBL Power Systems Ltd.",
@@ -1967,7 +1967,7 @@
         "ISIN Code": "INE292B01021",
         "Beta": 1.16,
         "Volatility": "medium",
-        "Price": 490.45
+        "Price": 469.95
     },
     {
         "Company Name": "HCL Technologies Ltd.",
@@ -1977,7 +1977,7 @@
         "ISIN Code": "INE860A01027",
         "Beta": 0.74,
         "Volatility": "low",
-        "Price": 1545.25
+        "Price": 1521.3
     },
     {
         "Company Name": "HDFC Asset Management Company Ltd.",
@@ -1987,7 +1987,7 @@
         "ISIN Code": "INE127D01025",
         "Beta": 1.14,
         "Volatility": "medium",
-        "Price": 3674.7
+        "Price": 3660.0
     },
     {
         "Company Name": "HDFC Bank Ltd.",
@@ -1997,7 +1997,7 @@
         "ISIN Code": "INE040A01034",
         "Beta": 1.16,
         "Volatility": "medium",
-        "Price": 1549.55
+        "Price": 1516.25
     },
     {
         "Company Name": "HDFC Life Insurance Company Ltd.",
@@ -2007,7 +2007,7 @@
         "ISIN Code": "INE795G01014",
         "Beta": 0.85,
         "Volatility": "low",
-        "Price": 629.4
+        "Price": 617.8
     },
     {
         "Company Name": "HFCL Ltd.",
@@ -2017,7 +2017,7 @@
         "ISIN Code": "INE548A01028",
         "Beta": 1.92,
         "Volatility": "high",
-        "Price": 99.05
+        "Price": 98.4
     },
     {
         "Company Name": "Happiest Minds Technologies Ltd.",
@@ -2027,7 +2027,7 @@
         "ISIN Code": "INE419U01012",
         "Beta": 0.36,
         "Volatility": "very low",
-        "Price": 824.35
+        "Price": 822.0
     },
     {
         "Company Name": "Happy Forgings Ltd.",
@@ -2037,7 +2037,7 @@
         "ISIN Code": "INE330T01021",
         "Beta": -0.37,
         "Volatility": "very low",
-        "Price": 926.5
+        "Price": 930.0
     },
     {
         "Company Name": "Havells India Ltd.",
@@ -2047,7 +2047,7 @@
         "ISIN Code": "INE176B01034",
         "Beta": 0.83,
         "Volatility": "low",
-        "Price": 1550.1
+        "Price": 1509.6
     },
     {
         "Company Name": "Hero MotoCorp Ltd.",
@@ -2057,7 +2057,7 @@
         "ISIN Code": "INE158A01026",
         "Beta": 0.68,
         "Volatility": "low",
-        "Price": 4524.9
+        "Price": 4450.0
     },
     {
         "Company Name": "Himadri Speciality Chemical Ltd.",
@@ -2067,7 +2067,7 @@
         "ISIN Code": "INE019C01026",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 335.35
+        "Price": 319.0
     },
     {
         "Company Name": "Hindalco Industries Ltd.",
@@ -2077,7 +2077,7 @@
         "ISIN Code": "INE038A01020",
         "Beta": 2.0,
         "Volatility": "high",
-        "Price": 570.05
+        "Price": 595.95
     },
     {
         "Company Name": "Hindustan Aeronautics Ltd.",
@@ -2087,7 +2087,7 @@
         "ISIN Code": "INE066F01020",
         "Beta": 1.52,
         "Volatility": "high",
-        "Price": 3586.05
+        "Price": 3643.0
     },
     {
         "Company Name": "Hindustan Copper Ltd.",
@@ -2097,7 +2097,7 @@
         "ISIN Code": "INE531E01026",
         "Beta": 3.01,
         "Volatility": "very high",
-        "Price": 322.4
+        "Price": 362.6
     },
     {
         "Company Name": "Hindustan Petroleum Corporation Ltd.",
@@ -2107,7 +2107,7 @@
         "ISIN Code": "INE094A01015",
         "Beta": 1.5,
         "Volatility": "medium",
-        "Price": 461.2
+        "Price": 478.5
     },
     {
         "Company Name": "Hindustan Unilever Ltd.",
@@ -2117,7 +2117,7 @@
         "ISIN Code": "INE030A01027",
         "Beta": 0.68,
         "Volatility": "low",
-        "Price": 2266.95
+        "Price": 2234.0
     },
     {
         "Company Name": "Hindustan Zinc Ltd.",
@@ -2127,7 +2127,7 @@
         "ISIN Code": "INE267A01025",
         "Beta": 0.77,
         "Volatility": "low",
-        "Price": 339.95
+        "Price": 431.2
     },
     {
         "Company Name": "Hitachi Energy India Ltd.",
@@ -2137,7 +2137,7 @@
         "ISIN Code": "INE07Y701011",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 7123.25
+        "Price": 7298.0
     },
     {
         "Company Name": "Home First Finance Company India Ltd.",
@@ -2147,7 +2147,7 @@
         "ISIN Code": "INE481N01025",
         "Beta": 0.31,
         "Volatility": "very low",
-        "Price": 960.05
+        "Price": 899.0
     },
     {
         "Company Name": "Honasa Consumer Ltd.",
@@ -2157,7 +2157,7 @@
         "ISIN Code": "INE0J5401028",
         "Beta": -0.82,
         "Volatility": "low",
-        "Price": 405.0
+        "Price": 397.0
     },
     {
         "Company Name": "Honeywell Automation India Ltd.",
@@ -2167,7 +2167,7 @@
         "ISIN Code": "INE671A01010",
         "Beta": 0.99,
         "Volatility": "low",
-        "Price": 42169.05
+        "Price": 43810.0
     },
     {
         "Company Name": "Housing & Urban Development Corporation Ltd.",
@@ -2177,7 +2177,7 @@
         "ISIN Code": "INE031A01017",
         "Beta": 1.9,
         "Volatility": "high",
-        "Price": 206.4
+        "Price": 205.0
     },
     {
         "Company Name": "ICICI Bank Ltd.",
@@ -2187,7 +2187,7 @@
         "ISIN Code": "INE090A01021",
         "Beta": 1.25,
         "Volatility": "medium",
-        "Price": 1083.4
+        "Price": 1103.0
     },
     {
         "Company Name": "ICICI Lombard General Insurance Company Ltd.",
@@ -2197,7 +2197,7 @@
         "ISIN Code": "INE765G01017",
         "Beta": 0.97,
         "Volatility": "low",
-        "Price": 1717.8
+        "Price": 1660.4
     },
     {
         "Company Name": "ICICI Prudential Life Insurance Company Ltd.",
@@ -2207,7 +2207,7 @@
         "ISIN Code": "INE726G01019",
         "Beta": 0.92,
         "Volatility": "low",
-        "Price": 620.0
+        "Price": 628.05
     },
     {
         "Company Name": "ICICI Securities Ltd.",
@@ -2217,7 +2217,7 @@
         "ISIN Code": "INE763G01038",
         "Beta": 0.9,
         "Volatility": "low",
-        "Price": 719.75
+        "Price": 732.75
     },
     {
         "Company Name": "IDBI Bank Ltd.",
@@ -2227,7 +2227,7 @@
         "ISIN Code": "INE008A01015",
         "Beta": 1.91,
         "Volatility": "high",
-        "Price": 88.8
+        "Price": 86.95
     },
     {
         "Company Name": "IDFC First Bank Ltd.",
@@ -2237,7 +2237,7 @@
         "ISIN Code": "INE092T01019",
         "Beta": 1.29,
         "Volatility": "medium",
-        "Price": 80.65
+        "Price": 84.3
     },
     {
         "Company Name": "IDFC Ltd.",
@@ -2247,7 +2247,7 @@
         "ISIN Code": "INE043D01016",
         "Beta": 1.39,
         "Volatility": "medium",
-        "Price": 117.5
+        "Price": 123.45
     },
     {
         "Company Name": "IIFL Finance Ltd.",
@@ -2257,7 +2257,7 @@
         "ISIN Code": "INE530B01024",
         "Beta": 1.07,
         "Volatility": "medium",
-        "Price": 401.25
+        "Price": 420.25
     },
     {
         "Company Name": "IRB Infrastructure Developers Ltd.",
@@ -2267,7 +2267,7 @@
         "ISIN Code": "INE821I01022",
         "Beta": 1.4,
         "Volatility": "medium",
-        "Price": 67.2
+        "Price": 68.0
     },
     {
         "Company Name": "IRCON International Ltd.",
@@ -2277,7 +2277,7 @@
         "ISIN Code": "INE962Y01021",
         "Beta": 0.98,
         "Volatility": "low",
-        "Price": 235.45
+        "Price": 226.25
     },
     {
         "Company Name": "ITC Ltd.",
@@ -2287,7 +2287,7 @@
         "ISIN Code": "INE154A01025",
         "Beta": 0.61,
         "Volatility": "low",
-        "Price": 427.55
+        "Price": 430.5
     },
     {
         "Company Name": "ITI Ltd.",
@@ -2297,7 +2297,7 @@
         "ISIN Code": "INE248A01017",
         "Beta": 0.97,
         "Volatility": "low",
-        "Price": 275.65
+        "Price": 262.9
     },
     {
         "Company Name": "India Cements Ltd.",
@@ -2307,7 +2307,7 @@
         "ISIN Code": "INE383A01012",
         "Beta": 1.03,
         "Volatility": "medium",
-        "Price": 225.3
+        "Price": 224.05
     },
     {
         "Company Name": "Indiabulls Housing Finance Ltd.",
@@ -2317,7 +2317,7 @@
         "ISIN Code": "INE148I01020",
         "Beta": 2.49,
         "Volatility": "very high",
-        "Price": 182.05
+        "Price": 174.4
     },
     {
         "Company Name": "Indiamart Intermesh Ltd.",
@@ -2327,7 +2327,7 @@
         "ISIN Code": "INE933S01016",
         "Beta": 0.57,
         "Volatility": "low",
-        "Price": 2543.2
+        "Price": 2586.5
     },
     {
         "Company Name": "Indian Bank",
@@ -2337,7 +2337,7 @@
         "ISIN Code": "INE562A01011",
         "Beta": 1.79,
         "Volatility": "high",
-        "Price": 534.95
+        "Price": 524.6
     },
     {
         "Company Name": "Indian Energy Exchange Ltd.",
@@ -2347,7 +2347,7 @@
         "ISIN Code": "INE022Q01020",
         "Beta": 1.08,
         "Volatility": "medium",
-        "Price": 145.45
+        "Price": 152.0
     },
     {
         "Company Name": "Indian Hotels Co. Ltd.",
@@ -2357,7 +2357,7 @@
         "ISIN Code": "INE053A01029",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 613.3
+        "Price": 608.0
     },
     {
         "Company Name": "Indian Oil Corporation Ltd.",
@@ -2367,7 +2367,7 @@
         "ISIN Code": "INE242A01010",
         "Beta": 0.99,
         "Volatility": "low",
-        "Price": 168.0
+        "Price": 170.05
     },
     {
         "Company Name": "Indian Overseas Bank",
@@ -2377,7 +2377,7 @@
         "ISIN Code": "INE565A01014",
         "Beta": 1.29,
         "Volatility": "medium",
-        "Price": 66.5
+        "Price": 64.05
     },
     {
         "Company Name": "Indian Railway Catering And Tourism Corporation Ltd.",
@@ -2387,7 +2387,7 @@
         "ISIN Code": "INE335Y01020",
         "Beta": 1.07,
         "Volatility": "medium",
-        "Price": 1002.95
+        "Price": 1058.0
     },
     {
         "Company Name": "Indian Railway Finance Corporation Ltd.",
@@ -2397,7 +2397,7 @@
         "ISIN Code": "INE053F01010",
         "Beta": -0.52,
         "Volatility": "low",
-        "Price": 147.85
+        "Price": 145.5
     },
     {
         "Company Name": "Indigo Paints Ltd.",
@@ -2407,7 +2407,7 @@
         "ISIN Code": "INE09VQ01012",
         "Beta": -0.01,
         "Volatility": "very low",
-        "Price": 1394.65
+        "Price": 1344.0
     },
     {
         "Company Name": "Indraprastha Gas Ltd.",
@@ -2417,7 +2417,7 @@
         "ISIN Code": "INE203G01027",
         "Beta": 0.65,
         "Volatility": "low",
-        "Price": 460.1
+        "Price": 463.9
     },
     {
         "Company Name": "Indus Towers Ltd.",
@@ -2427,7 +2427,7 @@
         "ISIN Code": "INE121J01017",
         "Beta": 0.5,
         "Volatility": "very low",
-        "Price": 314.0
+        "Price": 330.2
     },
     {
         "Company Name": "IndusInd Bank Ltd.",
@@ -2437,7 +2437,7 @@
         "ISIN Code": "INE095A01012",
         "Beta": 2.09,
         "Volatility": "very high",
-        "Price": 1552.4
+        "Price": 1551.5
     },
     {
         "Company Name": "Info Edge (India) Ltd.",
@@ -2447,7 +2447,7 @@
         "ISIN Code": "INE663F01024",
         "Beta": 1.39,
         "Volatility": "medium",
-        "Price": 5674.65
+        "Price": 5980.0
     },
     {
         "Company Name": "Infosys Ltd.",
@@ -2457,7 +2457,7 @@
         "ISIN Code": "INE009A01021",
         "Beta": 0.94,
         "Volatility": "low",
-        "Price": 1479.1
+        "Price": 1484.85
     },
     {
         "Company Name": "Inox Wind Ltd.",
@@ -2467,7 +2467,7 @@
         "ISIN Code": "INE066P01011",
         "Beta": 1.61,
         "Volatility": "high",
-        "Price": 529.3
+        "Price": 564.95
     },
     {
         "Company Name": "Intellect Design Arena Ltd.",
@@ -2477,7 +2477,7 @@
         "ISIN Code": "INE306R01017",
         "Beta": 2.04,
         "Volatility": "very high",
-        "Price": 1080.05
+        "Price": 1002.0
     },
     {
         "Company Name": "InterGlobe Aviation Ltd.",
@@ -2487,7 +2487,7 @@
         "ISIN Code": "INE646L01027",
         "Beta": 1.36,
         "Volatility": "medium",
-        "Price": 3499.55
+        "Price": 3679.95
     },
     {
         "Company Name": "Ipca Laboratories Ltd.",
@@ -2497,7 +2497,7 @@
         "ISIN Code": "INE571A01038",
         "Beta": 0.67,
         "Volatility": "low",
-        "Price": 1314.55
+        "Price": 1334.0
     },
     {
         "Company Name": "J.B. Chemicals & Pharmaceuticals Ltd.",
@@ -2507,7 +2507,7 @@
         "ISIN Code": "INE572A01036",
         "Beta": 0.14,
         "Volatility": "very low",
-        "Price": 1716.3
+        "Price": 1800.0
     },
     {
         "Company Name": "J.K. Cement Ltd.",
@@ -2517,7 +2517,7 @@
         "ISIN Code": "INE823G01014",
         "Beta": 0.98,
         "Volatility": "low",
-        "Price": 4358.8
+        "Price": 4285.0
     },
     {
         "Company Name": "JBM Auto Ltd.",
@@ -2527,7 +2527,7 @@
         "ISIN Code": "INE927D01044",
         "Beta": 0.21,
         "Volatility": "very low",
-        "Price": 1772.65
+        "Price": 1762.0
     },
     {
         "Company Name": "JK Lakshmi Cement Ltd.",
@@ -2537,7 +2537,7 @@
         "ISIN Code": "INE786A01032",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 844.55
+        "Price": 797.0
     },
     {
         "Company Name": "JK Paper Ltd.",
@@ -2547,7 +2547,7 @@
         "ISIN Code": "INE789E01012",
         "Beta": 0.78,
         "Volatility": "low",
-        "Price": 352.25
+        "Price": 362.95
     },
     {
         "Company Name": "JM Financial Ltd.",
@@ -2557,7 +2557,7 @@
         "ISIN Code": "INE780C01023",
         "Beta": 0.77,
         "Volatility": "low",
-        "Price": 81.05
+        "Price": 82.7
     },
     {
         "Company Name": "JSW Energy Ltd.",
@@ -2567,7 +2567,7 @@
         "ISIN Code": "INE121E01018",
         "Beta": 0.96,
         "Volatility": "low",
-        "Price": 599.1
+        "Price": 614.8
     },
     {
         "Company Name": "JSW Infrastructure Ltd.",
@@ -2577,7 +2577,7 @@
         "ISIN Code": "INE880J01026",
         "Beta": -1.4,
         "Volatility": "medium",
-        "Price": 250.75
+        "Price": 240.85
     },
     {
         "Company Name": "JSW Steel Ltd.",
@@ -2587,7 +2587,7 @@
         "ISIN Code": "INE019A01038",
         "Beta": 1.03,
         "Volatility": "medium",
-        "Price": 857.1
+        "Price": 863.9
     },
     {
         "Company Name": "Jai Balaji Industries Ltd.",
@@ -2597,7 +2597,7 @@
         "ISIN Code": "INE091G01018",
         "Beta": 0.4,
         "Volatility": "very low",
-        "Price": 999.15
+        "Price": 1067.9
     },
     {
         "Company Name": "Jammu & Kashmir Bank Ltd.",
@@ -2607,7 +2607,7 @@
         "ISIN Code": "INE168A01041",
         "Beta": 2.05,
         "Volatility": "very high",
-        "Price": 139.05
+        "Price": 137.2
     },
     {
         "Company Name": "Jindal Saw Ltd.",
@@ -2617,7 +2617,7 @@
         "ISIN Code": "INE324A01024",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 496.9
+        "Price": 513.0
     },
     {
         "Company Name": "Jindal Stainless Ltd.",
@@ -2627,7 +2627,7 @@
         "ISIN Code": "INE220G01021",
         "Beta": 0.99,
         "Volatility": "low",
-        "Price": 702.8
+        "Price": 685.0
     },
     {
         "Company Name": "Jindal Steel & Power Ltd.",
@@ -2637,7 +2637,7 @@
         "ISIN Code": "INE749A01030",
         "Beta": 1.49,
         "Volatility": "medium",
-        "Price": 915.75
+        "Price": 899.8
     },
     {
         "Company Name": "Jio Financial Services Ltd.",
@@ -2647,7 +2647,7 @@
         "ISIN Code": "INE758E01017",
         "Beta": 0.46,
         "Volatility": "very low",
-        "Price": 373.2
+        "Price": 372.7
     },
     {
         "Company Name": "Jubilant Foodworks Ltd.",
@@ -2657,7 +2657,7 @@
         "ISIN Code": "INE797F01020",
         "Beta": 0.88,
         "Volatility": "low",
-        "Price": 460.5
+        "Price": 461.65
     },
     {
         "Company Name": "Jubilant Ingrevia Ltd.",
@@ -2667,7 +2667,7 @@
         "ISIN Code": "INE0BY001018",
         "Beta": -0.71,
         "Volatility": "low",
-        "Price": 493.55
+        "Price": 552.85
     },
     {
         "Company Name": "Jubilant Pharmova Ltd.",
@@ -2677,7 +2677,7 @@
         "ISIN Code": "INE700A01033",
         "Beta": 1.57,
         "Volatility": "high",
-        "Price": 644.55
+        "Price": 638.0
     },
     {
         "Company Name": "Jupiter Wagons Ltd.",
@@ -2687,7 +2687,7 @@
         "ISIN Code": "INE209L01016",
         "Beta": 0.46,
         "Volatility": "very low",
-        "Price": 388.6
+        "Price": 374.45
     },
     {
         "Company Name": "Justdial Ltd.",
@@ -2697,7 +2697,7 @@
         "ISIN Code": "INE599M01018",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 905.65
+        "Price": 894.8
     },
     {
         "Company Name": "Jyothy Labs Ltd.",
@@ -2707,7 +2707,7 @@
         "ISIN Code": "INE668F01031",
         "Beta": 0.55,
         "Volatility": "low",
-        "Price": 444.35
+        "Price": 432.9
     },
     {
         "Company Name": "K.P.R. Mill Ltd.",
@@ -2717,7 +2717,7 @@
         "ISIN Code": "INE930H01031",
         "Beta": 0.34,
         "Volatility": "very low",
-        "Price": 832.8
+        "Price": 826.0
     },
     {
         "Company Name": "KEI Industries Ltd.",
@@ -2727,7 +2727,7 @@
         "ISIN Code": "INE878B01027",
         "Beta": 1.39,
         "Volatility": "medium",
-        "Price": 3574.2
+        "Price": 3989.0
     },
     {
         "Company Name": "KNR Constructions Ltd.",
@@ -2737,7 +2737,7 @@
         "ISIN Code": "INE634I01029",
         "Beta": 0.88,
         "Volatility": "low",
-        "Price": 258.25
+        "Price": 263.85
     },
     {
         "Company Name": "KPIT Technologies Ltd.",
@@ -2747,7 +2747,7 @@
         "ISIN Code": "INE04I401011",
         "Beta": 0.45,
         "Volatility": "very low",
-        "Price": 1511.5
+        "Price": 1475.9
     },
     {
         "Company Name": "KRBL Ltd.",
@@ -2757,7 +2757,7 @@
         "ISIN Code": "INE001B01026",
         "Beta": 0.7,
         "Volatility": "low",
-        "Price": 313.1
+        "Price": 302.5
     },
     {
         "Company Name": "KSB Ltd.",
@@ -2767,7 +2767,7 @@
         "ISIN Code": "INE999A01015",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 3917.95
+        "Price": 4355.0
     },
     {
         "Company Name": "Kajaria Ceramics Ltd.",
@@ -2777,7 +2777,7 @@
         "ISIN Code": "INE217B01036",
         "Beta": 1.03,
         "Volatility": "medium",
-        "Price": 1254.9
+        "Price": 1235.0
     },
     {
         "Company Name": "Kalpataru Projects International Ltd.",
@@ -2787,7 +2787,7 @@
         "ISIN Code": "INE220B01022",
         "Beta": 0.21,
         "Volatility": "very low",
-        "Price": 1157.25
+        "Price": 1173.4
     },
     {
         "Company Name": "Kalyan Jewellers India Ltd.",
@@ -2797,7 +2797,7 @@
         "ISIN Code": "INE303R01014",
         "Beta": 0.41,
         "Volatility": "very low",
-        "Price": 430.5
+        "Price": 427.5
     },
     {
         "Company Name": "Kansai Nerolac Paints Ltd.",
@@ -2807,7 +2807,7 @@
         "ISIN Code": "INE531A01024",
         "Beta": 1.01,
         "Volatility": "medium",
-        "Price": 285.15
+        "Price": 281.0
     },
     {
         "Company Name": "Karur Vysya Bank Ltd.",
@@ -2817,7 +2817,7 @@
         "ISIN Code": "INE036D01028",
         "Beta": 1.64,
         "Volatility": "high",
-        "Price": 194.85
+        "Price": 192.1
     },
     {
         "Company Name": "Kaynes Technology India Ltd.",
@@ -2827,7 +2827,7 @@
         "ISIN Code": "INE918Z01012",
         "Beta": 0.27,
         "Volatility": "very low",
-        "Price": 2647.3
+        "Price": 2508.8
     },
     {
         "Company Name": "Kec International Ltd.",
@@ -2837,7 +2837,7 @@
         "ISIN Code": "INE389H01022",
         "Beta": 0.55,
         "Volatility": "low",
-        "Price": 759.9
+        "Price": 750.2
     },
     {
         "Company Name": "Kfin Technologies Ltd.",
@@ -2847,7 +2847,7 @@
         "ISIN Code": "INE138Y01010",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 647.95
+        "Price": 625.0
     },
     {
         "Company Name": "Kotak Mahindra Bank Ltd.",
@@ -2857,7 +2857,7 @@
         "ISIN Code": "INE237A01028",
         "Beta": 1.22,
         "Volatility": "medium",
-        "Price": 1785.15
+        "Price": 1813.0
     },
     {
         "Company Name": "Krishna Institute of Medical Sciences Ltd.",
@@ -2867,7 +2867,7 @@
         "ISIN Code": "INE967H01017",
         "Beta": -0.75,
         "Volatility": "low",
-        "Price": 2045.25
+        "Price": 1979.0
     },
     {
         "Company Name": "L&T Finance Holdings Ltd.",
@@ -2877,7 +2877,7 @@
         "ISIN Code": "INE498L01015",
         "Beta": 1.84,
         "Volatility": "high",
-        "Price": 169.85
+        "Price": 167.35
     },
     {
         "Company Name": "L&T Technology Services Ltd.",
@@ -2887,7 +2887,7 @@
         "ISIN Code": "INE010V01017",
         "Beta": 1.32,
         "Volatility": "medium",
-        "Price": 5806.45
+        "Price": 5661.0
     },
     {
         "Company Name": "LIC Housing Finance Ltd.",
@@ -2897,7 +2897,7 @@
         "ISIN Code": "INE115A01026",
         "Beta": 1.17,
         "Volatility": "medium",
-        "Price": 644.3
+        "Price": 649.7
     },
     {
         "Company Name": "LTIMindtree Ltd.",
@@ -2907,7 +2907,7 @@
         "ISIN Code": "INE214T01019",
         "Beta": 1.16,
         "Volatility": "medium",
-        "Price": 4927.5
+        "Price": 4887.0
     },
     {
         "Company Name": "Larsen & Toubro Ltd.",
@@ -2917,7 +2917,7 @@
         "ISIN Code": "INE018A01030",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 3743.1
+        "Price": 3687.0
     },
     {
         "Company Name": "Latent View Analytics Ltd.",
@@ -2927,7 +2927,7 @@
         "ISIN Code": "INE0I7C01011",
         "Beta": -0.74,
         "Volatility": "low",
-        "Price": 549.75
+        "Price": 538.15
     },
     {
         "Company Name": "Laurus Labs Ltd.",
@@ -2937,7 +2937,7 @@
         "ISIN Code": "INE947Q01028",
         "Beta": 1.51,
         "Volatility": "high",
-        "Price": 439.3
+        "Price": 443.85
     },
     {
         "Company Name": "Laxmi Organic Industries Ltd.",
@@ -2947,7 +2947,7 @@
         "ISIN Code": "INE576O01020",
         "Beta": -0.59,
         "Volatility": "low",
-        "Price": 255.8
+        "Price": 259.85
     },
     {
         "Company Name": "Lemon Tree Hotels Ltd.",
@@ -2957,7 +2957,7 @@
         "ISIN Code": "INE970X01018",
         "Beta": 1.09,
         "Volatility": "medium",
-        "Price": 141.5
+        "Price": 139.5
     },
     {
         "Company Name": "Life Insurance Corporation of India",
@@ -2967,7 +2967,7 @@
         "ISIN Code": "INE0J1Y01017",
         "Beta": 0.1,
         "Volatility": "very low",
-        "Price": 992.75
+        "Price": 972.8
     },
     {
         "Company Name": "Linde India Ltd.",
@@ -2977,7 +2977,7 @@
         "ISIN Code": "INE473A01011",
         "Beta": 0.99,
         "Volatility": "low",
-        "Price": 6782.65
+        "Price": 6789.95
     },
     {
         "Company Name": "Lloyds Metals And Energy Ltd.",
@@ -2987,7 +2987,7 @@
         "ISIN Code": "INE281B01032",
         "Beta": -0.35,
         "Volatility": "very low",
-        "Price": 643.05
+        "Price": 701.0
     },
     {
         "Company Name": "Lupin Ltd.",
@@ -2997,7 +2997,7 @@
         "ISIN Code": "INE326A01037",
         "Beta": 0.53,
         "Volatility": "low",
-        "Price": 1599.25
+        "Price": 1624.0
     },
     {
         "Company Name": "MMTC Ltd.",
@@ -3007,7 +3007,7 @@
         "ISIN Code": "INE123F01029",
         "Beta": 1.9,
         "Volatility": "high",
-        "Price": 77.35
+        "Price": 75.2
     },
     {
         "Company Name": "MRF Ltd.",
@@ -3017,7 +3017,7 @@
         "ISIN Code": "INE883A01011",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 135464.6
+        "Price": 131696.6
     },
     {
         "Company Name": "MTAR Technologies Ltd.",
@@ -3027,7 +3027,7 @@
         "ISIN Code": "INE864I01014",
         "Beta": 0.59,
         "Volatility": "low",
-        "Price": 1949.3
+        "Price": 1866.0
     },
     {
         "Company Name": "Macrotech Developers Ltd.",
@@ -3037,7 +3037,7 @@
         "ISIN Code": "INE670K01029",
         "Beta": -0.03,
         "Volatility": "very low",
-        "Price": 1159.7
+        "Price": 1199.95
     },
     {
         "Company Name": "Mahanagar Gas Ltd.",
@@ -3047,7 +3047,7 @@
         "ISIN Code": "INE002S01010",
         "Beta": 0.96,
         "Volatility": "low",
-        "Price": 1440.2
+        "Price": 1439.6
     },
     {
         "Company Name": "Maharashtra Seamless Ltd.",
@@ -3057,7 +3057,7 @@
         "ISIN Code": "INE271B01025",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 926.1
+        "Price": 894.9
     },
     {
         "Company Name": "Mahindra & Mahindra Financial Services Ltd.",
@@ -3067,7 +3067,7 @@
         "ISIN Code": "INE774D01024",
         "Beta": 1.93,
         "Volatility": "high",
-        "Price": 298.5
+        "Price": 303.75
     },
     {
         "Company Name": "Mahindra & Mahindra Ltd.",
@@ -3077,7 +3077,7 @@
         "ISIN Code": "INE101A01026",
         "Beta": 0.77,
         "Volatility": "low",
-        "Price": 2013.3
+        "Price": 2072.0
     },
     {
         "Company Name": "Mahindra Holidays & Resorts India Ltd.",
@@ -3087,7 +3087,7 @@
         "ISIN Code": "INE998I01010",
         "Beta": 0.4,
         "Volatility": "very low",
-        "Price": 414.3
+        "Price": 397.25
     },
     {
         "Company Name": "Mahindra Lifespace Developers Ltd.",
@@ -3097,7 +3097,7 @@
         "ISIN Code": "INE813A01018",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 641.7
+        "Price": 649.9
     },
     {
         "Company Name": "Manappuram Finance Ltd.",
@@ -3107,7 +3107,7 @@
         "ISIN Code": "INE522D01027",
         "Beta": 1.22,
         "Volatility": "medium",
-        "Price": 191.9
+        "Price": 195.65
     },
     {
         "Company Name": "Mangalore Refinery & Petrochemicals Ltd.",
@@ -3117,7 +3117,7 @@
         "ISIN Code": "INE103A01014",
         "Beta": 0.31,
         "Volatility": "very low",
-        "Price": 238.25
+        "Price": 222.4
     },
     {
         "Company Name": "Mankind Pharma Ltd.",
@@ -3127,7 +3127,7 @@
         "ISIN Code": "INE634S01028",
         "Beta": -0.76,
         "Volatility": "low",
-        "Price": 2344.75
+        "Price": 2321.1
     },
     {
         "Company Name": "Marico Ltd.",
@@ -3137,7 +3137,7 @@
         "ISIN Code": "INE196A01026",
         "Beta": 0.25,
         "Volatility": "very low",
-        "Price": 509.5
+        "Price": 513.8
     },
     {
         "Company Name": "Maruti Suzuki India Ltd.",
@@ -3147,7 +3147,7 @@
         "ISIN Code": "INE585B01010",
         "Beta": 0.29,
         "Volatility": "very low",
-        "Price": 12421.6
+        "Price": 12269.0
     },
     {
         "Company Name": "Mastek Ltd.",
@@ -3157,7 +3157,7 @@
         "ISIN Code": "INE759A01021",
         "Beta": 1.52,
         "Volatility": "high",
-        "Price": 2649.4
+        "Price": 2618.0
     },
     {
         "Company Name": "Max Financial Services Ltd.",
@@ -3167,7 +3167,7 @@
         "ISIN Code": "INE180A01020",
         "Beta": 0.51,
         "Volatility": "low",
-        "Price": 1014.6
+        "Price": 1034.0
     },
     {
         "Company Name": "Max Healthcare Institute Ltd.",
@@ -3177,7 +3177,7 @@
         "ISIN Code": "INE027H01010",
         "Beta": 0.06,
         "Volatility": "very low",
-        "Price": 804.9
+        "Price": 871.5
     },
     {
         "Company Name": "Mazagoan Dock Shipbuilders Ltd.",
@@ -3187,7 +3187,7 @@
         "ISIN Code": "INE249Z01012",
         "Beta": -1.2,
         "Volatility": "medium",
-        "Price": 2200.55
+        "Price": 2212.05
     },
     {
         "Company Name": "Medplus Health Services Ltd.",
@@ -3197,7 +3197,7 @@
         "ISIN Code": "INE804L01022",
         "Beta": 0.08,
         "Volatility": "very low",
-        "Price": 691.5
+        "Price": 690.0
     },
     {
         "Company Name": "Metro Brands Ltd.",
@@ -3207,7 +3207,7 @@
         "ISIN Code": "INE317I01021",
         "Beta": -0.22,
         "Volatility": "very low",
-        "Price": 1079.45
+        "Price": 1047.6
     },
     {
         "Company Name": "Metropolis Healthcare Ltd.",
@@ -3217,7 +3217,7 @@
         "ISIN Code": "INE112L01020",
         "Beta": 0.73,
         "Volatility": "low",
-        "Price": 1714.75
+        "Price": 1841.0
     },
     {
         "Company Name": "Minda Corporation Ltd.",
@@ -3227,7 +3227,7 @@
         "ISIN Code": "INE842C01021",
         "Beta": 0.95,
         "Volatility": "low",
-        "Price": 424.45
+        "Price": 415.0
     },
     {
         "Company Name": "Motherson Sumi Wiring India Ltd.",
@@ -3237,7 +3237,7 @@
         "ISIN Code": "INE0FS801015",
         "Beta": 0.03,
         "Volatility": "very low",
-        "Price": 70.35
+        "Price": 69.5
     },
     {
         "Company Name": "Motilal Oswal Financial Services Ltd.",
@@ -3247,7 +3247,7 @@
         "ISIN Code": "INE338I01027",
         "Beta": 0.23,
         "Volatility": "very low",
-        "Price": 1831.9
+        "Price": 2070.2
     },
     {
         "Company Name": "MphasiS Ltd.",
@@ -3257,7 +3257,7 @@
         "ISIN Code": "INE356A01018",
         "Beta": 0.91,
         "Volatility": "low",
-        "Price": 2510.6
+        "Price": 2447.0
     },
     {
         "Company Name": "Multi Commodity Exchange of India Ltd.",
@@ -3267,7 +3267,7 @@
         "ISIN Code": "INE745G01035",
         "Beta": 0.55,
         "Volatility": "low",
-        "Price": 3563.7
+        "Price": 3826.05
     },
     {
         "Company Name": "Muthoot Finance Ltd.",
@@ -3277,7 +3277,7 @@
         "ISIN Code": "INE414G01012",
         "Beta": 1.09,
         "Volatility": "medium",
-        "Price": 1654.75
+        "Price": 1659.05
     },
     {
         "Company Name": "NATCO Pharma Ltd.",
@@ -3287,7 +3287,7 @@
         "ISIN Code": "INE987B01026",
         "Beta": 0.41,
         "Volatility": "very low",
-        "Price": 997.3
+        "Price": 975.0
     },
     {
         "Company Name": "NBCC (India) Ltd.",
@@ -3297,7 +3297,7 @@
         "ISIN Code": "INE095N01031",
         "Beta": 1.64,
         "Volatility": "high",
-        "Price": 138.35
+        "Price": 133.95
     },
     {
         "Company Name": "NCC Ltd.",
@@ -3307,7 +3307,7 @@
         "ISIN Code": "INE868B01028",
         "Beta": 1.53,
         "Volatility": "high",
-        "Price": 272.7
+        "Price": 258.35
     },
     {
         "Company Name": "NHPC Ltd.",
@@ -3317,7 +3317,7 @@
         "ISIN Code": "INE848E01016",
         "Beta": 0.81,
         "Volatility": "low",
-        "Price": 93.95
+        "Price": 92.15
     },
     {
         "Company Name": "NLC India Ltd.",
@@ -3327,7 +3327,7 @@
         "ISIN Code": "INE589A01014",
         "Beta": 1.46,
         "Volatility": "medium",
-        "Price": 231.3
+        "Price": 235.7
     },
     {
         "Company Name": "NMDC Ltd.",
@@ -3337,7 +3337,7 @@
         "ISIN Code": "INE584A01023",
         "Beta": 1.1,
         "Volatility": "medium",
-        "Price": 217.9
+        "Price": 238.25
     },
     {
         "Company Name": "NMDC Steel Ltd.",
@@ -3347,7 +3347,7 @@
         "ISIN Code": "INE0NNS01018",
         "Beta": -0.7,
         "Volatility": "low",
-        "Price": 61.85
+        "Price": 64.2
     },
     {
         "Company Name": "NTPC Ltd.",
@@ -3357,7 +3357,7 @@
         "ISIN Code": "INE733E01010",
         "Beta": 0.8,
         "Volatility": "low",
-        "Price": 354.55
+        "Price": 361.85
     },
     {
         "Company Name": "Narayana Hrudayalaya Ltd.",
@@ -3367,7 +3367,7 @@
         "ISIN Code": "INE410P01011",
         "Beta": 0.59,
         "Volatility": "low",
-        "Price": 1286.25
+        "Price": 1299.0
     },
     {
         "Company Name": "National Aluminium Co. Ltd.",
@@ -3377,7 +3377,7 @@
         "ISIN Code": "INE139A01034",
         "Beta": 1.63,
         "Volatility": "high",
-        "Price": 177.5
+        "Price": 178.2
     },
     {
         "Company Name": "Navin Fluorine International Ltd.",
@@ -3387,7 +3387,7 @@
         "ISIN Code": "INE048G01026",
         "Beta": 0.72,
         "Volatility": "low",
-        "Price": 3147.6
+        "Price": 3295.95
     },
     {
         "Company Name": "Nestle India Ltd.",
@@ -3397,7 +3397,7 @@
         "ISIN Code": "INE239A01024",
         "Beta": 0.57,
         "Volatility": "low",
-        "Price": 2537.65
+        "Price": 2532.9
     },
     {
         "Company Name": "Network18 Media & Investments Ltd.",
@@ -3407,7 +3407,7 @@
         "ISIN Code": "INE870H01013",
         "Beta": 0.83,
         "Volatility": "low",
-        "Price": 90.85
+        "Price": 88.75
     },
     {
         "Company Name": "Nippon Life India Asset Management Ltd.",
@@ -3417,7 +3417,7 @@
         "ISIN Code": "INE298J01013",
         "Beta": 0.86,
         "Volatility": "low",
-        "Price": 531.95
+        "Price": 543.0
     },
     {
         "Company Name": "Nuvama Wealth Management Ltd.",
@@ -3427,7 +3427,7 @@
         "ISIN Code": "INE531F01015",
         "Beta": -0.5,
         "Volatility": "very low",
-        "Price": 4959.0
+        "Price": 5400.0
     },
     {
         "Company Name": "Nuvoco Vistas Corporation Ltd.",
@@ -3437,7 +3437,7 @@
         "ISIN Code": "INE118D01016",
         "Beta": 0.46,
         "Volatility": "very low",
-        "Price": 315.45
+        "Price": 313.4
     },
     {
         "Company Name": "Oberoi Realty Ltd.",
@@ -3447,7 +3447,7 @@
         "ISIN Code": "INE093I01010",
         "Beta": 1.48,
         "Volatility": "medium",
-        "Price": 1550.8
+        "Price": 1495.0
     },
     {
         "Company Name": "Oil & Natural Gas Corporation Ltd.",
@@ -3457,7 +3457,7 @@
         "ISIN Code": "INE213A01029",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 267.95
+        "Price": 265.6
     },
     {
         "Company Name": "Oil India Ltd.",
@@ -3467,7 +3467,7 @@
         "ISIN Code": "INE274J01014",
         "Beta": 0.65,
         "Volatility": "low",
-        "Price": 628.4
+        "Price": 616.2
     },
     {
         "Company Name": "Olectra Greentech Ltd.",
@@ -3477,7 +3477,7 @@
         "ISIN Code": "INE260D01016",
         "Beta": 1.32,
         "Volatility": "medium",
-        "Price": 1920.8
+        "Price": 1819.8
     },
     {
         "Company Name": "One 97 Communications Ltd.",
@@ -3487,7 +3487,7 @@
         "ISIN Code": "INE982J01020",
         "Beta": -1.09,
         "Volatility": "medium",
-        "Price": 417.55
+        "Price": 391.8
     },
     {
         "Company Name": "Oracle Financial Services Software Ltd.",
@@ -3497,7 +3497,7 @@
         "ISIN Code": "INE881D01027",
         "Beta": 0.29,
         "Volatility": "very low",
-        "Price": 8775.45
+        "Price": 8200.0
     },
     {
         "Company Name": "PB Fintech Ltd.",
@@ -3507,7 +3507,7 @@
         "ISIN Code": "INE417T01026",
         "Beta": -1.46,
         "Volatility": "medium",
-        "Price": 1278.3
+        "Price": 1265.0
     },
     {
         "Company Name": "PCBL Ltd.",
@@ -3517,7 +3517,7 @@
         "ISIN Code": "INE602A01031",
         "Beta": 1.05,
         "Volatility": "medium",
-        "Price": 282.15
+        "Price": 273.95
     },
     {
         "Company Name": "PI Industries Ltd.",
@@ -3527,7 +3527,7 @@
         "ISIN Code": "INE603J01030",
         "Beta": 1.04,
         "Volatility": "medium",
-        "Price": 3869.8
+        "Price": 3829.15
     },
     {
         "Company Name": "PNB Housing Finance Ltd.",
@@ -3537,7 +3537,7 @@
         "ISIN Code": "INE572E01012",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 772.3
+        "Price": 764.5
     },
     {
         "Company Name": "PNC Infratech Ltd.",
@@ -3547,7 +3547,7 @@
         "ISIN Code": "INE195J01029",
         "Beta": 1.05,
         "Volatility": "medium",
-        "Price": 429.7
+        "Price": 445.0
     },
     {
         "Company Name": "PVR INOX Ltd.",
@@ -3557,7 +3557,7 @@
         "ISIN Code": "INE191H01014",
         "Beta": -0.25,
         "Volatility": "very low",
-        "Price": 1375.95
+        "Price": 1412.85
     },
     {
         "Company Name": "Page Industries Ltd.",
@@ -3567,7 +3567,7 @@
         "ISIN Code": "INE761H01022",
         "Beta": 0.69,
         "Volatility": "low",
-        "Price": 34168.2
+        "Price": 35700.0
     },
     {
         "Company Name": "Patanjali Foods Ltd.",
@@ -3577,7 +3577,7 @@
         "ISIN Code": "INE619A01035",
         "Beta": 1.78,
         "Volatility": "high",
-        "Price": 1387.85
+        "Price": 1332.85
     },
     {
         "Company Name": "Persistent Systems Ltd.",
@@ -3587,7 +3587,7 @@
         "ISIN Code": "INE262H01021",
         "Beta": 1.18,
         "Volatility": "medium",
-        "Price": 3996.75
+        "Price": 3984.05
     },
     {
         "Company Name": "Petronet LNG Ltd.",
@@ -3597,7 +3597,7 @@
         "ISIN Code": "INE347G01014",
         "Beta": 0.43,
         "Volatility": "very low",
-        "Price": 277.65
+        "Price": 305.3
     },
     {
         "Company Name": "Phoenix Mills Ltd.",
@@ -3607,7 +3607,7 @@
         "ISIN Code": "INE211B01039",
         "Beta": 0.98,
         "Volatility": "low",
-        "Price": 2849.9
+        "Price": 2991.95
     },
     {
         "Company Name": "Pidilite Industries Ltd.",
@@ -3617,7 +3617,7 @@
         "ISIN Code": "INE318A01026",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 3000.8
+        "Price": 2985.0
     },
     {
         "Company Name": "Piramal Enterprises Ltd.",
@@ -3627,7 +3627,7 @@
         "ISIN Code": "INE140A01024",
         "Beta": 1.73,
         "Volatility": "high",
-        "Price": 852.05
+        "Price": 856.65
     },
     {
         "Company Name": "Piramal Pharma Ltd.",
@@ -3637,7 +3637,7 @@
         "ISIN Code": "INE0DK501011",
         "Beta": 0.57,
         "Volatility": "low",
-        "Price": 140.35
+        "Price": 139.25
     },
     {
         "Company Name": "Poly Medicure Ltd.",
@@ -3647,7 +3647,7 @@
         "ISIN Code": "INE205C01021",
         "Beta": 0.47,
         "Volatility": "very low",
-        "Price": 1567.55
+        "Price": 1546.0
     },
     {
         "Company Name": "Polycab India Ltd.",
@@ -3657,7 +3657,7 @@
         "ISIN Code": "INE455K01017",
         "Beta": 0.8,
         "Volatility": "low",
-        "Price": 5316.6
+        "Price": 5300.2
     },
     {
         "Company Name": "Poonawalla Fincorp Ltd.",
@@ -3667,7 +3667,7 @@
         "ISIN Code": "INE511C01022",
         "Beta": 2.83,
         "Volatility": "very high",
-        "Price": 497.4
+        "Price": 494.3
     },
     {
         "Company Name": "Power Finance Corporation Ltd.",
@@ -3677,7 +3677,7 @@
         "ISIN Code": "INE134E01011",
         "Beta": 1.69,
         "Volatility": "high",
-        "Price": 416.8
+        "Price": 403.05
     },
     {
         "Company Name": "Power Grid Corporation of India Ltd.",
@@ -3687,7 +3687,7 @@
         "ISIN Code": "INE752E01010",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 278.4
+        "Price": 275.45
     },
     {
         "Company Name": "Praj Industries Ltd.",
@@ -3697,7 +3697,7 @@
         "ISIN Code": "INE074A01025",
         "Beta": 1.24,
         "Volatility": "medium",
-        "Price": 537.15
+        "Price": 513.0
     },
     {
         "Company Name": "Prestige Estates Projects Ltd.",
@@ -3707,7 +3707,7 @@
         "ISIN Code": "INE811K01011",
         "Beta": 1.17,
         "Volatility": "medium",
-        "Price": 1291.8
+        "Price": 1198.0
     },
     {
         "Company Name": "Prince Pipes and Fittings Ltd.",
@@ -3717,7 +3717,7 @@
         "ISIN Code": "INE689W01016",
         "Beta": 1.26,
         "Volatility": "medium",
-        "Price": 613.6
+        "Price": 611.95
     },
     {
         "Company Name": "Prism Johnson Ltd.",
@@ -3727,7 +3727,7 @@
         "ISIN Code": "INE010A01011",
         "Beta": 1.15,
         "Volatility": "medium",
-        "Price": 185.4
+        "Price": 175.6
     },
     {
         "Company Name": "Procter & Gamble Hygiene & Health Care Ltd.",
@@ -3737,7 +3737,7 @@
         "ISIN Code": "INE179A01014",
         "Beta": 0.42,
         "Volatility": "very low",
-        "Price": 16372.3
+        "Price": 15870.5
     },
     {
         "Company Name": "Punjab National Bank",
@@ -3747,7 +3747,7 @@
         "ISIN Code": "INE160A01022",
         "Beta": 1.73,
         "Volatility": "high",
-        "Price": 136.55
+        "Price": 134.7
     },
     {
         "Company Name": "Quess Corp Ltd.",
@@ -3757,7 +3757,7 @@
         "ISIN Code": "INE615P01015",
         "Beta": 1.13,
         "Volatility": "medium",
-        "Price": 586.15
+        "Price": 613.0
     },
     {
         "Company Name": "R R Kabel Ltd.",
@@ -3767,7 +3767,7 @@
         "ISIN Code": "INE777K01022",
         "Beta": 1.15,
         "Volatility": "medium",
-        "Price": 1546.15
+        "Price": 1591.1
     },
     {
         "Company Name": "RBL Bank Ltd.",
@@ -3777,7 +3777,7 @@
         "ISIN Code": "INE976G01028",
         "Beta": 2.0,
         "Volatility": "high",
-        "Price": 254.55
+        "Price": 257.9
     },
     {
         "Company Name": "REC Ltd.",
@@ -3787,7 +3787,7 @@
         "ISIN Code": "INE020B01018",
         "Beta": 1.23,
         "Volatility": "medium",
-        "Price": 471.6
+        "Price": 440.2
     },
     {
         "Company Name": "RHI MAGNESITA INDIA LTD.",
@@ -3797,7 +3797,7 @@
         "ISIN Code": "INE743M01012",
         "Beta": 0.71,
         "Volatility": "low",
-        "Price": 610.35
+        "Price": 620.2
     },
     {
         "Company Name": "RITES Ltd.",
@@ -3807,7 +3807,7 @@
         "ISIN Code": "INE320J01015",
         "Beta": 0.55,
         "Volatility": "low",
-        "Price": 700.75
+        "Price": 694.0
     },
     {
         "Company Name": "Radico Khaitan Ltd",
@@ -3817,7 +3817,7 @@
         "ISIN Code": "INE944F01028",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 1700.9
+        "Price": 1772.0
     },
     {
         "Company Name": "Rail Vikas Nigam Ltd.",
@@ -3827,7 +3827,7 @@
         "ISIN Code": "INE415G01027",
         "Beta": 1.18,
         "Volatility": "medium",
-        "Price": 264.1
+        "Price": 261.2
     },
     {
         "Company Name": "Railtel Corporation Of India Ltd.",
@@ -3837,7 +3837,7 @@
         "ISIN Code": "INE0DD101019",
         "Beta": -0.46,
         "Volatility": "very low",
-        "Price": 395.55
+        "Price": 379.4
     },
     {
         "Company Name": "Rainbow Childrens Medicare Ltd.",
@@ -3847,7 +3847,7 @@
         "ISIN Code": "INE961O01016",
         "Beta": -0.09,
         "Volatility": "very low",
-        "Price": 1349.4
+        "Price": 1338.0
     },
     {
         "Company Name": "Rajesh Exports Ltd.",
@@ -3857,7 +3857,7 @@
         "ISIN Code": "INE343B01030",
         "Beta": 0.1,
         "Volatility": "very low",
-        "Price": 307.45
+        "Price": 299.65
     },
     {
         "Company Name": "Ramkrishna Forgings Ltd.",
@@ -3867,7 +3867,7 @@
         "ISIN Code": "INE399G01023",
         "Beta": 0.81,
         "Volatility": "low",
-        "Price": 690.7
+        "Price": 686.7
     },
     {
         "Company Name": "Rashtriya Chemicals & Fertilizers Ltd.",
@@ -3877,7 +3877,7 @@
         "ISIN Code": "INE027A01015",
         "Beta": 1.54,
         "Volatility": "high",
-        "Price": 145.75
+        "Price": 144.55
     },
     {
         "Company Name": "Ratnamani Metals & Tubes Ltd.",
@@ -3887,7 +3887,7 @@
         "ISIN Code": "INE703B01027",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 3040.4
+        "Price": 2948.0
     },
     {
         "Company Name": "RattanIndia Enterprises Ltd.",
@@ -3897,7 +3897,7 @@
         "ISIN Code": "INE834M01019",
         "Beta": 1.36,
         "Volatility": "medium",
-        "Price": 76.55
+        "Price": 72.1
     },
     {
         "Company Name": "Raymond Ltd.",
@@ -3907,7 +3907,7 @@
         "ISIN Code": "INE301A01014",
         "Beta": 0.58,
         "Volatility": "low",
-        "Price": 1913.6
+        "Price": 1906.95
     },
     {
         "Company Name": "Redington Ltd.",
@@ -3917,7 +3917,7 @@
         "ISIN Code": "INE891D01026",
         "Beta": 0.91,
         "Volatility": "low",
-        "Price": 222.8
+        "Price": 220.15
     },
     {
         "Company Name": "Reliance Industries Ltd.",
@@ -3927,7 +3927,7 @@
         "ISIN Code": "INE002A01018",
         "Beta": 0.93,
         "Volatility": "low",
-        "Price": 2920.2
+        "Price": 2937.15
     },
     {
         "Company Name": "Restaurant Brands Asia Ltd.",
@@ -3937,7 +3937,7 @@
         "ISIN Code": "INE07T201019",
         "Beta": 0.27,
         "Volatility": "very low",
-        "Price": 105.45
+        "Price": 99.3
     },
     {
         "Company Name": "Route Mobile Ltd.",
@@ -3947,7 +3947,7 @@
         "ISIN Code": "INE450U01017",
         "Beta": -0.31,
         "Volatility": "very low",
-        "Price": 1612.7
+        "Price": 1606.0
     },
     {
         "Company Name": "SBFC Finance Ltd.",
@@ -3957,7 +3957,7 @@
         "ISIN Code": "INE423Y01016",
         "Beta": 0.61,
         "Volatility": "low",
-        "Price": 83.45
+        "Price": 87.8
     },
     {
         "Company Name": "SBI Cards and Payment Services Ltd.",
@@ -3967,7 +3967,7 @@
         "ISIN Code": "INE018E01016",
         "Beta": 0.97,
         "Volatility": "low",
-        "Price": 730.35
+        "Price": 737.0
     },
     {
         "Company Name": "SBI Life Insurance Company Ltd.",
@@ -3977,7 +3977,7 @@
         "ISIN Code": "INE123W01016",
         "Beta": 0.84,
         "Volatility": "low",
-        "Price": 1485.3
+        "Price": 1493.0
     },
     {
         "Company Name": "SJVN Ltd.",
@@ -3987,7 +3987,7 @@
         "ISIN Code": "INE002L01015",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 135.4
+        "Price": 130.9
     },
     {
         "Company Name": "SKF India Ltd.",
@@ -3997,7 +3997,7 @@
         "ISIN Code": "INE640A01023",
         "Beta": 0.58,
         "Volatility": "low",
-        "Price": 4513.85
+        "Price": 4630.3
     },
     {
         "Company Name": "SRF Ltd.",
@@ -4007,7 +4007,7 @@
         "ISIN Code": "INE647A01010",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 2586.85
+        "Price": 2629.0
     },
     {
         "Company Name": "Safari Industries (India) Ltd.",
@@ -4017,7 +4017,7 @@
         "ISIN Code": "INE429E01023",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 2042.0
+        "Price": 1980.0
     },
     {
         "Company Name": "Samvardhana Motherson International Ltd.",
@@ -4027,7 +4027,7 @@
         "ISIN Code": "INE775A01035",
         "Beta": 1.41,
         "Volatility": "medium",
-        "Price": 119.4
+        "Price": 120.5
     },
     {
         "Company Name": "Sanofi India Ltd.",
@@ -4037,7 +4037,7 @@
         "ISIN Code": "INE058A01010",
         "Beta": 0.34,
         "Volatility": "very low",
-        "Price": 8566.65
+        "Price": 8460.0
     },
     {
         "Company Name": "Sapphire Foods India Ltd.",
@@ -4047,7 +4047,7 @@
         "ISIN Code": "INE806T01012",
         "Beta": -0.17,
         "Volatility": "very low",
-        "Price": 1525.5
+        "Price": 1558.75
     },
     {
         "Company Name": "Saregama India Ltd",
@@ -4057,7 +4057,7 @@
         "ISIN Code": "INE979A01025",
         "Beta": 1.77,
         "Volatility": "high",
-        "Price": 390.15
+        "Price": 385.55
     },
     {
         "Company Name": "Schaeffler India Ltd.",
@@ -4067,7 +4067,7 @@
         "ISIN Code": "INE513A01022",
         "Beta": 0.72,
         "Volatility": "low",
-        "Price": 3318.9
+        "Price": 3256.0
     },
     {
         "Company Name": "Schneider Electric Infrastructure Ltd.",
@@ -4077,7 +4077,7 @@
         "ISIN Code": "INE839M01018",
         "Beta": 0.57,
         "Volatility": "low",
-        "Price": 787.25
+        "Price": 764.0
     },
     {
         "Company Name": "Shree Cement Ltd.",
@@ -4087,7 +4087,7 @@
         "ISIN Code": "INE070A01015",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 25811.05
+        "Price": 25418.95
     },
     {
         "Company Name": "Shree Renuka Sugars Ltd.",
@@ -4097,7 +4097,7 @@
         "ISIN Code": "INE087H01022",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 43.75
+        "Price": 44.7
     },
     {
         "Company Name": "Shriram Finance Ltd.",
@@ -4107,7 +4107,7 @@
         "ISIN Code": "INE721A01013",
         "Beta": 1.25,
         "Volatility": "medium",
-        "Price": 2518.85
+        "Price": 2486.0
     },
     {
         "Company Name": "Shyam Metalics and Energy Ltd.",
@@ -4117,7 +4117,7 @@
         "ISIN Code": "INE810G01011",
         "Beta": -0.76,
         "Volatility": "low",
-        "Price": 620.05
+        "Price": 621.85
     },
     {
         "Company Name": "Siemens Ltd.",
@@ -4127,7 +4127,7 @@
         "ISIN Code": "INE003A01024",
         "Beta": 0.91,
         "Volatility": "low",
-        "Price": 5634.25
+        "Price": 5584.0
     },
     {
         "Company Name": "Signatureglobal (India) Ltd.",
@@ -4137,7 +4137,7 @@
         "ISIN Code": "INE903U01023",
         "Beta": -1.41,
         "Volatility": "medium",
-        "Price": 1306.3
+        "Price": 1311.0
     },
     {
         "Company Name": "Sobha Ltd.",
@@ -4147,7 +4147,7 @@
         "ISIN Code": "INE671H01015",
         "Beta": 1.09,
         "Volatility": "medium",
-        "Price": 1555.0
+        "Price": 1600.0
     },
     {
         "Company Name": "Solar Industries India Ltd.",
@@ -4157,7 +4157,7 @@
         "ISIN Code": "INE343H01029",
         "Beta": 0.17,
         "Volatility": "very low",
-        "Price": 8658.4
+        "Price": 8540.0
     },
     {
         "Company Name": "Sona BLW Precision Forgings Ltd.",
@@ -4167,7 +4167,7 @@
         "ISIN Code": "INE073K01018",
         "Beta": -0.66,
         "Volatility": "low",
-        "Price": 662.6
+        "Price": 686.0
     },
     {
         "Company Name": "Sonata Software Ltd.",
@@ -4177,7 +4177,7 @@
         "ISIN Code": "INE269A01021",
         "Beta": 0.96,
         "Volatility": "low",
-        "Price": 742.05
+        "Price": 731.0
     },
     {
         "Company Name": "Star Health and Allied Insurance Company Ltd.",
@@ -4187,7 +4187,7 @@
         "ISIN Code": "INE575P01011",
         "Beta": 1.09,
         "Volatility": "medium",
-        "Price": 563.75
+        "Price": 550.0
     },
     {
         "Company Name": "State Bank of India",
@@ -4197,7 +4197,7 @@
         "ISIN Code": "INE062A01020",
         "Beta": 1.72,
         "Volatility": "high",
-        "Price": 764.75
+        "Price": 766.55
     },
     {
         "Company Name": "Steel Authority of India Ltd.",
@@ -4207,7 +4207,7 @@
         "ISIN Code": "INE114A01011",
         "Beta": 2.21,
         "Volatility": "very high",
-        "Price": 146.2
+        "Price": 155.35
     },
     {
         "Company Name": "Sterling and Wilson Renewable Energy Ltd.",
@@ -4217,7 +4217,7 @@
         "ISIN Code": "INE00M201021",
         "Beta": 1.35,
         "Volatility": "medium",
-        "Price": 523.0
+        "Price": 502.9
     },
     {
         "Company Name": "Sterlite Technologies Ltd.",
@@ -4227,7 +4227,7 @@
         "ISIN Code": "INE089C01029",
         "Beta": 1.04,
         "Volatility": "medium",
-        "Price": 128.6
+        "Price": 136.5
     },
     {
         "Company Name": "Sumitomo Chemical India Ltd.",
@@ -4237,7 +4237,7 @@
         "ISIN Code": "INE258G01013",
         "Beta": 0.22,
         "Volatility": "very low",
-        "Price": 380.15
+        "Price": 403.0
     },
     {
         "Company Name": "Sun Pharma Advanced Research Company Ltd.",
@@ -4247,7 +4247,7 @@
         "ISIN Code": "INE232I01014",
         "Beta": 1.37,
         "Volatility": "medium",
-        "Price": 433.65
+        "Price": 408.25
     },
     {
         "Company Name": "Sun Pharmaceutical Industries Ltd.",
@@ -4257,7 +4257,7 @@
         "ISIN Code": "INE044A01036",
         "Beta": 0.75,
         "Volatility": "low",
-        "Price": 1609.0
+        "Price": 1545.0
     },
     {
         "Company Name": "Sun TV Network Ltd.",
@@ -4267,7 +4267,7 @@
         "ISIN Code": "INE424H01027",
         "Beta": 0.44,
         "Volatility": "very low",
-        "Price": 622.95
+        "Price": 619.0
     },
     {
         "Company Name": "Sundaram Finance Ltd.",
@@ -4277,7 +4277,7 @@
         "ISIN Code": "INE660A01013",
         "Beta": 1.15,
         "Volatility": "medium",
-        "Price": 4296.15
+        "Price": 4550.0
     },
     {
         "Company Name": "Sundram Fasteners Ltd.",
@@ -4287,7 +4287,7 @@
         "ISIN Code": "INE387A01021",
         "Beta": 1.21,
         "Volatility": "medium",
-        "Price": 1083.95
+        "Price": 1128.0
     },
     {
         "Company Name": "Sunteck Realty Ltd.",
@@ -4297,7 +4297,7 @@
         "ISIN Code": "INE805D01034",
         "Beta": 1.0,
         "Volatility": "low",
-        "Price": 439.7
+        "Price": 434.8
     },
     {
         "Company Name": "Supreme Industries Ltd.",
@@ -4307,7 +4307,7 @@
         "ISIN Code": "INE195A01028",
         "Beta": 0.67,
         "Volatility": "low",
-        "Price": 4356.35
+        "Price": 4180.0
     },
     {
         "Company Name": "Suven Pharmaceuticals Ltd.",
@@ -4317,7 +4317,7 @@
         "ISIN Code": "INE03QK01018",
         "Beta": 1.46,
         "Volatility": "medium",
-        "Price": 648.2
+        "Price": 625.0
     },
     {
         "Company Name": "Suzlon Energy Ltd.",
@@ -4327,7 +4327,7 @@
         "ISIN Code": "INE040H01021",
         "Beta": 1.58,
         "Volatility": "high",
-        "Price": 42.65
+        "Price": 42.1
     },
     {
         "Company Name": "Swan Energy Ltd.",
@@ -4337,7 +4337,7 @@
         "ISIN Code": "INE665A01038",
         "Beta": 0.16,
         "Volatility": "very low",
-        "Price": 674.9
+        "Price": 650.0
     },
     {
         "Company Name": "Syngene International Ltd.",
@@ -4347,7 +4347,7 @@
         "ISIN Code": "INE398R01022",
         "Beta": 0.76,
         "Volatility": "low",
-        "Price": 729.5
+        "Price": 749.5
     },
     {
         "Company Name": "Syrma SGS Technology Ltd.",
@@ -4357,7 +4357,7 @@
         "ISIN Code": "INE0DYJ01015",
         "Beta": 0.81,
         "Volatility": "low",
-        "Price": 493.1
+        "Price": 488.0
     },
     {
         "Company Name": "TV18 Broadcast Ltd.",
@@ -4367,7 +4367,7 @@
         "ISIN Code": "INE886H01027",
         "Beta": 1.13,
         "Volatility": "medium",
-        "Price": 48.55
+        "Price": 47.3
     },
     {
         "Company Name": "TVS Motor Company Ltd.",
@@ -4377,7 +4377,7 @@
         "ISIN Code": "INE494B01023",
         "Beta": -0.06,
         "Volatility": "very low",
-        "Price": 2069.4
+        "Price": 2049.8
     },
     {
         "Company Name": "TVS Supply Chain Solutions Ltd.",
@@ -4387,7 +4387,7 @@
         "ISIN Code": "INE395N01027",
         "Beta": -0.84,
         "Volatility": "low",
-        "Price": 175.95
+        "Price": 174.8
     },
     {
         "Company Name": "Tamilnad Mercantile Bank Ltd.",
@@ -4397,7 +4397,7 @@
         "ISIN Code": "INE668A01016",
         "Beta": -0.31,
         "Volatility": "very low",
-        "Price": 495.45
+        "Price": 489.0
     },
     {
         "Company Name": "Tanla Platforms Ltd.",
@@ -4407,7 +4407,7 @@
         "ISIN Code": "INE483C01032",
         "Beta": 2.31,
         "Volatility": "very high",
-        "Price": 927.2
+        "Price": 987.0
     },
     {
         "Company Name": "Tata Chemicals Ltd.",
@@ -4417,7 +4417,7 @@
         "ISIN Code": "INE092A01019",
         "Beta": 1.5,
         "Volatility": "medium",
-        "Price": 1132.55
+        "Price": 1148.0
     },
     {
         "Company Name": "Tata Communications Ltd.",
@@ -4427,7 +4427,7 @@
         "ISIN Code": "INE151A01013",
         "Beta": 1.4,
         "Volatility": "medium",
-        "Price": 2061.8
+        "Price": 1947.0
     },
     {
         "Company Name": "Tata Consultancy Services Ltd.",
@@ -4437,7 +4437,7 @@
         "ISIN Code": "INE467B01029",
         "Beta": 0.66,
         "Volatility": "low",
-        "Price": 3979.25
+        "Price": 4003.8
     },
     {
         "Company Name": "Tata Consumer Products Ltd.",
@@ -4447,7 +4447,7 @@
         "ISIN Code": "INE192A01025",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 1115.55
+        "Price": 1144.7
     },
     {
         "Company Name": "Tata Elxsi Ltd.",
@@ -4457,7 +4457,7 @@
         "ISIN Code": "INE670A01012",
         "Beta": 0.54,
         "Volatility": "low",
-        "Price": 8041.55
+        "Price": 7755.0
     },
     {
         "Company Name": "Tata Investment Corporation Ltd.",
@@ -4467,7 +4467,7 @@
         "ISIN Code": "INE672A01018",
         "Beta": 0.63,
         "Volatility": "low",
-        "Price": 7287.8
+        "Price": 7000.0
     },
     {
         "Company Name": "Tata Motors Ltd DVR",
@@ -4477,7 +4477,7 @@
         "ISIN Code": "IN9155A01020",
         "Beta": 1.29,
         "Volatility": "medium",
-        "Price": 668.35
+        "Price": 671.6
     },
     {
         "Company Name": "Tata Motors Ltd.",
@@ -4487,7 +4487,7 @@
         "ISIN Code": "INE155A01022",
         "Beta": 1.27,
         "Volatility": "medium",
-        "Price": 1007.1
+        "Price": 1020.0
     },
     {
         "Company Name": "Tata Power Co. Ltd.",
@@ -4497,7 +4497,7 @@
         "ISIN Code": "INE245A01021",
         "Beta": 1.56,
         "Volatility": "high",
-        "Price": 414.6
+        "Price": 437.75
     },
     {
         "Company Name": "Tata Steel Ltd.",
@@ -4507,7 +4507,7 @@
         "ISIN Code": "INE081A01020",
         "Beta": 1.82,
         "Volatility": "high",
-        "Price": 163.35
+        "Price": 163.5
     },
     {
         "Company Name": "Tata Technologies Ltd.",
@@ -4517,7 +4517,7 @@
         "ISIN Code": "INE142M01025",
         "Beta": -0.17,
         "Volatility": "very low",
-        "Price": 1121.65
+        "Price": 1091.9
     },
     {
         "Company Name": "Tata Teleservices (Maharashtra) Ltd.",
@@ -4527,7 +4527,7 @@
         "ISIN Code": "INE517B01013",
         "Beta": -0.26,
         "Volatility": "very low",
-        "Price": 81.55
+        "Price": 78.6
     },
     {
         "Company Name": "Tech Mahindra Ltd.",
@@ -4537,7 +4537,7 @@
         "ISIN Code": "INE669C01036",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 1263.4
+        "Price": 1238.55
     },
     {
         "Company Name": "Tejas Networks Ltd.",
@@ -4547,7 +4547,7 @@
         "ISIN Code": "INE010J01012",
         "Beta": 1.67,
         "Volatility": "high",
-        "Price": 767.5
+        "Price": 785.7
     },
     {
         "Company Name": "The New India Assurance Company Ltd.",
@@ -4557,7 +4557,7 @@
         "ISIN Code": "INE470Y01017",
         "Beta": 1.39,
         "Volatility": "medium",
-        "Price": 239.15
+        "Price": 224.9
     },
     {
         "Company Name": "The Ramco Cements Ltd.",
@@ -4567,7 +4567,7 @@
         "ISIN Code": "INE331A01037",
         "Beta": 0.52,
         "Volatility": "low",
-        "Price": 839.55
+        "Price": 838.0
     },
     {
         "Company Name": "Thermax Ltd.",
@@ -4577,7 +4577,7 @@
         "ISIN Code": "INE152A01029",
         "Beta": 0.41,
         "Volatility": "very low",
-        "Price": 4518.45
+        "Price": 4543.0
     },
     {
         "Company Name": "Timken India Ltd.",
@@ -4587,7 +4587,7 @@
         "ISIN Code": "INE325A01013",
         "Beta": 0.8,
         "Volatility": "low",
-        "Price": 2960.95
+        "Price": 2940.0
     },
     {
         "Company Name": "Titagarh Rail Systems Ltd.",
@@ -4597,7 +4597,7 @@
         "ISIN Code": "INE615H01020",
         "Beta": 1.62,
         "Volatility": "high",
-        "Price": 957.1
+        "Price": 933.0
     },
     {
         "Company Name": "Titan Company Ltd.",
@@ -4607,7 +4607,7 @@
         "ISIN Code": "INE280A01028",
         "Beta": 1.22,
         "Volatility": "medium",
-        "Price": 3754.45
+        "Price": 3623.0
     },
     {
         "Company Name": "Torrent Pharmaceuticals Ltd.",
@@ -4617,7 +4617,7 @@
         "ISIN Code": "INE685A01028",
         "Beta": 0.51,
         "Volatility": "low",
-        "Price": 2577.1
+        "Price": 2589.0
     },
     {
         "Company Name": "Torrent Power Ltd.",
@@ -4627,7 +4627,7 @@
         "ISIN Code": "INE813H01021",
         "Beta": 1.0,
         "Volatility": "low",
-        "Price": 1490.45
+        "Price": 1581.0
     },
     {
         "Company Name": "Trent Ltd.",
@@ -4637,7 +4637,7 @@
         "ISIN Code": "INE849A01020",
         "Beta": 1.17,
         "Volatility": "medium",
-        "Price": 3932.6
+        "Price": 4066.0
     },
     {
         "Company Name": "Trident Ltd.",
@@ -4647,7 +4647,7 @@
         "ISIN Code": "INE064C01022",
         "Beta": 0.54,
         "Volatility": "low",
-        "Price": 41.1
+        "Price": 40.05
     },
     {
         "Company Name": "Triveni Engineering & Industries Ltd.",
@@ -4657,7 +4657,7 @@
         "ISIN Code": "INE256C01024",
         "Beta": 0.56,
         "Volatility": "low",
-        "Price": 332.15
+        "Price": 331.5
     },
     {
         "Company Name": "Triveni Turbine Ltd.",
@@ -4667,7 +4667,7 @@
         "ISIN Code": "INE152M01016",
         "Beta": 1.08,
         "Volatility": "medium",
-        "Price": 557.2
+        "Price": 545.7
     },
     {
         "Company Name": "Tube Investments of India Ltd.",
@@ -4677,7 +4677,7 @@
         "ISIN Code": "INE974X01010",
         "Beta": 1.06,
         "Volatility": "medium",
-        "Price": 3613.5
+        "Price": 3525.0
     },
     {
         "Company Name": "UCO Bank",
@@ -4687,7 +4687,7 @@
         "ISIN Code": "INE691A01018",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 57.05
+        "Price": 55.3
     },
     {
         "Company Name": "UNO Minda Ltd.",
@@ -4697,7 +4697,7 @@
         "ISIN Code": "INE405E01023",
         "Beta": 0.81,
         "Volatility": "low",
-        "Price": 737.35
+        "Price": 723.5
     },
     {
         "Company Name": "UPL Ltd.",
@@ -4707,7 +4707,7 @@
         "ISIN Code": "INE628A01036",
         "Beta": 1.07,
         "Volatility": "medium",
-        "Price": 494.35
+        "Price": 502.05
     },
     {
         "Company Name": "UTI Asset Management Company Ltd.",
@@ -4717,7 +4717,7 @@
         "ISIN Code": "INE094J01016",
         "Beta": -0.04,
         "Volatility": "very low",
-        "Price": 927.1
+        "Price": 918.5
     },
     {
         "Company Name": "Ujjivan Small Finance Bank Ltd.",
@@ -4727,7 +4727,7 @@
         "ISIN Code": "INE551W01018",
         "Beta": 1.11,
         "Volatility": "medium",
-        "Price": 55.9
+        "Price": 53.8
     },
     {
         "Company Name": "UltraTech Cement Ltd.",
@@ -4737,7 +4737,7 @@
         "ISIN Code": "INE481G01011",
         "Beta": 0.89,
         "Volatility": "low",
-        "Price": 9823.6
+        "Price": 9620.0
     },
     {
         "Company Name": "Union Bank of India",
@@ -4747,7 +4747,7 @@
         "ISIN Code": "INE692A01016",
         "Beta": 1.66,
         "Volatility": "high",
-        "Price": 160.2
+        "Price": 149.45
     },
     {
         "Company Name": "United Breweries Ltd.",
@@ -4757,7 +4757,7 @@
         "ISIN Code": "INE686F01025",
         "Beta": 0.57,
         "Volatility": "low",
-        "Price": 1806.85
+        "Price": 1845.0
     },
     {
         "Company Name": "United Spirits Ltd.",
@@ -4767,7 +4767,7 @@
         "ISIN Code": "INE854D01024",
         "Beta": 0.69,
         "Volatility": "low",
-        "Price": 1128.3
+        "Price": 1182.2
     },
     {
         "Company Name": "Usha Martin Ltd.",
@@ -4777,7 +4777,7 @@
         "ISIN Code": "INE228A01035",
         "Beta": 1.33,
         "Volatility": "medium",
-        "Price": 335.7
+        "Price": 343.3
     },
     {
         "Company Name": "V-Guard Industries Ltd.",
@@ -4787,7 +4787,7 @@
         "ISIN Code": "INE951I01027",
         "Beta": 0.12,
         "Volatility": "very low",
-        "Price": 341.0
+        "Price": 346.8
     },
     {
         "Company Name": "V.I.P. Industries Ltd.",
@@ -4797,7 +4797,7 @@
         "ISIN Code": "INE054A01027",
         "Beta": 0.98,
         "Volatility": "low",
-        "Price": 544.15
+        "Price": 535.0
     },
     {
         "Company Name": "Vaibhav Global Ltd.",
@@ -4807,7 +4807,7 @@
         "ISIN Code": "INE884A01027",
         "Beta": 0.65,
         "Volatility": "low",
-        "Price": 391.5
+        "Price": 369.1
     },
     {
         "Company Name": "Vardhman Textiles Ltd.",
@@ -4817,7 +4817,7 @@
         "ISIN Code": "INE825A01020",
         "Beta": 0.86,
         "Volatility": "low",
-        "Price": 442.5
+        "Price": 470.15
     },
     {
         "Company Name": "Varroc Engineering Ltd.",
@@ -4827,7 +4827,7 @@
         "ISIN Code": "INE665L01035",
         "Beta": 1.4,
         "Volatility": "medium",
-        "Price": 537.85
+        "Price": 514.8
     },
     {
         "Company Name": "Varun Beverages Ltd.",
@@ -4837,7 +4837,7 @@
         "ISIN Code": "INE200M01021",
         "Beta": 0.94,
         "Volatility": "low",
-        "Price": 1493.75
+        "Price": 1389.65
     },
     {
         "Company Name": "Vedant Fashions Ltd.",
@@ -4847,7 +4847,7 @@
         "ISIN Code": "INE825V01034",
         "Beta": 0.1,
         "Volatility": "very low",
-        "Price": 909.65
+        "Price": 914.0
     },
     {
         "Company Name": "Vedanta Ltd.",
@@ -4857,7 +4857,7 @@
         "ISIN Code": "INE205A01025",
         "Beta": 1.44,
         "Volatility": "medium",
-        "Price": 318.95
+        "Price": 372.95
     },
     {
         "Company Name": "Vijaya Diagnostic Centre Ltd.",
@@ -4867,7 +4867,7 @@
         "ISIN Code": "INE043W01024",
         "Beta": -0.3,
         "Volatility": "very low",
-        "Price": 665.0
+        "Price": 682.95
     },
     {
         "Company Name": "Vodafone Idea Ltd.",
@@ -4877,7 +4877,7 @@
         "ISIN Code": "INE669E01016",
         "Beta": 0.79,
         "Volatility": "low",
-        "Price": 13.3
+        "Price": 13.15
     },
     {
         "Company Name": "Voltas Ltd.",
@@ -4887,7 +4887,7 @@
         "ISIN Code": "INE226A01021",
         "Beta": 0.61,
         "Volatility": "low",
-        "Price": 1232.3
+        "Price": 1317.0
     },
     {
         "Company Name": "Welspun Corp Ltd.",
@@ -4897,7 +4897,7 @@
         "ISIN Code": "INE191B01025",
         "Beta": 0.71,
         "Volatility": "low",
-        "Price": 580.1
+        "Price": 571.75
     },
     {
         "Company Name": "Welspun Living Ltd.",
@@ -4907,7 +4907,7 @@
         "ISIN Code": "INE192B01031",
         "Beta": 0.41,
         "Volatility": "very low",
-        "Price": 155.0
+        "Price": 151.9
     },
     {
         "Company Name": "Westlife Foodworld Ltd.",
@@ -4917,7 +4917,7 @@
         "ISIN Code": "INE274F01020",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 810.7
+        "Price": 827.5
     },
     {
         "Company Name": "Whirlpool of India Ltd.",
@@ -4927,7 +4927,7 @@
         "ISIN Code": "INE716A01013",
         "Beta": 0.4,
         "Volatility": "very low",
-        "Price": 1354.25
+        "Price": 1426.1
     },
     {
         "Company Name": "Wipro Ltd.",
@@ -4937,7 +4937,7 @@
         "ISIN Code": "INE075A01022",
         "Beta": 0.87,
         "Volatility": "low",
-        "Price": 485.05
+        "Price": 471.2
     },
     {
         "Company Name": "Yes Bank Ltd.",
@@ -4947,7 +4947,7 @@
         "ISIN Code": "INE528G01035",
         "Beta": 0.45,
         "Volatility": "very low",
-        "Price": 25.2
+        "Price": 24.3
     },
     {
         "Company Name": "ZF Commercial Vehicle Control Systems India Ltd.",
@@ -4957,7 +4957,7 @@
         "ISIN Code": "INE342J01019",
         "Beta": 0.23,
         "Volatility": "very low",
-        "Price": 14736.5
+        "Price": 14193.0
     },
     {
         "Company Name": "Zee Entertainment Enterprises Ltd.",
@@ -4967,7 +4967,7 @@
         "ISIN Code": "INE256A01028",
         "Beta": 0.74,
         "Volatility": "low",
-        "Price": 152.35
+        "Price": 146.7
     },
     {
         "Company Name": "Zensar Technolgies Ltd.",
@@ -4977,7 +4977,7 @@
         "ISIN Code": "INE520A01027",
         "Beta": 1.63,
         "Volatility": "high",
-        "Price": 633.0
+        "Price": 612.55
     },
     {
         "Company Name": "Zomato Ltd.",
@@ -4987,7 +4987,7 @@
         "ISIN Code": "INE758T01015",
         "Beta": -0.17,
         "Volatility": "very low",
-        "Price": 190.5
+        "Price": 193.7
     },
     {
         "Company Name": "Zydus Lifesciences Ltd.",
@@ -4997,7 +4997,7 @@
         "ISIN Code": "INE010B01027",
         "Beta": 0.42,
         "Volatility": "very low",
-        "Price": 1006.5
+        "Price": 965.0
     },
     {
         "Company Name": "eClerx Services Ltd.",
@@ -5007,6 +5007,6 @@
         "ISIN Code": "INE738I01010",
         "Beta": 0.86,
         "Volatility": "low",
-        "Price": 2476.85
+        "Price": 2435.0
     }
 ]
