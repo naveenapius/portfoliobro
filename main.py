@@ -164,7 +164,7 @@ while True:
                         print(k[0])
 
         elif opt=='q':
-            print("Automatic user logout")
+            print("Automatic user logout") 
             print("Bye!")
             exit()
         else:
