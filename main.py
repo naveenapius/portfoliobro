@@ -1,7 +1,8 @@
 import database_handler as dbh
-from matplotlib import pyplot as plt
 import suggestion_system as ss
 import simulator as sim
+import maskpass as mp
+import visualiser as vis
 LOGIN_STATUS = 0 # latch for login management
 
 
@@ -22,21 +23,13 @@ def simulatorHelper(uname):
 
 
 
-def getVisualisation(portfolio, uname):
-    stocks = []
-    shares = []
-    for i in portfolio:
-        stocks.append(i[0])
-        shares.append(i[1])
-    plt.pie(shares, labels=stocks)
-    plt.title("Portfolio for user {}".format(uname))
-    plt.show()
+
 
 
 def uLogin():
     global user_name
     user_name = input("\nEnter username: ")
-    passwd = input("Enter password: ")
+    passwd = mp.askpass(prompt = "Enter password: ", mask="*")
     status = dbh.userLogin(user_name, passwd)
     if status == 1:
         print(("User {} logged in successfully!\n").format(user_name))
@@ -46,14 +39,45 @@ def uLogin():
         return 0
 
 
+def getRisk(opt):
+    if opt == 'vl':
+        return "very low"
+    elif opt == 'l':
+        return "low"
+    elif opt == "m":
+        return "medium"
+    elif opt == "h":
+        return "high"
+    elif opt == "vh":
+        return "very high"
+    else:
+        return 0
+
 def uSignUp():
     print("\nHello! Let's set up your account.\n")
     legal_name = input("Enter your legal name: ")
     uname = input("Enter new username: ")
-    passwd = input("Enter password: ")
+    while(True):
+        passwd = mp.askpass(prompt = "Enter password: ", mask="*")
+        passwd_rpt = mp.askpass(prompt = "Re-enter password to confirm: ", mask="*")
+        if passwd != passwd_rpt:
+            print("Passwords do not match. Please try again.")
+        else:
+            break
+    
+    
     phone = input("Enter phone number: ")
-    risk_app = input("Enter your risk appetite: ")
-    dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
+    while(True):
+        print("\nRisk appetite selection:")
+        print("Available options: ")
+        print("vl - Very low\nl - Low\nm - Medium\nh - High\nvh - Very high")
+        risk_app_opt = input("Enter your risk appetite: ")
+        risk_app = getRisk(risk_app_opt)
+        if risk_app != 0:
+            dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
+            break
+        else:
+            print("Invalid option. Please try again.")
     return
 
 def showPortfolio(uname):
@@ -120,7 +144,7 @@ while True:
             updatePortfolio(user_name)
         elif opt=='v':
             portfolio = dbh.getPortfolio(user_name)
-            getVisualisation(portfolio, user_name)
+            vis.weightedPortfolioVisualisation(portfolio, user_name)
         elif opt=='s':
             simulatorHelper(user_name)
         elif opt=='l':
@@ -140,7 +164,7 @@ while True:
                         print(k[0])
 
         elif opt=='q':
-            print("Automatic user logout")
+            print("Automatic user logout") 
             print("Bye!")
             exit()
         else:
