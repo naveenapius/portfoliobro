@@ -10,9 +10,11 @@ import portfolio_beta_calculator as pbc
 def weightedPortfolioVisualisation(portfolio, uname):
     priced_portfolio=pbc.getStockPrices(portfolio)
     stocks = []
+    shares = []
     weights = []
     for entry in priced_portfolio:
         stocks.append(entry[0])
+        shares.append(entry[1])
         weights.append(entry[1]*entry[2])
     plt.pie(weights, labels=stocks)
     plt.title("Portfolio for user {}".format(uname))
@@ -62,7 +64,7 @@ def betaVisualisation(portfolio,uname) :
     #Final Annotations
     ax2.yaxis.set_label_text("Risk Factor")
     ax2.yaxis.set_label_position('left') 
-    plt.title("Beta Values for all Stocks in Portfolio for User {}".format('uname'))
+    plt.title("Beta Values for all Stocks in Portfolio for User {}".format(uname))
     plt.xlabel("Stocks in Portfolio")
     i=0
     for x in beta :
@@ -101,7 +103,7 @@ def riskReturnVisualisation(portfolio,uname) :
     fig1=plt.figure(figsize=(8,8))
     ax=SubplotHost(fig1,111)
     fig1.add_subplot(ax)
-    
+
     ax.scatter(mean_ret,beta)
     ax.set_ylim([0,2.5])
 
