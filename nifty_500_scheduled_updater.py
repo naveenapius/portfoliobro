@@ -82,12 +82,15 @@ for Company in Listing:
     else :
         stock = yf.Ticker(stock_name)
         current_price = stock.info['currentPrice']
+        market_cap_value = stock.info['marketCap']
+        market_cap = beta.checkMarketCap(market_cap_value)
         Company['Price'] = current_price
+        Company['Market Cap'] = market_cap
     
 
 #print updated values for debugging purposes : can remove
 for Company in Listing:
-	print(Company['Company Name'], " - ", Company["Symbol"], " - ",Company["Price"]," - ", Company["Beta"]," - " ,Company["Volatility"])
+	print(Company['Company Name'], " - ", Company["Symbol"], " - ",Company["Price"]," - ", Company["Beta"]," - " ,Company["Volatility"], " - " ,Company["Market Cap"])
 
 #rewrite json with updated values
 with open('database.json', 'w') as json_file:
