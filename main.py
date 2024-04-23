@@ -37,7 +37,7 @@ def getVisualisation(portfolio, uname):
 def uLogin():
     global user_name
     user_name = input("\nEnter username: ")
-    passwd = input("Enter password: ")
+    passwd = mp.askpass(prompt = "Enter password: ", mask="*")
     status = dbh.userLogin(user_name, passwd)
     if status == 1:
         print(("User {} logged in successfully!\n").format(user_name))
@@ -51,7 +51,7 @@ def uSignUp():
     print("\nHello! Let's set up your account.\n")
     legal_name = input("Enter your legal name: ")
     uname = input("Enter new username: ")
-    passwd = input("Enter password: ")
+    passwd = mp.askpass(prompt = "Enter password: ", mask="*")
     phone = input("Enter phone number: ")
     risk_app = input("Enter your risk appetite: ")
     dbh.userCreate(uname, legal_name, passwd, phone, risk_app)
