@@ -1,8 +1,8 @@
 import database_handler as dbh
-from matplotlib import pyplot as plt
 import suggestion_system as ss
 import simulator as sim
 import maskpass as mp
+import visualiser as vis
 LOGIN_STATUS = 0 # latch for login management
 
 
@@ -23,15 +23,7 @@ def simulatorHelper(uname):
 
 
 
-def getVisualisation(portfolio, uname):
-    stocks = []
-    shares = []
-    for i in portfolio:
-        stocks.append(i[0])
-        shares.append(i[1])
-    plt.pie(shares, labels=stocks)
-    plt.title("Portfolio for user {}".format(uname))
-    plt.show()
+
 
 
 def uLogin():
@@ -152,7 +144,7 @@ while True:
             updatePortfolio(user_name)
         elif opt=='v':
             portfolio = dbh.getPortfolio(user_name)
-            getVisualisation(portfolio, user_name)
+            vis.weightedPortfolioVisualisation(portfolio, user_name)
         elif opt=='s':
             simulatorHelper(user_name)
         elif opt=='l':
