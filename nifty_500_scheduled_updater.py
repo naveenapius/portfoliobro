@@ -40,7 +40,7 @@ def updateDatabase(listing) :
         #Update server with updated beta values
         print("Attempting updation of database...")
         for Company in listing :
-            row_update = "UPDATE nifty_500 SET Price = '{}', Beta = '{}', Volatility = '{}' WHERE symbol = '{}'".format(float(Company["Price"]),float(Company["Beta"]),Company["Volatility"],Company["Symbol"])
+            row_update = "UPDATE nifty_500 SET Price = '{}', Beta = '{}', Volatility = '{}', MarketCap ='{}' WHERE symbol = '{}'".format(float(Company["Price"]),float(Company["Beta"]),Company["Volatility"],Company["Market Cap"],Company["Symbol"])
             cursor.execute(row_update)
         print("Table updated succesfully")
     except :
