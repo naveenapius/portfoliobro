@@ -16,7 +16,7 @@ def weightedPortfolioVisualisation(portfolio, uname):
         labels.append("{} ({}) ".format(entry[0],entry[1]))
         weights.append(entry[1]*entry[2])
     plt.pie(weights, labels=labels, textprops=dict(weight='bold'))
-    plt.title("Portfolio for user {}".format(dbh.getLegalName(uname)),weight='bold')
+    plt.title("Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.show()
 
 def betaVisualisation(portfolio,uname) :
@@ -63,7 +63,7 @@ def betaVisualisation(portfolio,uname) :
     #Final Annotations
     ax2.yaxis.set_label_text("Risk Factor")
     ax2.yaxis.set_label_position('left') 
-    plt.title("Beta Values for all Stocks in Portfolio for User {}".format(dbh.getLegalName(uname)),weight='bold')
+    plt.title("Beta Values for all Stocks in Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.xlabel("Stocks in Portfolio")
     i=0
     for x in beta :
@@ -112,7 +112,7 @@ def riskReturnVisualisation(portfolio,uname) :
     ax.yaxis.set_major_formatter(ticker.FixedFormatter(['','','','','','High']))
 
 
-    plt.title("Risk/Return of Portfolio for User {}".format(dbh.getLegalName(uname)),weight='bold')
+    plt.title("Risk/Return of Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.xlabel("Return -->")
     plt.ylabel("Risk -->")
     i=0
