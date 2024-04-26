@@ -93,6 +93,14 @@ def getPortfolio(uname):
     except:
         return 0
 
+def getLegalName(uname):
+    query = 'SELECT legal_name FROM users WHERE uname="{}"'.format(uname)
+    try:
+        cur.execute(query)
+        return cur.fetchall()[0][0]
+    except:
+        return "Unable to retrieve legal name for this user"
+
 def addStock(uname, stock, shares):
     check_exists = 'SELECT * FROM {} WHERE symbol="{}"'.format(uname, stock)
     cur.execute(check_exists)

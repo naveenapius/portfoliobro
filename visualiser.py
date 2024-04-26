@@ -6,18 +6,17 @@ from mpl_toolkits.axisartist.parasite_axes import SubplotHost
 import yfinance as yf
 import json
 import portfolio_beta_calculator as pbc
+import database_handler as dbh
 
 def weightedPortfolioVisualisation(portfolio, uname):
     priced_portfolio=pbc.getStockPrices(portfolio)
-    stocks = []
-    shares = []
     weights = []
+    labels = []
     for entry in priced_portfolio:
-        stocks.append(entry[0])
-        shares.append(entry[1])
+        labels.append("{} ({}) ".format(entry[0],entry[1]))
         weights.append(entry[1]*entry[2])
-    plt.pie(weights, labels=stocks)
-    plt.title("Portfolio for user {}".format(uname))
+    plt.pie(weights, labels=labels, textprops=dict(weight='bold'))
+    plt.title("Portfolio for user {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.show()
 
 def betaVisualisation(portfolio,uname) :
@@ -32,7 +31,7 @@ def betaVisualisation(portfolio,uname) :
         for Company in Listing :
             if Company["Symbol"] == stock :
                 beta.append(Company["Beta"])
-    fig1=plt.figure()
+    fig1=plt.figure(figsize=(12,6))
 
     ax1= SubplotHost(fig1,111)
     fig1.add_subplot(ax1)
@@ -64,7 +63,7 @@ def betaVisualisation(portfolio,uname) :
     #Final Annotations
     ax2.yaxis.set_label_text("Risk Factor")
     ax2.yaxis.set_label_position('left') 
-    plt.title("Beta Values for all Stocks in Portfolio for User {}".format(uname))
+    plt.title("Beta Values for all Stocks in Portfolio for User {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.xlabel("Stocks in Portfolio")
     i=0
     for x in beta :
@@ -113,7 +112,7 @@ def riskReturnVisualisation(portfolio,uname) :
     ax.yaxis.set_major_formatter(ticker.FixedFormatter(['','','','','','High']))
 
 
-    plt.title("Risk/Return of Portfolio for User {}".format(uname))
+    plt.title("Risk/Return of Portfolio for User {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.xlabel("Return -->")
     plt.ylabel("Risk -->")
     i=0
