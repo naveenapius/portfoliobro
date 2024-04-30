@@ -4,7 +4,9 @@ import simulator as sim
 import visualiser as vis
 import maskpass as mp
 import string
+from tabulate import tabulate as tb
 from hashlib import sha256
+
 
 # MENUS
 def showLoginMenu():
@@ -16,6 +18,7 @@ def showLoginMenu():
 
 def showLoggedInMenu():
     print("\n\nAvailable actions:")
+    print("c - View current portfolio")
     print("u - Update portfolio")
     print("v - Visualise portfolio")
     print("s - Simulate additions/removals")
@@ -156,9 +159,10 @@ def uSignUp():
 
 def showPortfolio(uname):
     portfolio = dbh.getPortfolio(uname)
-    for i in portfolio:
-        print("{} : {}")
-
+    headers = ["Symbol", "Shares"]
+    print("Your current portfolio: ")
+    print(tb(portfolio, headers, tablefmt="grid"))
+    return
 
 
 def updatePortfolio(uname):  
@@ -243,19 +247,25 @@ def simulatorHelper(uname):
         if o=='a':
             flag = 0
             stock = input("Enter stock to simulate: ")
-            vol = int(input("Enter volume: "))
-            return sim.simulate(portfolio, stock, vol, flag)
+            check  = dbh.checkIfStockInNifty500(stock)
+            if check != 0:
+                vol = int(input("Enter volume: "))
+                return sim.simulate(portfolio, stock, vol, flag)
+            else:
+                print("Stock not available in database. Please try again.")
         elif o=='r':
             flag = 1
             stock = input("Enter stock to simulate: ")
-            vol = int(input("Enter volume: "))
-            return sim.simulate(portfolio, stock, vol, flag)
+            check  = dbh.checkIfStockInNifty500(stock)
+            if check != 0:
+                vol = int(input("Enter volume: "))
+                return sim.simulate(portfolio, stock, vol, flag)
+            else:
+                print("Stock not available in database. Please try again.")
         elif o=='q':
             return
         else:
             print("Invalid option. Please try again.")
-
-
 
 
 
@@ -280,6 +290,8 @@ if __name__ == '__main__':
             opt = input("Action>> ")
             if opt=='u':
                 updatePortfolio(user_name)
+            elif opt == 'c':
+                showPortfolio(user_name)
             elif opt=='v':
                 portfolio = dbh.getPortfolio(user_name)
                 showVisualiserMenu()
@@ -292,8 +304,11 @@ if __name__ == '__main__':
                     vis.riskReturnVisualisation(portfolio,user_name)
             elif opt=='s':
                 beta = simulatorHelper(user_name)
-                print("Old portfolio beta: ", beta[0])
-                print("New portfolio beta: ", beta[1])
+                try: 
+                    print("Old portfolio beta: ", beta[0])
+                    print("New portfolio beta: ", beta[1])
+                except TypeError:
+                    pass
             elif opt=='l':
                 LOGIN_STATUS = 0
                 print("User logged out successfully!")
