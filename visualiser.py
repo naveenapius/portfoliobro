@@ -15,7 +15,8 @@ def weightedPortfolioVisualisation(portfolio, uname):
     for entry in priced_portfolio:
         labels.append("{} ({}) ".format(entry[0],entry[1]))
         weights.append(entry[1]*entry[2])
-    plt.pie(weights, labels=labels, textprops=dict(weight='bold'))
+    colors=['#FFADAD','#E4F1EE','#D9EDF8','#DEDAF4','#A8D1D1','#FFCBCB','#FDFFB6','#FFD6A5','#FFADAD','#E4F1EE','#D9EDF8','#DEDAF4','#A8D1D1','#FFCBCB','#FDFFB6']
+    plt.pie(weights, labels=labels, textprops=dict(weight='bold'), colors=colors)
     plt.title("Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.show()
 
@@ -44,8 +45,8 @@ def betaVisualisation(portfolio,uname) :
     ax1.add_patch(matplotlib.patches.Rectangle((-1,2), 5, 0.5, color="#F5BCAA"))
 
     #plotting beta values on graph
-    ax1.bar (stocks,beta)
-    ax1.bar ("Aggregate Value", portfolio_beta)
+    ax1.bar (stocks,beta,color='#4c4d52')
+    ax1.bar ("Portfolio", portfolio_beta,color='#6277ad')
     ax1.xaxis.set_label_text('Stocks in Portfolio')
     ax1.set_ylim([0, 2.5])
 
@@ -72,51 +73,3 @@ def betaVisualisation(portfolio,uname) :
     plt.annotate (portfolio_beta,xy=(i-0.1,float(portfolio_beta)+0.02),size=10)
     plt.show()
 
-def riskReturnVisualisation(portfolio,uname) :
-    f = open('database.json')
-    Listing = json.load(f)
-    stocks = []
-    mean_ret = []
-    beta = []
-    for entry in portfolio:
-        stocks.append(entry[0])
-    
-    for stock in stocks :
-        stock_name= f"{stock}.NS" if ".NS" not in stock else stock
-        try:
-            stock_df = yf.download(stock_name, period='4y')
-        except:
-            exit("Error occured in fetching stock data, please check stop name and try again.")
-
-        daily_close = stock_df.loc[:,"Close"].copy()
-        daily_ret = daily_close.pct_change().dropna()
-        mean_ret.append(daily_ret.mean()*252)
-    
-    for stock in stocks :
-        for Company in Listing :
-            if Company["Symbol"] == stock :
-                beta.append(Company["Beta"])
-    ulim=max(mean_ret)
-    llim=min(mean_ret)
-    
-    fig1=plt.figure(figsize=(8,8))
-    ax=SubplotHost(fig1,111)
-    fig1.add_subplot(ax)
-
-    ax.scatter(mean_ret,beta)
-    ax.set_ylim([0,2.5])
-
-    ax.set_xticks([0.0, ulim+0.1])
-    ax.xaxis.set_major_formatter(ticker.FixedFormatter(['Low','High']))
-    ax.set_yticks([0.0,0.5,1.0,1.5,2.0,2.5])
-    ax.yaxis.set_major_formatter(ticker.FixedFormatter(['','','','','','High']))
-
-
-    plt.title("Risk/Return of Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
-    plt.xlabel("Return -->")
-    plt.ylabel("Risk -->")
-    i=0
-    for stock in stocks :
-        plt.annotate (stock,xy=(mean_ret[i]+0.005,beta[i]),size=10)
-        i+=1
-    plt.show()

@@ -1,0 +1,28 @@
+
+---------------------------
+Portofoliobro Documentation
+---------------------------
+
+Portfoliobro helps you visualise, simulate, and get purchase suggestions based on your portfolio.
+
+Create your account, login, and add in your portfolio.
+
+You can now do the following:
+    - Visualise your existing portfolio
+    - Add or remove stocks to your portfolio and see how it affects your risk profile
+    - Get recommendations to align your portfolio with your risk appetite
+
+How it works?
+Beta is used as the metric to evaluate stock and portfolio volatility, which indicates risk with respect to the market
+It is calculated using weekly close values of each stock over a 4 year period
+The market index being tracked is the Nifty 50
+
+We defined risk classes in the following ranges, by taking the possible range of beta values and classifying them:
+    Very low - 0.0 to 0.5
+    Low - 0.5 to 1.0
+    Medium - 1.0 to 1.5
+    High - 1.5 to 2.0
+    Very High - Greater than 2.0
+Negative beta values have the same ranges as positive ones, but they move opposite to the market.
+
+

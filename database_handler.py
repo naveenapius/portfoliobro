@@ -17,16 +17,6 @@ buffered=True
 cur = conn.cursor()
 
 
-
-def cursorDestroy(cur):
-    '''
-    destroys a cursor object
-    params:
-        cur: cursor object
-    return: null
-    '''
-    cur.close()
-
 # user db operations
 
 def userCreate(uname, legal_name, passwd, phone, risk_app):
@@ -101,6 +91,50 @@ def getLegalName(uname):
     except:
         return "Unable to retrieve legal name for this user"
 
+def getPhoneNumber(uname):
+    query = 'SELECT phone FROM users WHERE uname="{}"'.format(uname)
+    try:
+        cur.execute(query)
+        return cur.fetchall()[0][0]
+    except:
+        return "Unable to retrieve phone number for this user"
+
+def getPassword(uname):
+    query = 'SELECT passwd FROM users WHERE uname="{}"'.format(uname)
+    try:
+        cur.execute(query)
+        return cur.fetchall()[0][0]
+    except:
+        print("Unable to retrieve password")
+
+
+def updatePassword(uname, newpass):
+    query = 'UPDATE users SET passwd="{}" WHERE uname="{}"'.format(newpass, uname)
+    try:
+        cur.execute(query)
+        conn.commit()
+        return 1
+    except:
+        print("Unable to perform update")
+
+def updatePhoneNumber(uname, newphone):
+    query = 'UPDATE users SET phone="{}" WHERE uname="{}"'.format(newphone, uname)
+    try:
+        cur.execute(query)
+        conn.commit()
+        return 1
+    except:
+        print("Unable to perform update")
+
+def updateRisk(uname, newrisk):
+    query = 'UPDATE users SET risk_app="{}" WHERE uname="{}"'.format(newrisk, uname)
+    try:
+        cur.execute(query)
+        conn.commit()
+        return 1
+    except:
+        print("Unable to perform update")
+
 def addStock(uname, stock, shares):
     check_exists = 'SELECT * FROM {} WHERE symbol="{}"'.format(uname, stock)
     cur.execute(check_exists)
@@ -142,9 +176,35 @@ def getRiskAppetite(uname):
         return cur.fetchall()[0][0]
     except:
         return "Unable to retrieve risk appetite for this user"
+
+
+def checkIfStockInNifty500(stock):
+    query = 'SELECT * FROM nifty_500 WHERE symbol="{}"'.format(stock)
+    try:  
+        cur.execute(query)
+        records = cur.fetchall()
+        return len(records)
+    except:
+        return "Unable to retrieve stock data"
     
+def checkStockAvailability(uname, stock):
+    query = 'SELECT shares FROM {} WHERE symbol="{}"'.format(uname, stock)
+    try:
+        cur.execute(query)
+        data = cur.fetchall()
+        if len(data) == 0:
+            return -1
+        else:
+            return data[0][0]
+    except:
+         print("Unable to retrieve stock data")
 
 
 ############TESTING CODE##################
-# print(getPortfolio('olivertwist'))
+if __name__ == "__main__":
+    stock = "AAVAS"
+    uname = "olivertwist"
+    print(updatePassword(uname, "0a19b4727d1fbd3a43ba819816b0ec8fb670b37b9cab4c0327aa0a3f9d162443"))
+    # print(checkStockAvailability(uname, stock))
+    # print(checkIfStockInNifty500(stock))
 ########END OF TESTING CODE##############
