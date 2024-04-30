@@ -35,7 +35,9 @@ def showSimulatorMenu():
     print("\nAvailable actions: ")
     print("a - Simulate addition")
     print("r - Simulate removal")
+
 def simulatorHelper(uname):
+    showSimulatorMenu()
     portfolio = dbh.getPortfolio(uname)
     while(True):
         o = input("Action>> ")
@@ -189,7 +191,9 @@ if __name__ == '__main__':
                 elif opt=='r':
                     vis.riskReturnVisualisation(portfolio,user_name)
             elif opt=='s':
-                print("New portfolio beta: ", simulatorHelper(user_name))
+                beta = simulatorHelper(user_name)
+                print("Old portfolio beta: ", beta[0])
+                print("New portfolio beta: ", beta[1])
             elif opt=='l':
                 LOGIN_STATUS = 0
                 print("User logged out successfully!")
