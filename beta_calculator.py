@@ -53,7 +53,7 @@ def checkVolatility(raw_beta):
     #converting calculated beta of the stock which includes negative values into absolute values for comparison
     beta=abs(raw_beta)
 
-    if (beta>0 and beta<=0.5):
+    if (beta>=0 and beta<=0.5):
         return("very low")
     elif (beta>0.5 and beta<=1):
         return("low")
@@ -78,7 +78,8 @@ def checkMarketCap(market_cap_value) :
         pass
 
 
-# ##########TESTING CODE###########################################################
+# ########## TESTING CODE ##########
+
 # if __name__ == "__main__":
 
 #     #define the index to compare all stock to (NSE)
@@ -96,4 +97,5 @@ def checkMarketCap(market_cap_value) :
 #     beta=calcBeta(stock, index_df)
 #     volatility = checkVolatility(beta)
 #     print(f"stock has {volatility} volatility")
-# ###############END OF TESTING CODE################################################
+
+# ########## END OF TESTING CODE ##########
