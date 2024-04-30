@@ -290,6 +290,14 @@ def visualiserHelper(user_name):
         else:
             print("Invalid option. Please try again.")
 
+def getChangeRisk(beta):
+    if abs(beta[0])>abs(beta[1]):
+        return "Simulated change resulted in decreased risk"
+    elif abs(beta[0])<abs(beta[1]):
+        return "Simulated change resulted in increased risk"
+    elif abs(beta[0])==abs(beta[1]):
+        return "Simulated change resulted in no change in risk"
+
 
 
 if __name__ == '__main__':
@@ -324,6 +332,7 @@ if __name__ == '__main__':
                 try: 
                     print("Old portfolio beta: ", beta[0])
                     print("New portfolio beta: ", beta[1])
+                    print(getChangeRisk(beta))
                 except TypeError:
                     pass
             elif opt=='l':
