@@ -5,6 +5,8 @@ def simulate(portfolio, stock_code, volume, flag):
     # convert portfolio as list of tuples into list of lists
     new_portfolio = [list(item) for item in portfolio]
 
+    beta = []
+
     # if stock already exists
     if any(stock_code == stock[0] for stock in new_portfolio):
         for stock in new_portfolio:
@@ -29,7 +31,8 @@ def simulate(portfolio, stock_code, volume, flag):
         
     # convert new_portfolio as list of lists into list of tuples
     portfolio_ret = [tuple(item) for item in new_portfolio]
-    new_beta = pbc.calcPortfolioBeta(portfolio_ret)
+    beta.append(pbc.calcPortfolioBeta(portfolio))
+    beta.append(pbc.calcPortfolioBeta(portfolio_ret))
 
-    return new_beta
+    return beta
     # return portfolio_ret, new_beta
