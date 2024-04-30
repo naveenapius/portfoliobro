@@ -24,7 +24,7 @@ def getVolatilityClass(volatility, risk_apt):
     tgt_index = risk_index + index_diff
     if tgt_index < 0: tgt_index = 0
     elif tgt_index > 4: tgt_index = 4
-    print(tgt_index)
+    # print(tgt_index)
     return classes[tgt_index]
 
 
@@ -62,13 +62,13 @@ def suggestStocks(stocks, beta, risk_apt):
         if risk_apt == "very low":
             tgt_beta = 0
         elif risk_apt == "low":
-            tgt_beta = 0.5
+            tgt_beta = 0.51
         elif risk_apt == "medium":
-            tgt_beta = 1
+            tgt_beta = 1.01
         elif risk_apt == "high":
-            tgt_beta = 1.5
+            tgt_beta = 1.51
         elif risk_apt == "very high":
-            tgt_beta = 2
+            tgt_beta = 2.01
         else:
             pass
 
@@ -76,7 +76,7 @@ def suggestStocks(stocks, beta, risk_apt):
         stocks_list = [(stock[2], float(stock[6])) for stock in stocks]
 
 
-        # sort the stocks list in ascnending order of absolute difference of stock beta from the target beta value
+        # sort the stocks list in ascending order of absolute difference of stock beta from the target beta value
         closest_stocks = sorted(stocks_list, key=lambda x: abs(x[1] - tgt_beta))
 
 
@@ -97,7 +97,7 @@ def suggestStocks(stocks, beta, risk_apt):
     else:
 
         # sort stocks by price
-        sorted_stocks = sorted(sorted_stocks, key= lambda x: x[5])
+        sorted_stocks = sorted(stocks, key= lambda x: x[5])
 
         # divide the stocks into 3 approximately equal parts
         num = len(stocks) // 3
@@ -127,6 +127,7 @@ def suggestions(portfolio, risk_apt):
     # calculate portfolia beta and volatility level
     portfolio_beta = pbc.calcPortfolioBeta(portfolio)
     volatility = bc.checkVolatility(portfolio_beta)
+    # print(f"current portfolio (beta, volatility) = ({portfolio_beta},{volatility})")
 
 
     # obtain target volatility class for suggested stocks
