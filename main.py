@@ -61,13 +61,15 @@ def validateUname(uname):
         return [0, "spaces not allowed in username"]
     for i in uname:
         if not(i.isalnum()) or not(i=="_"):
-            return [0, ""]
+            return [0, "invalid characters used. Allowed characters: alphabets, numbers, underscore"]
+    return 1
 
-def validatePassword(pwd):
-    pass
 
 def validateLegalName(legal_name):
-    pass
+    """
+    :param legal_name: legal name to be validated
+    :return :
+    """
 
 def validatePhoneNumber(phone):
     pass
