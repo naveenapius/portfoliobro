@@ -13,6 +13,7 @@ def showLoginMenu():
     print("\n\nAvailable actions: ")
     print("l - Login")
     print("s - Signup")
+    print("i - Info")
     print("q - Quit\n")
       
 
@@ -93,6 +94,12 @@ def validatePhoneNumber(phone):
 
 
 # HELPERS
+
+def showDocs():
+    with open("portfoliobro_docs.txt", "r") as f:
+        print(f.read())
+        return
+
 def uLogin():
     global user_name
     user_name = input("\nEnter username: ")
@@ -296,6 +303,8 @@ if __name__ == '__main__':
                 LOGIN_STATUS = 1 if r==1 else 0
             elif opt=='s':
                 uSignUp()
+            elif opt=='i':
+                showDocs()
             elif opt=='q':
                 print("Bye!")
                 exit()
