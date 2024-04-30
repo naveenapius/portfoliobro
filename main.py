@@ -32,7 +32,7 @@ def showVisualiserMenu():
     print("\nAvailable actions: ")
     print("p - Visualise portfolio")
     print("b - Visualise beta")
-    print("r - Visualise risk/return profile\n")
+    print("q - Quit")
 
 def showSimulatorMenu():
     print("\nAvailable actions: ")
@@ -267,6 +267,22 @@ def simulatorHelper(uname):
         else:
             print("Invalid option. Please try again.")
 
+def visualiserHelper(user_name):
+    portfolio = dbh.getPortfolio(user_name)
+    while True:
+        showVisualiserMenu()
+        opt = input("Action>> ")
+        if opt=='p':
+            vis.weightedPortfolioVisualisation(portfolio, user_name)
+            return
+        elif opt=='b':
+            vis.betaVisualisation(portfolio, user_name)
+            return
+        elif opt=='q':
+            return
+        else:
+            print("Invalid option. Please try again.")
+
 
 
 if __name__ == '__main__':
@@ -293,15 +309,7 @@ if __name__ == '__main__':
             elif opt == 'c':
                 showPortfolio(user_name)
             elif opt=='v':
-                portfolio = dbh.getPortfolio(user_name)
-                showVisualiserMenu()
-                opt = input("Action>> ")
-                if opt=='p':
-                    vis.weightedPortfolioVisualisation(portfolio, user_name)
-                elif opt=='b':
-                    vis.betaVisualisation(portfolio, user_name)
-                elif opt=='r':
-                    vis.riskReturnVisualisation(portfolio,user_name)
+                visualiserHelper(user_name)
             elif opt=='s':
                 beta = simulatorHelper(user_name)
                 try: 
