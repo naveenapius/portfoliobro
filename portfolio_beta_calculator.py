@@ -67,9 +67,11 @@ def calcPortfolioBeta(portfolio):
     for stock_data in priced_portfolio:
         weighted_sum += stock_data[3]*stock_data[1] 
         total_weight += stock_data[1]
-
-    beta = weighted_sum/total_weight
-    beta = round(beta, 2)
+    try:
+        beta = weighted_sum/total_weight
+        beta = round(beta, 2)
+    except ZeroDivisionError:
+        return None
 
     return beta
 

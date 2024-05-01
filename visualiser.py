@@ -15,13 +15,17 @@ def weightedPortfolioVisualisation(portfolio, uname):
     for entry in priced_portfolio:
         labels.append("{} ({}) ".format(entry[0],entry[1]))
         weights.append(entry[1]*entry[2])
-    colors=['#FFADAD','#E4F1EE','#D9EDF8','#DEDAF4','#A8D1D1','#FFCBCB','#FDFFB6','#FFD6A5','#FFADAD','#E4F1EE','#D9EDF8','#DEDAF4','#A8D1D1','#FFCBCB','#FDFFB6']
+    colors=['#FFADAD','#D9EDF8','#DEDAF4','#A8D1D1','#E4F1EE','#FFCBCB','#FDFFB6','#FFD6A5','#FFADAD','#E4F1EE','#D9EDF8','#DEDAF4','#A8D1D1','#FFCBCB','#FDFFB6']
     plt.pie(weights, labels=labels, textprops=dict(weight='bold'), colors=colors)
     plt.title("Portfolio for {}".format(dbh.getLegalName(uname)),weight='bold')
     plt.show()
 
 def betaVisualisation(portfolio,uname) :
-    portfolio_beta = pbc.calcPortfolioBeta(portfolio)
+    try:
+        portfolio_beta = abs(pbc.calcPortfolioBeta(portfolio))
+    except TypeError:
+        print("Your portfolio is currently empty. Please populate it to visualise data")
+        return
     stocks = []
     beta = []
     for entry in portfolio:
@@ -31,18 +35,18 @@ def betaVisualisation(portfolio,uname) :
     for stock in stocks :
         for Company in Listing :
             if Company["Symbol"] == stock :
-                beta.append(Company["Beta"])
+                beta.append(abs(Company["Beta"]))
     fig1=plt.figure(figsize=(12,6))
 
     ax1= SubplotHost(fig1,111)
     fig1.add_subplot(ax1)
 
     #defining colour scale for risk factor
-    ax1.add_patch(matplotlib.patches.Rectangle((-1,0), 5, 0.5, color="#B3D4B4"))
-    ax1.add_patch(matplotlib.patches.Rectangle((-1,0.5), 5, 0.5, color="#E5EC9E"))
-    ax1.add_patch(matplotlib.patches.Rectangle((-1,1), 5, 0.5, color="#FEF5AB"))
-    ax1.add_patch(matplotlib.patches.Rectangle((-1,1.5), 5, 0.5, color="#FCCF8F"))
-    ax1.add_patch(matplotlib.patches.Rectangle((-1,2), 5, 0.5, color="#F5BCAA"))
+    ax1.add_patch(matplotlib.patches.Rectangle((-1,0), len(stocks)+2, 0.5, color="#B3D4B4"))
+    ax1.add_patch(matplotlib.patches.Rectangle((-1,0.5), len(stocks)+2, 0.5, color="#E5EC9E"))
+    ax1.add_patch(matplotlib.patches.Rectangle((-1,1), len(stocks)+2, 0.5, color="#FEF5AB"))
+    ax1.add_patch(matplotlib.patches.Rectangle((-1,1.5), len(stocks)+2, 0.5, color="#FCCF8F"))
+    ax1.add_patch(matplotlib.patches.Rectangle((-1,2), len(stocks)+2, 0.5, color="#F5BCAA"))
 
     #plotting beta values on graph
     ax1.bar (stocks,beta,color='#4c4d52')
@@ -73,3 +77,10 @@ def betaVisualisation(portfolio,uname) :
     plt.annotate (portfolio_beta,xy=(i-0.1,float(portfolio_beta)+0.02),size=10)
     plt.show()
 
+
+
+#TEST
+import database_handler as dbh
+if __name__=="__main__":
+    portfolio = dbh.getPortfolio("janedoe")
+    betaVisualisation(portfolio, "janedoe")

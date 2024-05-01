@@ -7,6 +7,7 @@ import string
 from tabulate import tabulate as tb
 from prettytable import PrettyTable as pt
 from hashlib import sha256
+import portfolio_beta_calculator as pbc
 
 
 # MENUS
@@ -92,6 +93,11 @@ def validatePhoneNumber(phone):
         return [0, "phone number should be of length 10"]
     else:
         return [1]
+    
+def nullPortfolio(uname):
+    portfolio  = dbh.getPortfolio(uname)
+    if len(portfolio) == 0:
+        return 1
 
 
 # HELPERS
@@ -169,6 +175,8 @@ def showPortfolio(uname):
     headers = ["Symbol", "Shares"]
     print("Your current portfolio: ")
     print(tb(portfolio, headers, tablefmt="grid"))
+    beta = pbc.calcPortfolioBeta(portfolio)
+    print("Current portfolio beta: ", beta)
     return
 
 
@@ -192,8 +200,12 @@ def updatePortfolio(uname):
                 return
             elif avail < shares:
                 print("Insufficient stocks for removal")
+            elif avail == shares:
+                dbh.dropStock(uname, stock)
+                print("Stock dropped from portfolio.")
             else:
                 dbh.removeStock(uname, stock, shares)
+                print("Share volume updated")
         elif opt == 'q':
             return
         else:
@@ -247,6 +259,9 @@ def updateUserProfile(uname):
             
 
 def simulatorHelper(uname): 
+    if nullPortfolio(uname):
+        print("\nSimulation cannot run on an empty portfolio. Please populate it.")
+        return
     portfolio = dbh.getPortfolio(uname)
     while(True):
         showSimulatorMenu()
@@ -275,6 +290,9 @@ def simulatorHelper(uname):
             print("Invalid option. Please try again.")
 
 def visualiserHelper(user_name):
+    if nullPortfolio(user_name):
+        print("\nVisualiser cannot run on an empty portfolio. Please populate it.")
+        return
     portfolio = dbh.getPortfolio(user_name)
     while True:
         showVisualiserMenu()
@@ -385,6 +403,9 @@ if __name__ == '__main__':
             elif opt=='r':
                 risk_app = dbh.getRiskAppetite(user_name)
                 portfolio = dbh.getPortfolio(user_name)
+                if nullPortfolio(user_name):
+                    print("\nRecommendations cannot run on an empty portfolio. Please populate it.")
+                    continue
                 suggested = (ss.suggestions(portfolio, risk_app))
                 # print(suggested)
                 recommenderOutput(suggested)

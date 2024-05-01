@@ -163,8 +163,7 @@ def removeStock(uname, stock, shares):
         else:
             query = 'UPDATE {} SET shares = shares - {} WHERE symbol = "{}"' .format(uname, shares, stock)
             cur.execute(query)
-            print("Share volume updated")
-        conn.commit()
+            conn.commit()      
         return 1
     except:
         print("Number of shares to remove exceeds total number of shares bought.")
@@ -197,14 +196,24 @@ def checkStockAvailability(uname, stock):
         else:
             return data[0][0]
     except:
-         print("Unable to retrieve stock data")
+        print("Unable to retrieve stock data")
 
+
+def dropStock(uname, stock):
+    query = 'DELETE from {} where symbol="{}"'.format(uname, stock)
+    try:
+        cur.execute(query)
+        conn.commit()
+        return
+    except:
+        print("Unable to drop table")
 
 ############TESTING CODE##################
 if __name__ == "__main__":
     stock = "AAVAS"
     uname = "olivertwist"
-    print(updatePassword(uname, "0a19b4727d1fbd3a43ba819816b0ec8fb670b37b9cab4c0327aa0a3f9d162443"))
+    dropStock("johndoe", "IRFC")
+    # print(updatePassword(uname, "0a19b4727d1fbd3a43ba819816b0ec8fb670b37b9cab4c0327aa0a3f9d162443"))
     # print(checkStockAvailability(uname, stock))
     # print(checkIfStockInNifty500(stock))
 ########END OF TESTING CODE##############
