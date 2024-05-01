@@ -60,7 +60,8 @@ def getPosPortfolioClasses():
         beta_diff = port_beta - risk_apt_limit
 
         # if difference is negative, moving from lower portfolio beta to higher risk appetite level while hedging is not possible
-        if beta_diff < 0:
+        # if difference does not cause change in class then no hedging is required
+        if beta_diff < 0.5:
             return None
         
         # compute index of risk class within which the difference falls
@@ -147,21 +148,54 @@ def getStocks(pos_suggestion_class, neg_suggestion_class):
 
 def formatSuggestions(suggestion_stocks, new_portfolio):
 
+    # stocks are not suggested only for negative suggestions
     if not suggestion_stocks:
+        if port_beta>0:
+            if port_vol_index < risk_apt_index:
+                return "No suggestions for hedging since risk appetite is greater than portfolio volatility"
+            elif port_vol_index == risk_apt_index:
+                return "No suggestions for hedging since risk appetite is same as portfolio volatility"
+            else:
+                return "No suggestions available"
+        else:
+            return "No suggestions available"
         return None
+    
+    # get target risk appetite value based on kind of suggestions
 
-    risk_apt_limit = RISK_RANGES[risk_apt_index]
-    if port_beta<0 and suggestion_stocks[0][6]<0:
-        if (risk_apt_limit != 2) and (port_beta < risk_apt_limit) and (risk_apt_limit - port_beta >= 0.5):
-            tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+    tgt_risk_apt = None
+
+    # portfolio with positive weighted beta value
+    if port_beta >= 0:
+        # suggesting stocks with positive beta
+        if suggestion_stocks[0][6]>=0:
+            if port_vol_index < risk_apt_index:
+                tgt_risk_apt = RISK_RANGES[risk_apt_index]
+            elif port_vol_index > risk_apt_index:
+                tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+            else:
+                pass # volume for each suggestion will be 1
+        # suggesting stocks with negative beta
         else:
-            tgt_risk_apt = risk_apt_limit
-        tgt_risk_apt *= -1
+            if port_vol_index < risk_apt_index:
+                pass
+            elif port_vol_index > risk_apt_index:
+                tgt_risk_apt = tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+            else:
+                pass
+    # portfolio with negative weighted beta value
     else:
-        if (risk_apt_limit != 2) and (port_beta > risk_apt_limit) and (port_beta - risk_apt_limit >= 0.5):
-            tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+        # suggesting stocks with positive beta
+        if suggestion_stocks[0][6]>=0:
+            tgt_risk_apt = RISK_RANGES[risk_apt_index]
+        # suggesting stocks with negative beta
         else:
-            tgt_risk_apt = risk_apt_limit
+            if port_vol_index < risk_apt_index:
+                tgt_risk_apt = RISK_RANGES[risk_apt_index] * (-1)
+            elif port_vol_index > risk_apt_index:
+                tgt_risk_apt = (RISK_RANGES[risk_apt_index+1] - 0.01) * (-1)
+            else:
+                pass # volume for each suggestion will be 1
 
     weighted_sum = 0
     total_weight = 0
@@ -169,17 +203,20 @@ def formatSuggestions(suggestion_stocks, new_portfolio):
         weighted_sum += float(stock_data[3])*stock_data[1] 
         total_weight += stock_data[1]
 
-    # print("ra = ", tgt_risk_apt)
+    # print("ra = ", tgt_risk_apt) if tgt_risk_apt else print("no ra")
     # print("Ef = ", total_weight)
     # print("Exf = ", weighted_sum)
 
     updated_stocks = []
     for stock in suggestion_stocks:
         # print("sb = ", stock[6])
-        if port_vol == risk_apt :
+        if port_vol == risk_apt and (port_beta>=0 and suggestion_stocks[0][6]>=0) or (port_beta<=0 and suggestion_stocks[0][6]<=0):
             volume = 1
         else:
-            volume = math.ceil((tgt_risk_apt*total_weight - weighted_sum)/(float(stock[6])-tgt_risk_apt))
+            try:
+                volume = math.ceil((tgt_risk_apt*total_weight - weighted_sum)/(float(stock[6])-tgt_risk_apt))
+            except ZeroDivisionError:
+                volume = 0
         # print("vol = ", volume)
         updated_stocks.append([stock[2], float(stock[5]), volume, round(float(stock[5])*volume,2)])
         
@@ -257,24 +294,24 @@ def suggestions(portfolio, risk_appetite):
     return suggested_stocks
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # print(suggestions(
     #     [
     #         ('BANKINDIA', 6),
     #     ], 
     #     "low"))
     
-    print(suggestions(
-        [
-            ('AAVAS', 6), 
-            ('CELLO', 2), 
-            ('ENGINERSIN', 4), 
-            ('GLAXO', 10), 
-            ('IRCTC', 9), 
-            ('JBMA', 6), 
-            ('LXCHEM', 8)
-        ], 
-        "medium"))
+    # print(suggestions(
+    #     [
+    #         ('AAVAS', 6), 
+    #         ('CELLO', 2), 
+    #         ('ENGINERSIN', 4), 
+    #         ('GLAXO', 10), 
+    #         ('IRCTC', 9), 
+    #         ('JBMA', 6), 
+    #         ('LXCHEM', 8)
+    #     ], 
+    #     "medium"))
 
     # print(suggestions(
     #     [
