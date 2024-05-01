@@ -5,6 +5,7 @@ import visualiser as vis
 import maskpass as mp
 import string
 from tabulate import tabulate as tb
+from prettytable import PrettyTable as pt
 from hashlib import sha256
 
 
@@ -146,14 +147,13 @@ def uSignUp():
     
     
     phone = input("Enter phone number: ")
-    validatePhoneNumber(phone)
-    if validatePhoneNumber[0] != 1: #validating phone number
-        print(validatePhoneNumber[0])
+    check = validatePhoneNumber(phone)[0]
+    if check != 1: #validating phone number
+        print(check[1])
         print("User creation failed. Please try again.")
 
     while(True):
         print("\nRisk appetite selection:")
-        print("Available options: ")
         showRiskMenu()  
         risk_app_opt = input("Enter your risk appetite: ")
         risk_app = getRisk(risk_app_opt)
@@ -299,6 +299,50 @@ def getChangeRisk(beta):
         return "Simulated change resulted in no change in risk"
 
 
+def recommenderOutput(output):
+    diversification = output.get("diversification")
+    hedge = output.get("beta hedging")
+
+
+    print("\nSuggestions to diversify portfolio: \n")
+    if diversification.get("mid cap") != None:
+        print("\nMid cap equities: \n")
+        diversification_midcap = pt(["Symbol", "Price", "Volume", "Investment cost"])
+        for i in diversification.get("mid cap"):
+            diversification_midcap.add_row(i)
+        print(diversification_midcap)
+    else:
+        print("No suggestions available for diversification using mid cap equities")
+    if diversification.get("large cap") != None:
+        print("\nLarge cap equities: \n")
+        diversification_largecap = pt(["Symbol", "Price", "Volume", "Investment cost"])
+        for i in diversification.get("large cap"):
+            diversification_largecap.add_row(i)
+        print(diversification_largecap)
+    else:
+        print("No suggestions available for diversification using large cap equities")
+
+
+    print("\nSuggestions to hedge beta risk: \n")
+    if hedge.get("mid cap") != None:
+        print("\nMid cap equities: \n")
+        hedge_midcap = pt(["Symbol", "Price", "Volume", "Investment cost"])
+        for i in hedge.get("mid cap"):
+            hedge_midcap.add_row(i)
+        print(hedge_midcap)
+    else:
+        print("No suggestions available for beta hedging using mid cap equities")
+
+    if hedge.get("large cap") != None:
+        print("\nLarge cap equities: \n")
+        hedge_largecap = pt(["Symbol", "Price", "Volume", "Investment cost"])
+        for i in hedge.get("large cap"):
+            hedge_largecap.add_row(i)
+        print(hedge_largecap)
+    else:
+        print("No suggestions available for beta hedging using large cap equities")
+    return 
+
 
 if __name__ == '__main__':
     LOGIN_STATUS = 0 # latch for login management
@@ -342,14 +386,8 @@ if __name__ == '__main__':
                 risk_app = dbh.getRiskAppetite(user_name)
                 portfolio = dbh.getPortfolio(user_name)
                 suggested = (ss.suggestions(portfolio, risk_app))
-                print("Suggestions")
-                for i, stocks in suggested.items():
-                    print("---------------------------")
-                    print(i)
-                    print("---------------------------")
-                    for j in stocks:
-                        for k in j:
-                            print(k[0])
+                # print(suggested)
+                recommenderOutput(suggested)
             elif opt == 'p':
                 updateUserProfile(user_name)
             elif opt=='q':
