@@ -20,6 +20,8 @@ risk_apt_index = int()
 
 def getIndices():
     # get index for portfolio volatility and risk appetite values from RISK_CLASSES
+    global port_vol_index
+    global risk_apt_index
     if not (port_vol_index := RISK_CLASSES.index(port_vol)) and port_vol_index != 0:
         exit(f"Error: invalid volatility value: {port_vol}")
     if not (risk_apt_index := RISK_CLASSES.index(risk_apt)) and risk_apt_index != 0:
@@ -67,7 +69,6 @@ def getPosPortfolioClasses():
                 class_index = i
                 break
 
-        print(port_beta, "\n", risk_apt_limit)
         return RISK_CLASSES[class_index]
 
     return positiveSuggestionClass(), negativeSuggestionClass()
@@ -147,10 +148,17 @@ def getStocks(pos_suggestion_class, neg_suggestion_class):
 def formatSuggestions(suggestion_stocks, new_portfolio):
 
     risk_apt_limit = RISK_RANGES[risk_apt_index]
-    if  (risk_apt_limit != 2) and (port_beta > risk_apt_limit) and (port_beta - risk_apt_limit > 0.5):
-        tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+    if port_beta<0 and suggestion_stocks[0][6]<0:
+        if (risk_apt_limit != 2) and (port_beta < risk_apt_limit) and (risk_apt_limit - port_beta >= 0.5):
+            tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+        else:
+            tgt_risk_apt = risk_apt_limit
+        tgt_risk_apt *= -1
     else:
-        tgt_risk_apt = risk_apt_limit
+        if (risk_apt_limit != 2) and (port_beta > risk_apt_limit) and (port_beta - risk_apt_limit >= 0.5):
+            tgt_risk_apt = RISK_RANGES[risk_apt_index+1] - 0.01
+        else:
+            tgt_risk_apt = risk_apt_limit
 
     weighted_sum = 0
     total_weight = 0
@@ -170,7 +178,7 @@ def formatSuggestions(suggestion_stocks, new_portfolio):
         else:
             volume = math.ceil((tgt_risk_apt*total_weight - weighted_sum)/(float(stock[6])-tgt_risk_apt))
         # print("vol = ", volume)
-        updated_stocks.append([stock[2],stock[5],stock[6],stock[7],stock[8],volume])
+        updated_stocks.append([stock[2], float(stock[5]), volume, float(stock[5])*volume])
         
     return updated_stocks
 
@@ -217,6 +225,7 @@ def suggestions(portfolio, risk_appetite):
     port_beta = float(pbc.calcPortfolioBeta(portfolio))
     port_vol = bc.checkVolatility(port_beta).lower().strip()
     risk_apt = risk_appetite.lower().strip()
+    getIndices()
 
     print(f"current portfolio (beta, volatility, risk appetite) = ({port_beta}, {port_vol}, {risk_apt})")
 
