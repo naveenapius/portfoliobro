@@ -4,13 +4,6 @@ CONFIGS = cp()
 CONFIGS.read('portfoliobro.conf')
 
 
-
-# def is_list_of_tuples(data):
-#     if isinstance(data, list):
-#         return all(isinstance(item, list) for item in data)
-#     return False
-
-
 def getStockPrices(portfolio):
     """
     updates portfolio items with the corresponding real-time stock price
@@ -54,10 +47,6 @@ def calcPortfolioBeta(portfolio):
     :param portfolio: list of tuples of type (stock_code, volume)
     :returns beta: list of lists 
     """
-
-    # if not is_list_of_tuples(portfolio):
-    #     print("Error: Expected <type list of tuples> for portfolio, received ", type(portfolio))
-    #     return False
     
     priced_portfolio = getStockPrices(portfolio)
 
