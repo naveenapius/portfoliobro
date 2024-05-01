@@ -147,6 +147,9 @@ def getStocks(pos_suggestion_class, neg_suggestion_class):
 
 def formatSuggestions(suggestion_stocks, new_portfolio):
 
+    if not suggestion_stocks:
+        return None
+
     risk_apt_limit = RISK_RANGES[risk_apt_index]
     if port_beta<0 and suggestion_stocks[0][6]<0:
         if (risk_apt_limit != 2) and (port_beta < risk_apt_limit) and (risk_apt_limit - port_beta >= 0.5):
@@ -178,7 +181,7 @@ def formatSuggestions(suggestion_stocks, new_portfolio):
         else:
             volume = math.ceil((tgt_risk_apt*total_weight - weighted_sum)/(float(stock[6])-tgt_risk_apt))
         # print("vol = ", volume)
-        updated_stocks.append([stock[2], float(stock[5]), volume, float(stock[5])*volume])
+        updated_stocks.append([stock[2], float(stock[5]), volume, round(float(stock[5])*volume,2)])
         
     return updated_stocks
 
@@ -227,7 +230,7 @@ def suggestions(portfolio, risk_appetite):
     risk_apt = risk_appetite.lower().strip()
     getIndices()
 
-    print(f"current portfolio (beta, volatility, risk appetite) = ({port_beta}, {port_vol}, {risk_apt})")
+    # print(f"current portfolio (beta, volatility, risk appetite) = ({port_beta}, {port_vol}, {risk_apt})")
 
     # calculate risk classes for suggestions based on current portfolio beta value
     if port_beta >= 0:
@@ -242,13 +245,13 @@ def suggestions(portfolio, risk_appetite):
 
     if port_beta >= 0:
         suggested_stocks = {
-            "suggestions for diversification": pos_suggestions,
-            "suggestions for beta hedging": neg_suggestions
+            "diversification": pos_suggestions,
+            "beta hedging": neg_suggestions
         }
     else:
         suggested_stocks = {
-            "suggestions for diversification": neg_suggestions,
-            "suggestions for beta hedging": pos_suggestions
+            "diversification": neg_suggestions,
+            "beta hedging": pos_suggestions
         }
     
     return suggested_stocks
