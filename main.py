@@ -323,42 +323,43 @@ def recommenderOutput(output):
 
 
     print("\nSuggestions to diversify portfolio: \n")
-    if diversification.get("mid cap") != None:
+    if isinstance(diversification.get("mid cap"), list):
         print("\nMid cap equities: \n")
         diversification_midcap = pt(["Symbol", "Price", "Volume", "Investment cost"])
         for i in diversification.get("mid cap"):
             diversification_midcap.add_row(i)
         print(diversification_midcap)
     else:
-        print("No suggestions available for diversification using mid cap equities")
-    if diversification.get("large cap") != None:
+        print(diversification.get("mid cap"))
+
+    if isinstance(diversification.get("large cap"), list):
         print("\nLarge cap equities: \n")
         diversification_largecap = pt(["Symbol", "Price", "Volume", "Investment cost"])
         for i in diversification.get("large cap"):
             diversification_largecap.add_row(i)
         print(diversification_largecap)
     else:
-        print("No suggestions available for diversification using large cap equities")
+        print(diversification.get("large cap"))
 
 
     print("\nSuggestions to hedge beta risk: \n")
-    if hedge.get("mid cap") != None:
+    if isinstance(hedge.get("mid cap"), list):
         print("\nMid cap equities: \n")
         hedge_midcap = pt(["Symbol", "Price", "Volume", "Investment cost"])
         for i in hedge.get("mid cap"):
             hedge_midcap.add_row(i)
         print(hedge_midcap)
     else:
-        print("No suggestions available for beta hedging using mid cap equities")
+        print(hedge.get("mid cap"))
 
-    if hedge.get("large cap") != None:
+    if isinstance(hedge.get("large cap"), list):
         print("\nLarge cap equities: \n")
         hedge_largecap = pt(["Symbol", "Price", "Volume", "Investment cost"])
         for i in hedge.get("large cap"):
             hedge_largecap.add_row(i)
         print(hedge_largecap)
     else:
-        print("No suggestions available for beta hedging using large cap equities")
+        print(hedge.get("large cap"))
     return 
 
 
